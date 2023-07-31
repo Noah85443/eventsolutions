@@ -1,0 +1,873 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/eventsolutions.nu/awstats/.data/awstats.eventsolutions.nu.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2116                
+POS_TIME 2787                
+POS_VISITOR 17819               
+POS_DAY 28860               
+POS_DOMAIN 3713                
+POS_LOGIN 3947                
+POS_ROBOT 4102                
+POS_WORMS 5552                
+POS_EMAILSENDER 5683                
+POS_EMAILRECEIVER 5826                
+POS_SESSION 29738               
+POS_SIDER 29946               
+POS_FILETYPES 5961                
+POS_DOWNLOADS 6262                
+POS_OS 6612                
+POS_BROWSER 6933                
+POS_SCREENSIZE 8982                
+POS_UNKNOWNREFERER 9056                
+POS_UNKNOWNREFERERBROWSER 10184               
+POS_ORIGIN 10830               
+POS_SEREFERRALS 10977               
+POS_PAGEREFS 11195               
+POS_SEARCHWORDS 17002               
+POS_KEYWORDS 17154               
+POS_MISC 2449                
+POS_ERRORS 17213               
+POS_CLUSTER 3803                
+POS_SIDER_403 17346               
+POS_SIDER_400 17428               
+POS_SIDER_404 17510               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201001936 394 76612 14592168198548
+FirstTime 0
+LastTime 20200131191540
+LastUpdate 20200201041523 394 0 393 0 0
+TotalVisits 372                 
+TotalUnique 251                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 272                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 199 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 33 71 2825029 143 218 2225243
+1 56 195 6924205 186 219 916508
+2 34 59 1733760 113 163 603062
+3 7 25 1307161 97 136 1862236
+4 26 26 89409 128 187 658416
+5 13 31 1443526 175 244 1220706
+6 20 29 212297 121 143 519763
+7 56 165 6616720 164 213 2497400
+8 27 217 12406323 142 182 1376415
+9 45 239 11543941 131 195 2918539
+10 71 206 7507088 187 258 1504221
+11 38 190 8533356 102 133 587582
+12 492 644 13141273 520 609 2959320
+13 197 370 11761018 114 158 542509
+14 193 318 7801140 144 193 2868935
+15 70 180 6997343 173 218 1154964
+16 260 501 15155072 150 221 600654
+17 301 435 8296269 115 167 1764019
+18 96 136 2980707 103 144 913894
+19 96 257 15778386 136 239 1864186
+20 217 335 9823454 160 228 819071
+21 125 248 8912584 158 247 1599563
+22 52 104 3070707 206 268 1040376
+23 189 198 526480 121 171 1238601
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2714 5179 165387248
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 34
+infobot 981 5197633 20200131211754 0
+Googlebot/ 232 3218554 20200131205216 0
+bingbot/ 194 4153512 20200131200859 0
+Applebot/ 124 725448 20200131230431 0
+motor 121 4344115 20200131214057 0
+Googlebot\-Image/ 82 915637 20200131064629 0
+AhrefsBot/ 58 226229 20200131191521 0
+DotBot/ 58 4206457 20200126123516 0
+curl 52 596719 20200131230600 0
+AdsBot\-Google[\x20]\( 49 675167 20200121192522 0
+(firefox/)([0-9]\.|[0-1][0]\.) 12 104483 20200124195629 0
+no_user_agent 15 179799 20200131075130 0
+MSIE[\x20]5 1 12414 20200130011513 0
+bingpreview 15 591005 20200131103451 0
+[\s_+:,\.\;\/\\-]bot 12 66656 20200119154141 0
+msnbot/ 35 282649 20200131211036 0
+YandexBot/ 46 458149 20200131232929 0
+DomainStatsBot/ 11 111288 20200126230704 0
+MJ12bot/ 4 37544 20200125052055 0
+crawl 25 89876 20200104020858 0
+LinkpadBot/ 11 33053 20200117121004 0
+CCBot/ 2 9328 20200118024732 0
+Python\-urllib/ 1 12447 20200131114628 0
+360Spider 23 146933 20200131055025 0
+MSIE[\x20]6 1 6313 20200115151007 0
+qwantify 2 6216 20200112033200 0
+dataprovider\.com 43 1502308 20200129074140 0
+python 14 88109 20200127013831 0
+favicon 44 289432 20200131203930 0
+java 1 5669 20200104015635 0
+SeznamBot/ 2 12780 20200116185513 0
+bot[\s_+:,\.\;\/\\-] 43 623358 20200131105359 0
+netcraft 2 25089 20200129201819 0
+facebookexternalhit/ 12 68295 20200125162133 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 3 305757 0 0
+css 262 2371059 0 0
+png 317 2658230 0 0
+ttf 2 199910 0 0
+pdf 16 7908695 0 0
+woff 12 1189704 0 0
+woff2 77 5970230 0 0
+php 2375 8639091 0 0
+html 1 4280 0 0
+js 876 6291023 0 0
+jpg 994 128738695 0 0
+Unknown 244 1110574 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/docs/Privacyverklaring.pdf 12 0 7128062
+/docs/AlgemeneVoorwaarden-Verhuur.pdf 9 0 3565923
+/docs/AlgemeneVoorwaarden-Personeel.pdf 8 0 5257153
+/office/docs/Factuur-ES20-0068-200103.pdf 4 0 461921
+/office/docs/Factuur-ES20-0069-200106.pdf 3 0 346069
+/office/docs/Factuur-ES20-0067-200102.pdf 2 0 176556
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+linuxandroid 384 236
+winlong 1 1
+winxp 95 20
+macosx11 101 58
+ios_iphone 182 50
+winvista 1 1
+macosx9 17 17
+ios_ipad 50 10
+unix 1 1
+macosx12 2 2
+linux 767 193
+win7 292 138
+macosx 189 61
+macosx10 4 4
+win8.1 274 20
+Unknown 348 338
+win10 2470 1563
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 97
+firefox28.0 1 1
+safari5.0.3 1 1
+safari7.0.3 1 1
+firefox44.0 2 2
+edge12 1 1
+chrome79.0.3945.79 49 13
+chrome79.0.3945.117 1368 1144
+chrome58.0.3029.110 3 2
+chrome63.0.3239.84 7 7
+opera10.10 1 1
+msie8.0 1 1
+firefox64.0 46 46
+msie7.0 153 1
+chrome71.0.3578.80 160 16
+chrome79.0.3945.130 462 203
+chrome74.0.3729.108 4 2
+chrome79.0.3945.93 136 100
+firefox65.0 1 1
+chrome70.0.3538.102 80 12
+chrome66.0.3359.181 9 9
+chrome49.0.2623.112 2 2
+safari13.0.1 7 7
+chrome65.0.3325.181 199 120
+firefox50.0 342 18
+edge17 57 8
+chrome33.0.1750.152 3 3
+chrome76.0.3809.132 1 1
+firefox72.0 103 12
+firefox55.0 1 1
+chrome34.0.1847.131 1 1
+chrome79.0.3945.16 4 4
+chrome68.0.3440.106 2 2
+firefox21.0 3 3
+firefox29.0 3 3
+chrome78.0.3904.87 67 32
+chrome32.0.1700.107 2 2
+chrome51.0.2704.103 10 10
+chrome35.0.1916.114 1 1
+firefox68.0 23 4
+safari12.0.2 1 1
+chrome36.0.1985.143 66 30
+safari11.0.3 1 1
+mozilla 32 24
+firefox25.0 1 1
+chrome33.0.1750.117 2 2
+chrome79.0.3945.136 26 26
+safari5.0.4 1 1
+chrome57.0.2987.133 20 2
+firefox60.0 38 14
+chrome78.0.3904.96 4 4
+chrome41.0.2228.0 10 10
+safari12.1.2 24 5
+safari 47 8
+chrome51.0.2704.64 1 1
+chrome41.0.2225.0 2 2
+android 47 5
+firefox52.0 81 57
+chrome67.0.3396.79 2 2
+opera55.0.2994.44 4 4
+chrome71.0.3578.98 1 1
+chrome78.0.3904.90 5 0
+firefox63.0 25 4
+iphone 13 0
+firefox62.0 3 3
+chrome30.0.1599.13014 2 2
+chrome26.0.1410.65 1 1
+chrome40.0.2214.85 4 4
+safari13.0.4 191 52
+chrome74.0.3729.169 40 5
+safari13.0.3 21 3
+msie9.0 1 1
+chrome75.0.3770.142 13 5
+firefox27.0 4 4
+Unknown 316 314
+firefox11.0 1 0
+opera12.15 2 2
+opera62.0.3331.99 2 2
+edge18 29 8
+chrome77.0.3865.90 4 4
+safari13.0.2 21 3
+chrome53.0.2785.143 1 1
+opera53.0.2907.99 2 2
+chrome73.0.3683.86 28 6
+chrome78.0.3904.108 30 11
+chrome41.0.2227.0 2 2
+chrome79.0.3945.88 343 142
+chrome45.0.2454.94 1 1
+msie11.0 56 10
+chrome67.0.3396.99 2 2
+chrome45.0.2454.101 4 4
+chrome65.0.3325.162 1 1
+chrome79.0.3945.116 158 93
+msie10.0 11 1
+opera54.0.2952.64 2 2
+chrome27.0.1453.116 88 14
+chrome67.0.3396.62 4 4
+chrome64.0.3282.140 20 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20200129020112
+\ 20200104121350
+Ruby 20200109171542
+adstxt.com/1.2 20200115172439
+MixnodeCache/1.8(_https://cache.mixnode.com/) 20200127214536
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20200122160121
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20200123214041
+User-Agent\ 20200129185013
+HubSpot_Marketing_Grader 20200102165055
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20200128224115
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20200127150653
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_-_contentfilemanagerapiwebinternal-web 20200121153317
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20200122160119
+marketinggrader.com 20200102165050
+Go-http-client/1.1 20200131075905
+HubSpot_Marketing_Grader,_HubSpot_Marketing_Grader 20200102165052
+AHC/2.1 20200116104431
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20200129020112
+\ 20200104121350
+Ruby 20200109171542
+adstxt.com/1.2 20200115172439
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_-_contentfilemanagerapiwebinternal-web 20200121153317
+MixnodeCache/1.8(_https://cache.mixnode.com/) 20200127214536
+marketinggrader.com 20200102165050
+Go-http-client/1.1 20200131075905
+User-Agent\ 20200129185013
+AHC/2.1 20200116104431
+HubSpot_Marketing_Grader,_HubSpot_Marketing_Grader 20200102165052
+HubSpot_Marketing_Grader 20200102165055
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 338 923
+From1 1 1
+From2 43 47
+From3 1591 1621
+From4 741 2587
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_google_nl 10 10
+google_com 0 4
+www_google_be 1 1
+www_google_com 32 32
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 115
+https://rentforevents.nl/artikelgroep.php 619 619
+https://system.eventsolutions.nu/inloggen/crew/ 116 116
+https://crew.eventsolutions.nu 88 88
+https://crew.eventsolutions.nu/admin/projects.view.detail.php 71 71
+https://rentforevents.nl/artikel.php 70 70
+https://system.eventsolutions.nu/inloggen/crew/admin/ 52 52
+https://crew.eventsolutions.nu/admin/projects.view.all.php 46 46
+https://rentforevents.nl/apiImport.php 37 37
+https://crew.eventsolutions.nu/beschikbaarheid.view.php 28 28
+https://crew.eventsolutions.nu/admin/uren.view.verloning.php 26 26
+https://crew.eventsolutions.nu/admin/projects.new.php 11 11
+https://relaties.eventsolutions.nu/uren-valideren/274/56190B42370D7C882C3B/ 1 1
+https://rentforevents.nl/250 1 1
+https://rentforevents.nl/keukenapparatuur 3 3
+https://rentforevents.nl/tafelgerei 8 8
+https://moneybirdstorage.com/738db697e3619983807759d8a1dc7acab31592fc7fc9e5f0ac2d75467084600c/08ae5848af4717b79348d077579b14675aeee12e433c0338064fcc1c4a148a78/show 0 1
+https://rentforevents.nl/bestek 12 12
+https://rentforevents.nl/facilitair 2 2
+https://office.eventsolutions.nu 5 5
+https://rentforevents.nl/kaarsen/5033 1 1
+https://email06.active24.com/webmail/ 0 3
+https://rentforevents.nl/183 1 1
+https://relaties.eventsolutions.nu/uren-valideren/311/A649B1ED654F0F8E3721/ 2 2
+https://relaties.eventsolutions.nu/uren-valideren/250/6DF6499AFD3EEB8078BC/ 1 1
+https://rentforevents.nl/offerte-verzonden 22 22
+https://rentforevents.nl/offerte 10 10
+https://rentforevents.nl/182 1 1
+https://rentforevents.nl/ks_transport.php 2 2
+https://rentforevents.nl/110 6 6
+https://rentforevents.nl/offerte/verwijder/416 3 3
+https://office.eventsolutions.nu/index.php 2 2
+https://rentforevents.eventsolutions.nu/artikel.overzicht.php 12 12
+https://rentforevents.nl/ks_bestellen.php 3 3
+https://rentforevents.nl/betalingen 1 1
+https://rentforevents.nl/185/5033 1 1
+https://crew.eventsolutions.nu/admin/user.update.php 4 4
+https://rentforevents.nl/mobiele-barren 1 1
+https://office.eventsolutions.nu/facturen.nieuw.regels.php 1 1
+https://rentforevents.nl/ks_betalen.php 2 2
+https://rentforevents.nl/disposables 3 3
+https://crew.eventsolutions.nu/admin/schedule.new.single.php 13 13
+https://system.eventsolutions.nu/includes/jquery-ui.css 4 4
+https://rentforevents.nl/horecamaterialen 2 2
+https://crew.eventsolutions.nu/uren.new.php 2 2
+https://office.eventsolutions.nu/facturen.nieuw.overzicht.php 2 4
+https://rentforevents.nl/ks_openingstijden.php 5 5
+https://rentforevents.nl/keukenapparatuur/ 3 3
+https://rentforevents.nl/offerte-gegevens 4 4
+https://relaties.eventsolutions.nu/uren-valideren/gevalideerd 3 3
+https://rentforevents.eventsolutions.nu/emballage.overzicht.php 10 10
+http://festiwinkel.com 1 1
+https://rentforevents.nl/10 1 1
+https://www.rentforevents.nl 7 7
+https://rentforevents.nl/inrichting 2 2
+https://crew.eventsolutions.nu/admin/declaratie.new.php 5 5
+https://rentforevents.nl/glaswerk 2 2
+https://rentforevents.nl 10 10
+https://rentforevents.nl/120 2 2
+https://www.facebook.com 1 1
+https://rentforevents.nl/diverse-glazen 2 2
+https://crew.eventsolutions.nu/admin/projects.edit.php 3 3
+https://rentforevents.nl/barmaterialen 2 2
+https://rentforevents.nl/servies-basic 1 1
+https://rentforevents.nl/17 1 1
+https://rentforevents.nl/9 2 2
+https://crew.eventsolutions.nu/system/core/init.php 7 7
+https://rentforevents.nl/betalingen/4586 5 5
+https://rentforevents.nl/217 2 2
+https://rentforevents.eventsolutions.nu/artikel.nieuw.php 6 6
+https://relaties.eventsolutions.nu/uren-valideren/269/A649C720D5BBCA17134E/ 1 1
+https://rentforevents.nl/servies 7 7
+https://rentforevents.nl/ks_afhalen.php 2 2
+https://system.eventsolutions.nu/inloggen/rentforevents/ 4 4
+https://rentforevents.nl/koelkasten 3 3
+https://office.eventsolutions.nu/routines/facturen.verstuurHerinnering.php 13 13
+https://rentforevents.nl/tafelgerei/ 3 3
+https://crew.eventsolutions.nu/user.update.php 1 1
+https://system.eventsolutions.nu/inloggen/office/ 4 4
+https://rentforevents.nl/12 1 1
+http://progressive-seo.com 7 7
+https://rentforevents.nl/bestek-trendy 2 2
+https://rentforevents.nl/koolzuur-gas 2 2
+https://office.eventsolutions.nu/producten.php 2 2
+https://rentforevents.nl/apiImportCat.php 11 11
+https://office.eventsolutions.nu/facturen.php 11 11
+https://crew.eventsolutions.nu/index.php 2 2
+https://crew.eventsolutions.nu/planning.view.php 22 22
+https://rentforevents.nl/238 1 1
+https://relaties.eventsolutions.nu/uren-valideren/314/E9DCB558366F240908FC/ 3 3
+https://rentforevents.nl/info_docs.php 10 17
+http://axelneve.eu 2 2
+https://rentforevents.nl/4 3 3
+https://rentforevents.eventsolutions.nu/groepen.nieuw.php 5 5
+https://crew.eventsolutions.nu/admin/ 17 17
+https://rentforevents.nl/kaarsen 7 7
+https://www.linkedin.com/sales/company/11353679/people 1 1
+https://rentforevents.eventsolutions.nu 5 5
+https://www.linkedin.com/company/makingeventseasy 1 1
+https://rentforevents.nl/wijnglazen 2 2
+https://rentforevents.nl/12/76 2 2
+https://office.eventsolutions.nu/facturen.nieuw.php 2 2
+https://crew.eventsolutions.nu/admin/user.view.all.php 12 12
+https://crew.eventsolutions.nu/admin/schedule.view.admin.php 2 2
+https://crew.eventsolutions.nu/admin/uren.view.goedkeuren.php 4 4
+https://rentforevents.nl/7 9 9
+https://rentforevents.nl/ks_retourneren.php 2 2
+https://rentforevents.eventsolutions.nu/groepen.overzicht.php 3 3
+https://crew.eventsolutions.nu/uren.view.php 4 4
+https://rentforevents.nl/8 3 3
+https://crew.eventsolutions.nu/admin/available.view.admin.php 2 2
+https://crew.eventsolutions.nu/admin/timetag.view.admin.php 2 2
+https://rentforevents.nl/verbruik 3 3
+https://insights.hotjar.com 0 16
+https://l.facebook.com 1 1
+https://appsuite.hostnet.nl 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+421 1 5432
+302 1070 4150357
+405 12 51588
+301 1544 762434
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 272
+85.145.136.188 1420 1571 17508699 20200125224653
+64.71.187.164 354 354 2684394 20200104121444
+2001:41d0:2:4d20:: 27 171 10880948 20200130215130
+34.77.4.135 26 38 183018 20200123141931
+34.77.136.181 26 38 183024 20200109101406
+217.103.245.53 25 25 58608 20200129172109
+172.84.80.169 24 24 75196 20200118015828
+167.114.124.133 23 143 5446088 20200104015634
+213.124.113.124 20 55 2205064 20200121130134
+138.197.2.91 14 20 116421 20200131075145
+81.173.55.34 2 154 171286 20200115122604
+82.94.252.18 8 63 4068169 20200130084115
+2a02:a441:cbd8:1:a0c1:7dfa:5487:38bd 3 21 1356945 20200131155009
+138.246.253.5 4 4 15872 20200120080337
+34.197.76.213 1 1 6361 20200118100001
+79.167.244.232 1 19 661670 20200113072821
+54.185.120.233 1 1 6390 20200115172439
+18.222.35.9 1 1 6578 20200116164657
+141.98.100.92 2 2 24894 20200102223545
+3.227.254.33 1 1 6578 20200130162826
+165.231.90.161 1 1 6390 20200101084729
+35.173.47.64 1 1 6578 20200129163917
+62.140.132.19 6 6 14013 20200125192655
+3.84.228.57 0 1 20572 
+143.179.10.235 3 22 1432394 20200107193706
+2001:1c04:3600:cd00:f860:1dbe:5608:c29 2 20 1354665 20200124094328
+137.226.113.28 9 9 58430 20200122160121
+81.173.66.172 0 3 16802 
+52.51.11.130 1 1 4034 20200116104431
+167.71.173.217 1 7 39760 20200113101330
+89.205.227.175 2 2 4676 20200114165542
+188.165.235.173 2 2 4888 20200129213925
+89.205.226.129 5 5 11676 20200104121631
+2001:1c03:3307:4100:70f8:c3ff:5a58:be9d 7 26 1442072 20200129212759
+80.115.233.34 1 1 2447 20200105160539
+35.175.120.193 1 1 6578 20200103162500
+18.191.134.150 1 1 6578 20200122163807
+18.223.115.221 1 1 6578 20200105122930
+176.74.245.23 9 56 3075913 20200121131953
+34.211.113.188 1 1 6578 20200129094046
+91.141.167.240 8 8 18804 20200115211420
+103.228.143.206 4 4 14546 20200128053854
+138.197.7.88 4 10 55182 20200101165853
+144.217.171.225 2 20 1382430 20200104015413
+84.17.51.112 2 2 24894 20200106022231
+2a02:a454:9a13:1:ad82:f3fb:5d1:73b5 0 2 33519 
+54.188.181.208 1 1 6578 20200125063251
+91.141.178.234 9 9 21156 20200115022425
+185.234.219.246 12 12 149364 20200128211526
+83.128.46.111 0 2 33519 
+54.174.55.246 1 1 6627 20200102165037
+82.94.202.240 1 18 1270307 20200124093218
+47.52.196.152 2 2 8032 20200109161639
+5.132.116.125 6 6 14123 20200113220816
+89.205.133.160 7 7 17108 20200113211025
+52.27.184.41 1 1 6534 20200109030234
+77.60.83.154 2 20 1354608 20200102142545
+163.43.113.135 1 1 6320 20200105210618
+13.58.183.189 1 1 6578 20200124163614
+80.112.245.22 1 18 1270137 20200109150629
+84.241.197.77 0 1 16802 
+77.172.18.250 5 24 1437071 20200130003958
+34.208.255.171 1 1 6578 20200131075904
+18.223.115.84 1 1 6578 20200123161807
+91.141.181.195 6 6 14041 20200105044654
+34.229.119.84 1 1 6578 20200117162132
+180.246.29.198 2 20 1400543 20200105182617
+62.140.132.46 4 4 9370 20200113120921
+18.219.41.204 1 1 6578 20200128165621
+194.49.45.13 2 20 1354705 20200129144103
+34.206.53.179 1 1 6578 20200126121218
+91.141.170.98 2 2 4676 20200125222314
+52.41.211.72 4 4 16812 20200130045217
+13.52.30.46 2 2 24880 20200122150907
+52.210.94.128 1 1 4034 20200114150143
+35.186.147.101 1 1 6320 20200118025234
+95.140.192.59 3 22 1432291 20200131144141
+94.109.16.109 1 18 1270109 20200124193313
+213.124.118.82 0 2 16805 
+18.217.37.5 1 1 6578 20200131161013
+2001:8004:d02:b1eb:8cad:cbb1:350a:1e85 0 1 16803 
+89.182.156.75 2 20 1354633 20200127113656
+62.140.137.112 6 6 14069 20200104143930
+62.140.137.43 2 2 4699 20200110123216
+31.21.197.1 5 5 11911 20200129151800
+13.58.122.163 1 1 6578 20200106163434
+62.238.248.3 2 20 1354703 20200113185509
+2a03:b0c0:1:e0::4cb:8001 1 1 6361 20200109055755
+3.17.159.184 1 1 6578 20200101160824
+95.97.254.94 4 49 2763221 20200121090356
+109.36.138.29 10 10 23495 20200120092024
+109.37.135.193 0 2 37782 
+84.17.51.66 2 2 24894 20200115215419
+89.205.132.11 5 5 11666 20200104142357
+34.217.213.151 1 1 6578 20200130045216
+18.221.190.193 1 1 6578 20200121162805
+137.226.113.27 5 5 32106 20200122160119
+109.36.135.133 4 4 9370 20200119055826
+2a02:1810:140f:800:b4ae:3388:38c5:641c 1 18 1270109 20200127131030
+13.80.113.55 0 4 57809 
+84.14.205.54 2 20 1354656 20200120022443
+137.226.113.34 10 190 12706991 20200123214258
+186.74.197.195 0 1 16805 
+195.134.169.193 4 22 1359952 20200108085322
+34.222.244.233 1 1 6578 20200126064029
+84.30.228.215 0 1 16805 
+172.111.144.16 2 2 12488 20200131125925
+18.191.104.197 1 1 6578 20200120165007
+91.141.167.103 6 6 14046 20200109213753
+178.250.193.167 12 14 27970 20200122104308
+191.102.183.225 1 1 6394 20200129185013
+54.174.54.93 1 1 4325 20200129020112
+81.173.75.0 5 34 1641889 20200117095359
+122.15.156.179 4 4 14709 20200101094905
+158.69.225.36 1 1 9135 20200119004259
+212.127.193.51 0 1 20815 
+66.249.89.89 2 2 10858 20200127150653
+54.174.55.122 2 20 1354703 20200102165054
+171.13.14.84 1 18 385735 20200128084718
+137.226.113.42 4 76 5082876 20200107122810
+62.140.137.134 2 2 4671 20200125140632
+82.207.175.52 1 1 6390 20200111081513
+3.134.79.46 1 1 6578 20200115160725
+185.160.73.6 2 20 1354548 20200123133544
+185.186.172.109 12 84 5427754 20200121113552
+54.218.199.67 1 1 12440 20200115134428
+31.171.245.153 1 1 6361 20200130094854
+220.181.77.162 5 47 2776828 20200119220907
+178.46.72.219 1 15 350888 20200125142833
+35.162.70.167 3 3 12609 20200131075905
+213.206.224.178 2 20 1355108 20200110103725
+92.111.82.146 7 62 4142432 20200131131303
+54.202.141.117 1 1 6578 20200127123727
+82.176.106.158 1 18 1270115 20200121160125
+54.174.55.123 2 12 225454 20200102165054
+91.141.162.78 5 5 11798 20200124225643
+2603:1026:c03:280b::5 0 1 11421 
+62.72.193.93 4 4 9365 20200109215152
+2001:610:1a0:3240:d598:ec78:4217:4311 6 26 1511896 20200127104317
+46.243.25.22 3 22 1432318 20200122092257
+84.17.49.205 2 2 24894 20200117141439
+3.112.94.66 1 7 46062 20200120061137
+13.58.116.124 1 1 6578 20200109161858
+197.56.203.72 1 2 15499 20200126061641
+17.58.59.20 1 1 6394 20200104015244
+18.217.166.67 1 1 6578 20200107164115
+142.93.145.204 1 1 4276 20200102125337
+80.75.104.27 3 3 7000 20200126211520
+54.174.56.172 0 1 20849 
+54.174.54.46 1 1 4325 20200115020126
+104.236.127.161 12 19 264693 20200125104040
+54.191.66.214 1 1 6600 20200121120407
+80.61.222.5 4 4 18284 20200116155653
+162.213.36.214 1 1 6361 20200122221955
+104.236.59.33 12 19 264693 20200117074837
+91.141.167.123 5 5 11763 20200106232005
+151.106.11.184 2 2 24894 20200108020934
+2620:101:2002:11a4::1017 1 1 12447 20200113100536
+3.12.146.234 5 13 77649 20200131114628
+3.15.45.169 1 1 6578 20200102160848
+35.210.99.239 1 1 6534 20200104003406
+54.174.54.199 10 11 45002 20200102165052
+193.173.252.57 6 28 1757308 20200118194515
+84.29.184.56 6 6 13995 20200118174307
+137.226.113.21 4 76 5082608 20200122162811
+23.22.182.159 1 1 6578 20200119121537
+34.223.83.62 1 1 6353 20200125192708
+142.93.157.50 1 1 4276 20200102125343
+34.219.110.54 1 1 6534 20200126033342
+109.36.140.17 2 2 4699 20200119175836
+5.188.84.3 2 2 24894 20200109141133
+94.168.41.58 6 43 2818419 20200128161232
+194.208.63.225 0 1 0 
+31.21.69.105 2 20 1355176 20200131132950
+62.210.124.171 11 11 111211 20200102071939
+211.59.5.45 1 1 6320 20200110044332
+70.33.233.128 1 1 6390 20200110045602
+138.197.96.238 12 19 264696 20200113023739
+194.76.131.42 3 22 1432848 20200107120033
+2001:1c03:4201:9f00:7165:a3a3:3392:68d 3 22 1432399 20200120205523
+31.171.244.153 1 1 6361 20200115123952
+185.54.206.22 0 2 37782 
+136.231.185.43 2 20 1354575 20200120170130
+54.174.54.69 2 20 1354694 20200102165058
+92.63.111.27 1 1 6541 20200122124406
+81.206.226.184 5 24 1431388 20200125194707
+35.210.186.194 1 1 6534 20200104020853
+109.36.142.233 2 2 4699 20200121000006
+54.214.200.252 1 1 12440 20200103065551
+2001:1c06:1b01:5d00:551d:e610:589:c983 2 20 1354584 20200125124645
+145.131.235.147 2 20 1355131 20200110151619
+165.227.39.250 1 1 4276 20200102125344
+5.175.80.199 6 34 1691776 20200115161710
+2003:e2:f71e:bc28:106d:96e6:1983:e261 5 24 1437850 20200105193323
+213.159.213.137 1 1 6541 20200115163637
+34.68.197.204 11 11 35080 20200109171547
+159.65.45.211 12 19 264693 20200129120011
+23.82.29.57 2 2 12414 20200125212349
+213.124.169.54 2 2 4747 20200123190012
+84.17.61.213 2 2 24894 20200106225359
+52.39.237.79 1 1 12440 20200131191540
+80.114.79.101 3 21 1357030 20200123201229
+122.15.156.138 2 2 12780 20200124064647
+2003:6:315d:4230:447a:3688:2d5c:d21f 4 4 9788 20200103135031
+2604:a880:2:d0::a7:9001 1 1 12657 20200124040505
+3.233.229.88 1 1 6578 20200113163138
+176.114.186.60 1 3 46401 20200129063128
+34.220.223.143 1 1 6578 20200122083841
+89.205.225.222 0 1 16805 
+217.62.35.17 3 21 1357115 20200124201910
+51.68.152.26 2 2 12810 20200127135518
+66.249.89.87 1 1 6578 20200127150652
+159.203.110.156 12 19 264696 20200108212541
+129.56.59.42 1 1 6390 20200118202250
+85.149.99.208 1 1 2447 20200107194213
+91.141.168.249 9 9 21041 20200121231925
+94.228.142.55 1 1 6541 20200102165045
+92.108.144.173 10 28 1373354 20200128164245
+138.197.3.203 14 20 116431 20200111174334
+217.123.130.100 3 21 1356977 20200107113153
+2001:1c03:4b0a:4e00:e1c2:6633:ea06:b9cb 5 5 21050 20200107103231
+2001:1540:801:d:1::101 4 4 9776 20200129182838
+188.213.225.202 0 2 20583 
+2001:1c03:1c04:bb00:4098:8d9a:3505:d27c 0 2 37782 
+54.174.56.195 1 1 4325 20200108020123
+34.222.161.201 1 1 6578 20200124021313
+54.174.55.124 2 12 286961 20200102165055
+52.25.129.115 1 1 6578 20200123064411
+54.162.102.36 4 4 25576 20200127214536
+142.93.67.186 12 19 264693 20200121094803
+34.217.38.93 1 1 12440 20200110104952
+35.157.32.153 1 1 12484 20200129152332
+34.230.8.102 1 1 6390 20200120031239
+84.241.207.142 4 22 1359494 20200110151624
+52.38.37.47 1 1 6534 20200104030538
+84.17.59.52 4 4 25412 20200122073200
+109.37.141.65 2 2 4671 20200118043744
+137.226.113.26 7 7 45550 20200123214041
+18.206.243.183 1 1 12444 20200125162451
+182.74.243.46 1 1 6390 20200104042056
+2.59.136.50 1 1 2444 20200103095600
+165.227.120.74 12 19 264696 20200104173538
+34.238.28.24 1 1 6578 20200121153353
+54.174.55.125 2 20 1354680 20200102165049
+109.36.141.176 8 8 18745 20200113004937
+18.225.37.120 1 1 6578 20200122114252
+3.134.90.179 1 1 6578 20200114161311
+54.174.53.98 1 1 4325 20200122020414
+2001:610:1a0:3240:6dc2:837:7ab6:37d2 6 25 1439479 20200127084034
+145.219.8.140 3 21 1396493 20200129152334
+2a02:c207:2022:5436::1 1 1 6320 20200124064508
+18.219.9.235 1 1 6578 20200110164231
+89.205.132.67 2 20 1354694 20200113093643
+81.133.91.183 2 20 1354579 20200128142553
+40.94.25.14 2 20 1354715 20200127104253
+52.34.24.33 1 1 4203 20200124021314
+62.45.216.50 5 26 1655710 20200123211254
+62.140.132.56 6 6 14118 20200114043759
+2a02:a210:9500:a100:4193:a365:6acb:a86b 2 20 1354586 20200111193435
+18.218.90.147 1 1 6578 20200108160416
+77.249.168.12 3 21 1357123 20200108130821
+62.210.140.4 1 1 12484 20200124220735
+52.89.81.141 1 1 6578 20200126151448
+159.203.24.155 1 1 4276 20200102125350
+138.197.64.40 14 20 116398 20200121133929
+66.249.81.197 0 1 20800 
+18.221.87.152 1 1 6578 20200127164624
+54.242.176.164 1 1 6578 20200112122752
+109.36.132.196 2 2 4676 20200123071737
+45.248.57.194 2 20 1400543 20200118053537
+2001:1c03:481e:5500:bc85:6bb1:cde:6a7b 0 1 16803 
+95.24.27.89 1 9 65008 20200106224109
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20200101 11 35 1353425 5
+20200102 112 231 7836537 20
+20200103 16 34 1322508 7
+20200104 420 601 12504765 18
+20200105 24 98 5987537 10
+20200106 30 110 5507550 12
+20200107 28 102 5574561 14
+20200108 24 89 4292340 9
+20200109 149 244 3102429 18
+20200110 27 142 6876368 13
+20200111 24 66 2766404 6
+20200112 227 247 1879875 7
+20200113 673 770 6885854 19
+20200114 236 412 16112639 15
+20200115 38 99 3156710 16
+20200116 10 31 1465945 5
+20200117 137 211 3601936 7
+20200118 46 86 3298048 10
+20200119 19 79 4093069 8
+20200120 37 149 7416924 15
+20200121 77 219 8263961 13
+20200122 30 112 5530122 17
+20200123 93 264 10128458 15
+20200124 20 90 5325594 12
+20200125 48 107 3535805 16
+20200126 9 10 55345 7
+20200127 28 121 6992588 13
+20200128 24 80 3307011 10
+20200129 42 106 4571095 16
+20200130 18 92 5551729 7
+20200131 37 142 7090116 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 5
+2mn-5mn 8
+15mn-30mn 2
+30s-2mn 33
+0s-30s 310
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 2375 8639091 366 301
+/assets/fonts/fontawesome-webfont.woff2 77 5970230 1 33
+/contact 50 201543 3 18
+/sitecrew 23 103949 0 2
+/horecapersoneel 23 110299 0 1
+/horecamaterialen 22 98791 0 2
+/catering 22 101365 0 2
+/ontzorging 21 102170 0 7
+/projectmanagement 21 101146 0 0
+/dranken 21 96617 1 0
+/googled411e06389ef6925.html 1 4280 1 1
+/assets/fonts/fontawesome-webfont.eot 3 305757 0 1
+/inrichting 20 94681 0 0
+/assets/fonts/fontawesome-webfont.ttf 2 199910 0 2
+/assets/fonts/fontawesome-webfont.woff 12 1189704 0 1
+/offerte 21 100013 0 1
+END_SIDER

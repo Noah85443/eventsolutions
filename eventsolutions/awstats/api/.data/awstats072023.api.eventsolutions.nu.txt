@@ -1,0 +1,403 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202307 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/eventsolutions.nu/awstats/api/.data/awstats.api.eventsolutions.nu.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2124                
+POS_TIME 2792                
+POS_VISITOR 10792               
+POS_DAY 12235               
+POS_DOMAIN 3549                
+POS_LOGIN 3777                
+POS_ROBOT 3932                
+POS_WORMS 4109                
+POS_EMAILSENDER 4240                
+POS_EMAILRECEIVER 4383                
+POS_SESSION 12454               
+POS_SIDER 12621               
+POS_FILETYPES 4518                
+POS_DOWNLOADS 4634                
+POS_OS 4682                
+POS_BROWSER 4929                
+POS_SCREENSIZE 5402                
+POS_UNKNOWNREFERER 5476                
+POS_UNKNOWNREFERERBROWSER 5953                
+POS_ORIGIN 6236                
+POS_SEREFERRALS 6370                
+POS_PAGEREFS 6529                
+POS_SEARCHWORDS 6677                
+POS_KEYWORDS 6829                
+POS_MISC 2456                
+POS_ERRORS 6888                
+POS_CLUSTER 3633                
+POS_SIDER_403 7053                
+POS_SIDER_400 7261                
+POS_SIDER_404 7343                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230731053801 194 21877 4973518022966
+FirstTime 0
+LastTime 20230729234420
+LastUpdate 20230731054951 194 0 194 0 0
+TotalVisits 31                  
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 5 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 223 223 993478
+1 0 0 0 253 253 1056918
+2 0 0 0 522 522 2102386
+3 0 0 0 610 610 2280438
+4 2 2 1352 551 551 2481926
+5 0 0 0 986 986 1731151
+6 2 2 1352 717 719 1636414
+7 10 10 7607 1886 1886 2475522
+8 22 22 15477 961 969 1911115
+9 28 28 18928 790 794 1709621
+10 0 0 0 246 246 1044738
+11 1 1 676 403 405 1803901
+12 0 0 0 611 627 2701694
+13 0 0 0 279 279 1078788
+14 0 0 0 302 302 1112940
+15 0 0 0 308 308 1501291
+16 0 0 0 305 305 1304369
+17 0 0 0 295 295 1314549
+18 53 53 34647 734 769 2439179
+19 0 0 0 419 419 1514997
+20 1 1 676 434 434 1871418
+21 0 0 0 337 337 1635147
+22 2 2 1352 640 640 1337892
+23 2 2 1352 329 331 1514254
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 123 123 83419
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+no_user_agent 9719 38865477 20230731053801 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 118 81081 0 0
+html 1 676 0 0
+Unknown 4 1662 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+macosx15 12 12
+androidnougat 1 1
+ios_iphone 1 1
+android 1 1
+androidlollipop 1 1
+macosx14 1 1
+linuxubuntu 3 3
+macosx12 1 1
+linux 8 8
+Unknown 74 74
+win10 18 18
+win8.1 1 1
+macosx7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+chrome111.0.0.0 5 5
+chrome86.0.4217.2 1 1
+firefox111.0 5 5
+firefox69.0 1 1
+firefox110.0 7 7
+chrome110.0.0.0 2 2
+chrome109.0.0.0 8 8
+safari16.3 3 3
+chrome83.0.4103.97 3 3
+firefox68.0 1 1
+mozilla 5 5
+firefox75.0 1 1
+chrome15.0.861.0 1 1
+chrome79.0.3945.93 1 1
+chrome84.0.4147.105 1 1
+Unknown 69 69
+safari15.1 1 1
+chrome114.0.0.0 2 2
+chrome73.0.3683.90 1 1
+chrome108.0.0.0 2 2
+chrome103.0.5060.114 1 1
+chrome108.0.5351.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20230714180029
+ShadowTrackr.com_security_check 20230714091848
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230729234420
+colly_-_https://github.com/gocolly/colly/v2 20230714180359
+TLS_tester_from_https://testssl.sh/dev/ 20230714080054
+Vimexx-Letsencrypt/1.0.0 20230714180005
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+ShadowTrackr.com_security_check 20230714091848
+colly_-_https://github.com/gocolly/colly/v2 20230714180359
+TLS_tester_from_https://testssl.sh/dev/ 20230714080054
+Vimexx-Letsencrypt/1.0.0 20230714180005
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 112 112
+From1 0 0
+From2 8 8
+From3 0 0
+From4 3 3
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google_com 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+401 2 6868
+403 9 3699
+302 2258 1047477
+400 1 440
+405 5 2355
+301 27 13402
+404 1184 612088
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 8
+/.htpasswds 1 -
+/.htusers 1 -
+/.htpasswd.txt 1 -
+/.htgroups 1 -
+/.htgroup 1 -
+/.htpasswd 1 -
+/.htaccess 2 -
+/.htusers.txt 1 -
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 64
+/verhuur/artikelgroepen/subgroepen/thema-steigerhout 1 -
+/verhuur/artikelgroepen/artikelen/4 1 -
+/verhuur/artikelgroepen/subgroepen/lichtcijfers 1 -
+/verhuur/artikelgroepen/subgroepen/cocktailglazen 1 -
+/verhuur/artikelgroepen/subgroepen/snackmachines 1 -
+/verhuur/artikelgroepen/artikelen/218 1 -
+/verhuur/artikelgroepen/artikelen/221 1 -
+/verhuur/artikelgroepen/subgroepen/koelkasten 1 -
+/verhuur/artikelgroepen/subgroepen/water 1 -
+/verhuur/artikel/tapasplank-groot 1 -
+/verhuur/artikelgroepen/subgroepen/koelen-vriezen 1 -
+/verhuur/artikelgroepen/artikelen/220 1 -
+/verhuur/artikelgroepen/subgroepen/thema-colour 1 -
+/verhuur/artikelgroepen/subgroepen/koffie-thee 1 -
+/verhuur/artikelgroepen/subgroepen/betalingen 1 -
+/verhuur/artikelgroepen/subgroepen/diverse-glazen 1 -
+/verhuur/artikelgroepen/subgroepen/tenten 1 -
+/verhuur/artikelgroepen/artikelen/32 1 -
+/verhuur/artikelgroepen/subgroepen/mobiele-barren 1 -
+/verhuur/artikelgroepen/subgroepen/wijnglazen 1 -
+/verhuur/artikelgroepen/subgroepen/kitchen-basics 1 -
+/verhuur/artikelgroepen/subgroepen/barmaterialen 1 -
+/verhuur/artikelgroepen/artikelen/235 1 -
+/verhuur/artikelgroepen/subgroepen/afscheidingen 1 -
+/verhuur/artikelgroepen/artikelen/271 1 -
+/verhuur/artikelgroepen/subgroepen/tafeldecoratie 1 -
+/verhuur/artikelgroepen/subgroepen/inrichting-basics 1 -
+/verhuur/artikelgroepen/subgroepen/lichtletters 1 -
+/verhuur/artikelgroepen/subgroepen/veiligheid 1 -
+/verhuur/artikelgroepen/artikelen/185 2 -
+/verhuur/artikelgroepen/subgroepen/ovens 1 -
+/verhuur/artikelgroepen/artikelen/28 1 -
+/verhuur/artikelgroepen/subgroepen/koolzuur-gas 1 -
+/verhuur/artikelgroepen/artikelen/233 1 -
+/verhuur/artikelgroepen/subgroepen/keuken-warmhouden 1 -
+/verhuur/artikelgroepen/artikelen/265 1 -
+/verhuur/artikelgroepen/subgroepen/frituren 1 -
+/verhuur/artikelgroepen/subgroepen/disposables 1 -
+/verhuur/artikelgroepen/subgroepen/tussendoortjes 1 -
+/verhuur/artikelgroepen/subgroepen/bbq 1 -
+/verhuur/artikelgroepen/artikelen/7 1 -
+/verhuur/artikelgroepen/artikelen/217 1 -
+/verhuur/artikelgroepen/subgroepen/thema-sloophout 1 -
+/verhuur/artikelgroepen/subgroepen/schoonmaken 1 -
+/verhuur/artikelgroepen/artikelen/110 1 -
+/verhuur/artikelgroepen/subgroepen/warme-dranken 1 -
+/verhuur/artikelgroepen/artikelen/277 1 -
+/verhuur/artikelgroepen/artikelen/120 1 -
+/verhuur/artikelgroepen/subgroepen/afvalverwerking 1 -
+/verhuur/artikelgroepen/subgroepen/thema-black-white-wood 1 -
+/verhuur/artikelgroepen/subgroepen/gn-bakken 1 -
+/verhuur/artikelgroepen/subgroepen/kaarsen 2 -
+/verhuur/artikelgroepen/subgroepen/frisdrankglazen 1 -
+/verhuur/artikelgroepen/subgroepen/vergaderen 1 -
+/verhuur/artikelgroepen/subgroepen/stroom 1 -
+/verhuur/artikelgroepen/subgroepen/thema-marktterras 1 -
+/verhuur/artikelgroepen/subgroepen/keukenlijn-modulair 1 -
+/verhuur/artikelgroepen/artikelen/22 1 -
+/verhuur/artikelgroepen/subgroepen/thema-suit-dress 1 -
+/verhuur/artikelgroepen/subgroepen/potten-pannen 1 -
+/verhuur/artikelgroepen/subgroepen/bierglazen 1 -
+/verhuur/artikelgroepen/subgroepen/koken-bakken 1 -
+/verhuur/artikelgroepen/artikelen/270 1 -
+/verhuur/artikelgroepen/subgroepen/thema-black-white 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+93.115.26.43 45 45 30420 20230714180359
+2a01:7e01::f03c:93ff:fea5:a87e 8 8 6134 20230714080054
+170.187.162.6 8 8 5408 20230714091858
+2a01:7e01::f03c:93ff:fe4b:1d8f 8 8 5408 20230714085836
+192.53.112.9 8 8 5408 20230714085722
+172.104.130.190 7 7 5458 20230714075936
+2a01:7e01::f03c:91ff:fe5a:4a98 6 6 4056 20230714091259
+2a01:7e00::f03c:93ff:fe5d:4611 6 6 4056 20230714091838
+193.32.248.130 2 2 1092 20230714180205
+2600:3c00::f03c:92ff:fec6:a762 2 2 1352 20230714091820
+167.248.133.51 1 1 676 20230729232726
+2600:3c01::f03c:93ff:fe78:9d4f 1 1 676 20230714075718
+167.94.145.59 1 1 676 20230729234420
+51.81.167.146 1 1 797 20230714180151
+208.100.26.248 1 1 676 20230705223251
+208.100.26.236 1 1 676 20230716091107
+2600:1f16:269:da01:25b8:1210:2b82:acb 1 1 452 20230714180026
+47.251.15.21 1 1 676 20230715060905
+2600:1f14:804:fd02:216b:373f:afdb:6b45 1 1 452 20230714180026
+139.59.10.224 1 1 676 20230709042517
+188.166.232.158 1 1 676 20230715063338
+2a06:2ec0:1::104 1 1 308 20230714180005
+208.100.26.249 1 1 676 20230716091109
+208.100.26.243 1 1 676 20230705223252
+154.28.229.154 1 1 676 20230714180243
+208.100.26.233 1 1 676 20230712044307
+2600:3000:1511:200::82 1 1 450 20230714180029
+138.197.127.161 1 1 676 20230716202657
+2a01:7e00::f03c:92ff:fe8c:ded3 2 2 1352 20230714091433
+2400:8902::f03c:93ff:fe78:758b 2 2 1352 20230714091440
+35.217.37.226 1 1 676 20230719113447
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20230705 2 2 1352 2
+20230709 1 1 676 1
+20230712 1 1 676 1
+20230714 111 111 75307 19
+20230715 2 2 1352 2
+20230716 3 3 2028 3
+20230719 1 1 676 1
+20230729 2 2 1352 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 3
+2mn-5mn 2
+0s-30s 26
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 118 81341 27 26
+/.well-known/acme-challenge/JXQGa6RPQjc4xF-eskBk9QrGljb38Pz6Rnwp4aQVSHI 3 1354 3 3
+/test.php 1 416 0 1
+/.well-known/acme-challenge/testleplugin 1 308 1 1
+END_SIDER

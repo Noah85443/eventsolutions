@@ -1,0 +1,620 @@
+AWSTATS DATA FILE 7.5 (build 20160127)
+# If you remove this file, all statistics for date 201703 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/eventsolutions.nu/awstats/.data/awstats.eventsolutions.nu.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2116                
+POS_TIME 2795                
+POS_VISITOR 11110               
+POS_DAY 16309               
+POS_DOMAIN 3586                
+POS_LOGIN 3818                
+POS_ROBOT 3973                
+POS_WORMS 5049                
+POS_EMAILSENDER 5180                
+POS_EMAILRECEIVER 5323                
+POS_SESSION 17102               
+POS_SIDER 17309               
+POS_FILETYPES 5458                
+POS_DOWNLOADS 5701                
+POS_OS 5749                
+POS_BROWSER 6113                
+POS_SCREENSIZE 7211                
+POS_UNKNOWNREFERER 7285                
+POS_UNKNOWNREFERERBROWSER 7606                
+POS_ORIGIN 7688                
+POS_SEREFERRALS 7831                
+POS_PAGEREFS 8015                
+POS_SEARCHWORDS 10241               
+POS_KEYWORDS 10393               
+POS_MISC 2459                
+POS_ERRORS 10452               
+POS_CLUSTER 3674                
+POS_SIDER_403 10565               
+POS_SIDER_400 10647               
+POS_SIDER_404 10729               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170401004111 89 19684 12094589780036
+FirstTime 20170301012246
+LastTime 20170331135108
+LastUpdate 20170401021130 89 0 88 0 0
+TotalVisits 205                 
+TotalUnique 117                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 137                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 14 35025 25 41 92371
+1 18 18 40382 26 78 74534
+2 9 9 24090 21 33 52330
+3 29 44 137926 29 39 46101
+4 13 14 40494 25 34 45476
+5 17 17 44671 20 28 54485
+6 13 13 29823 7 17 19759
+7 18 18 40270 22 43 59743
+8 14 40 1397538 25 37 46329
+9 50 110 4082250 24 50 47707
+10 65 145 3285228 17 33 58126
+11 16 38 879179 28 42 57816
+12 16 16 36436 25 35 73517
+13 22 54 1954117 19 68 53305
+14 21 58 2217610 15 76 50620
+15 34 68 2213575 24 40 68892
+16 59 119 1616454 18 74 78919
+17 66 86 725652 26 37 63333
+18 10 11 35090 18 27 19030
+19 36 40 105780 67 82 34757
+20 16 29 622317 20 34 398965
+21 36 75 2756123 21 26 34026
+22 32 47 282009 13 47 301649
+23 36 51 1011669 18 25 28525
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 658 1134 23613708
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 26
+bingbot 119 199798 20170331201724 0
+baiduspider 39 64972 20170331014035 0
+yandex 37 48311 20170331091331 0
+no_user_agent 30 120398 20170331094914 0
+google[_+\s]web[_+\s]preview 25 262396 20170330221452 0
+googlebot 22 40777 20170331223826 0
+spbot 21 43149 20170324135532 0
+ahrefsbot 18 34665 20170324204631 0
+ips\-agent 14 73852 20170317155210 0
+bingpreview 8 363422 20170311203414 0
+powermarks 3 9588 20170329055804 0
+megaindex 7 14383 20170325015250 0
+exabot 3 4654 20170331160841 0
+curl 3 3606 20170314204153 0
+slurp 2 2610 20170323032744 0
+facebook 4 4560 20170328143737 0
+dataprovider\.com 8 40178 20170305001018 0
+linkchecker 1 183 20170320083107 0
+surveybot 2 2190 20170324014522 0
+favicon 1 2832 20170330221451 0
+psbot 1 1095 20170313124035 0
+bot[\s_+:,\.\;\/\\-] 7 36926 20170305202524 0
+mj12bot 4 12784 20170328010446 0
+siteexplorer\.info 1 1131 20170328132915 0
+netcraft 1 3175 20170309135824 0
+msnbot\-media 3 4091 20170331213117 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 13 156675 0 0
+png 384 19555589 0 0
+woff 2 28995 0 0
+php 645 1540629 0 0
+html 4 2174 0 0
+tif 3 1714 0 0
+jpg 26 423347 0 0
+js 44 1881728 0 0
+Unknown 4 6584 0 0
+gif 9 16273 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 23
+linuxandroid 130 45
+winlong 5 5
+macosx11 21 6
+macosx6 1 1
+winxp 131 129
+ios_iphone 15 2
+win2000 19 19
+win95 6 6
+winunknown 2 2
+win2003 13 13
+win8 7 1
+macosx9 60 60
+unix 8 2
+winnt 11 11
+linux 45 33
+win7 178 132
+macosx 37 9
+winme 8 8
+macosx10 68 27
+win8.1 21 20
+win10 342 121
+Unknown 5 5
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 59
+msie6.0 111 111
+safari7.0.3 23 23
+firefox28.0 29 29
+firefox3.8 1 1
+opera9.50 1 1
+opera6.0 3 3
+chrome38.0.2125.104 1 1
+chrome34.0.1847.137 13 13
+android 3 3
+chrome55.0.2883.91 3 0
+msie4.01 1 1
+opera9.00 2 2
+chrome56.0.2924.87 482 207
+chrome12.0.742.112 1 1
+chrome57.0.2987.108 1 0
+firefox31.0 1 1
+iphone 5 0
+msie8.0 3 3
+safari10.0.1 21 6
+opera7.60 6 6
+chrome26.0.1410.65 1 1
+netscape0.91 2 2
+netscape3.0 3 3
+msie7.0 29 4
+chrome37.0.2062.120 5 5
+msie2.0 1 1
+msie5.0 2 2
+msie9.0 6 6
+opera9.0 5 5
+opera7.54 3 3
+firefox11.0 2 0
+chrome30.0.0.0 20 5
+opera7.11 5 5
+netscape4.61 1 1
+opera7.0 4 4
+opera8.00 1 1
+chrome34.0.1847.131 43 43
+safari10.0 10 2
+firefox21.0 17 17
+firefox29.0 34 34
+safari10.0.3 30 8
+opera8.01 2 2
+msie5.5 14 14
+chrome56.0.2924.110 7 1
+netscape4.79 3 3
+chrome51.0.2704.103 53 0
+chrome35.0.1916.114 12 12
+chrome41.0.2227.1 2 2
+msie11.0 22 6
+chrome45.0.2454.94 1 1
+chrome54.0.2840.71 2 2
+mozilla 8 7
+msie10.0 23 23
+chrome26.0.1410.63 1 1
+opera8.50 10 10
+edge14 17 3
+chrome41.0.2228.0 1 1
+chrome44.0.2403.133 20 5
+chrome40.0.2214.93 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20170314204155
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20170303093808
+Mozilla/5.0_(compatible;_ExaleadCloudView/5;) 20170303125543
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 91 187
+From1 0 0
+From2 14 16
+From3 189 189
+From4 364 742
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 6 6
+bing 1 1
+live 0 2
+yandex 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 68
+http://remontbiz.ru 9 9
+http://whiteelephantwellington.com 9 9
+http://www.avtolombard-krasnodar.com 8 8
+http://nodup.ru 6 6
+http://zona-aqua.ru 6 6
+http://kinohall.ru 6 6
+http://expertblog.info 5 5
+http://picturesmania.com 5 5
+http://evrotekhservis.ru 5 5
+http://life-instyle.com 5 5
+http://xn--80aodinpgi.xn--p1ai 3 3
+http://meduza-consult.ru 1 1
+http://krasivoe-hd.net 2 2
+http://zajm-zalog-krasnodar.ru 3 3
+http://www.love-baby.cz 4 4
+http://purchasepillsnorx.com 1 1
+http://voloomoney.com 1 1
+http://time-japan.ru 1 1
+http://www.bookmaker-bet.com 3 3
+http://xn------7cdbapdecfd4ak1bn0amjffj7afu3y.xn--p1ai 1 1
+http://burger-imperia.com 1 1
+http://avon-ukraine.com 1 1
+http://pepperstyle.ru 1 1
+http://mega-polis.biz.ua 2 2
+http://dengi-pod-zalog-pts-avto.ru 3 3
+http://xn--80aebbcbcdemfkhba4byaehoejh8dza3v.xn--p1ai 1 1
+http://krasnodar-avtolombards.ru 3 3
+http://xn--d1abj0abs9d.in.ua 3 3
+http://www.ic-tuebingen.de 3 3
+http://krasnodar.dengi-pod-zalog-nedvizhimosti.ru 2 2
+http://oil-td.ru 2 2
+http://guod.me 2 2
+http://stickers-market.ru 2 2
+http://dpdr.ru 2 2
+http://produkto.net 2 2
+https://www.tattooreligion.ru 1 1
+https://www.country-chic.ru 3 3
+http://pizza-tycoon.com 3 3
+http://portomaltese.net/aviaradar/ 2 2
+http://mcar.in.ua 1 1
+http://autogrep.ru 1 1
+https://woweb.com.ua 3 3
+http://x-true.info 2 2
+https://en.altezza.travel 2 2
+http://xn----7sbbahaq9bb5afgiqfliv4m.xn--p1ai 2 2
+http://doctormakarova.ru 2 2
+https://b-styles.xyz 2 2
+http://pizza-imperia.com 1 1
+http://zarabotat-na-sajte.ru 1 1
+http://sstroy44.ru 3 3
+http://iopeninghours.co.uk 1 1
+http://udsgame.online 2 2
+http://rybalka-opt.ru 3 3
+http://konturkrasoty.ru 2 2
+http://iqs.biz.ua 2 2
+http://stroyhelp-dv.ru 1 1
+http://kinoplen.ru 2 2
+http://zakonobosago.ru 5 5
+http://gilsonchiro.xyz 1 1
+http://pk-pomosch.ru 5 5
+http://m.facebook.com 1 1
+http://www.partybunny.ru 3 3
+http://www.craftburg.ru 2 2
+http://yur-p.ru 2 2
+http://running-line.ru 3 3
+http://www.factsonacts.nl/gids/dienstverlening/ticketing/eventsolutions 4 4
+http://sankt-peterburg.nodup.ru 4 4
+http://avtolombard-krasnodar.ru 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 5 3828
+301 4 2146
+404 607 418430
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/wp-content/uploads/2015/03/ikwilgaan2-1200x500.png 1 -
+/robots.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 137
+80.112.65.153 105 250 4611621 20170330174304
+46.118.115.43 36 36 115056 20170330064701
+143.179.120.33 31 79 643234 20170310222214
+37.115.191.53 30 30 95880 20170329194514
+46.118.122.226 30 30 95880 20170330174631
+176.8.251.60 27 27 86292 20170330154758
+92.111.202.155 25 75 3937362 20170320104046
+46.118.117.16 21 21 67116 20170324054918
+138.197.77.70 14 14 29550 20170318191458
+143.179.93.158 14 26 216505 20170311231218
+138.197.6.55 1 1 1132 20170301112338
+138.197.104.7 7 7 14775 20170330061536
+143.179.71.74 10 10 19833 20170311235258
+138.197.111.144 7 7 14775 20170323073352
+138.197.96.235 7 7 14775 20170327201231
+138.197.11.136 1 1 1132 20170321153404
+2a03:a8e0:dfff:2836::28 0 1 5231 
+2a02:c207:2007:3221::1 1 1 3196 20170308225113
+138.197.96.195 1 1 1132 20170305224832
+84.29.96.87 5 20 1206820 20170311145900
+143.179.77.195 2 2 5883 20170312023928
+84.30.238.248 0 1 5231 
+210.209.121.46 1 1 3196 20170325204738
+138.197.111.195 7 7 14775 20170319221921
+95.97.148.2 1 7 362290 20170307164311
+217.100.48.99 0 2 10462 
+138.197.111.120 1 1 1132 20170323151725
+138.197.111.49 1 1 1132 20170331045604
+138.197.96.169 1 1 1132 20170322151013
+66.249.92.157 1 1 380 20170303093808
+46.118.233.101 3 3 9588 20170303223552
+87.213.226.14 0 7 5231 
+45.55.50.168 7 7 14775 20170302053839
+138.197.111.141 7 7 14775 20170309072758
+138.197.96.240 7 7 14775 20170301012259
+195.74.38.101 1 1 3196 20170319144007
+138.197.96.245 1 1 1132 20170308132301
+138.197.111.114 1 1 1132 20170320173045
+45.33.48.204 1 1 1076 20170301204738
+207.191.248.15 1 1 1132 20170325150947
+85.145.55.191 3 16 1058000 20170321093147
+84.82.211.8 4 16 931224 20170308234454
+84.29.198.40 0 2 10462 
+159.203.169.43 1 1 1132 20170309100410
+62.140.137.147 0 1 5231 
+92.63.91.81 2 2 6503 20170331094731
+138.197.111.95 1 1 1132 20170325163004
+54.67.31.58 1 1 1095 20170310091126
+85.113.253.73 0 1 5231 
+159.203.123.116 1 1 1132 20170307165446
+138.197.2.93 2 2 2264 20170315124803
+138.197.96.238 1 1 1132 20170312035231
+138.197.66.234 7 7 14775 20170314030647
+173.208.169.42 1 1 3196 20170316104755
+195.154.191.62 2 2 2264 20170330153849
+94.242.246.23 1 1 1076 20170302040930
+108.61.99.235 1 1 1132 20170322231025
+84.29.153.247 0 1 5231 
+84.29.244.9 0 1 5231 
+62.195.218.4 6 21 1181081 20170322215751
+138.197.73.210 7 7 14775 20170311171706
+104.238.173.58 1 1 1132 20170311175454
+138.197.2.107 1 1 1132 20170304031108
+37.115.186.195 12 12 38352 20170330160157
+188.118.39.100 0 10 15693 
+2001:984:9c3b:1:2112:8c71:461f:2e12 1 7 362290 20170308145034
+77.243.161.101 6 25 1512715 20170331135108
+142.4.218.236 1 1 3196 20170305001019
+194.173.174.11 1 1 1132 20170314233909
+138.197.96.248 1 1 1132 20170324154602
+138.197.111.188 7 7 14775 20170321004222
+138.197.111.88 1 1 1132 20170329001852
+138.197.6.2 1 1 1132 20170316090748
+46.188.32.37 1 1 1095 20170310043927
+138.197.111.107 1 1 1132 20170318024112
+138.197.96.236 1 1 1132 20170314165206
+86.82.47.20 1 7 94793 20170317143602
+159.203.170.175 2 2 2264 20170327213758
+213.125.134.10 9 22 1167031 20170320090734
+138.197.67.158 7 7 14775 20170324102234
+80.201.42.212 3 17 946215 20170303154825
+138.197.71.143 1 1 1132 20170307001004
+188.255.99.87 1 1 1095 20170317163536
+138.197.96.210 7 7 14775 20170308035545
+84.29.133.175 0 1 5231 
+138.197.6.76 1 1 1132 20170317060614
+46.229.170.197 2 2 6392 20170326083659
+138.197.111.21 1 1 1132 20170306200639
+194.151.205.8 0 1 5231 
+195.22.127.139 1 1 4236 20170312234155
+212.127.205.152 0 5 26155 
+52.88.30.18 1 1 3196 20170303174820
+47.21.47.206 1 1 3252 20170306215857
+138.197.96.199 7 7 14775 20170315090250
+138.197.111.187 1 1 1132 20170310130602
+66.249.93.79 0 2 10462 
+194.150.14.140 2 2 3417 20170303125543
+217.105.150.199 5 20 1347850 20170331085014
+188.32.223.247 1 1 1095 20170324182936
+138.197.10.230 1 1 1132 20170326190505
+89.98.113.25 0 2 10462 
+138.197.111.171 7 7 14775 20170304150534
+138.197.96.197 1 1 1132 20170330033924
+89.20.166.226 3 18 1160289 20170330155936
+193.15.16.4 1 1 1076 20170305032957
+138.197.111.45 1 1 1132 20170313195907
+138.197.96.209 7 7 14775 20170329015658
+46.119.126.146 3 3 9588 20170318102343
+84.29.187.86 2 11 478070 20170320135603
+138.197.111.212 7 7 14775 20170326161940
+188.206.74.37 0 1 0 
+138.197.73.15 2 2 2264 20170313000933
+159.203.121.1 1 1 1132 20170318234209
+89.200.42.10 0 1 0 
+66.133.109.36 2 2 758 20170314204155
+217.102.189.14 0 6 20924 
+143.179.106.208 3 3 774 20170302195106
+178.137.164.87 12 12 38352 20170321083511
+178.137.166.86 6 6 19176 20170326192418
+138.197.7.43 1 1 1132 20170305011808
+143.179.97.43 0 1 0 
+195.169.76.2 4 18 1173901 20170322103032
+5.39.219.53 2 2 6504 20170330011358
+138.197.111.200 7 7 14775 20170305195459
+80.61.141.158 0 2 10462 
+138.197.111.9 1 1 1132 20170319204445
+52.70.48.63 1 1 3252 20170329101008
+93.115.95.207 1 1 1076 20170303090117
+37.115.186.37 2 2 6392 20170327095736
+31.185.27.1 1 1 1076 20170328032853
+138.197.111.189 7 7 14775 20170322031550
+138.197.11.160 1 1 1132 20170303053857
+79.164.131.104 1 1 1095 20170325021426
+138.197.1.38 7 7 14775 20170325124944
+138.197.96.99 7 7 14775 20170331094928
+138.197.96.247 7 7 14775 20170317161446
+138.197.111.172 1 1 1132 20170316125140
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170301 9 9 16983 3
+20170302 12 16 33450 4
+20170303 12 38 996390 7
+20170304 8 10 26369 2
+20170305 11 11 21311 5
+20170306 2 2 4384 2
+20170307 3 9 364554 3
+20170308 17 46 1778292 7
+20170309 10 26 831779 3
+20170310 35 83 647688 6
+20170311 38 65 1460197 6
+20170312 12 12 28951 5
+20170313 6 27 1379168 4
+20170314 20 37 1358122 6
+20170315 8 8 15907 2
+20170316 15 27 763816 7
+20170317 12 37 813470 5
+20170318 21 21 55391 8
+20170319 26 26 73435 11
+20170320 30 81 2727507 9
+20170321 26 41 1132309 10
+20170322 56 106 3955750 12
+20170323 19 20 56294 8
+20170324 24 45 174793 10
+20170325 26 27 74501 11
+20170326 25 25 70239 8
+20170327 23 25 74309 8
+20170328 10 12 35071 6
+20170329 29 29 81015 10
+20170330 92 157 1674057 11
+20170331 21 56 2888206 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 4
+0s-30s 186
+2mn-5mn 2
+30s-2mn 7
+15mn-30mn 1
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 307 751938 190 150
+/webmail/ 121 286682 6 7
+/contact/ 35 63940 0 8
+/ticketing/ 34 81423 0 8
+/crew/ 34 75848 1 10
+/media/ 30 75389 1 4
+/management/ 30 65278 0 10
+/horeca/ 27 67524 0 3
+/rainloop/ 23 70243 1 1
+/webmail/skins/larry/watermark.html 3 1794 0 0
+/referenties/ 1 1590 1 0
+/googled411e06389ef6925.html 1 380 1 1
+/.well-known/acme-challenge/14X35N-lfSWV1T4y4VJwil7G-OVhFvfKRSBncxvGNTM 1 379 1 0
+/labels 1 4236 1 1
+/mail 1 1590 1 0
+/crew/enterShift.php 3 774 1 1
+/rainloop/rainloop/v/1.10.5.192/static/css/fonts/rainloop.woff 2 28995 0 0
+/webmail/program/resources/blank.tif 3 1714 0 0
+/.well-known/acme-challenge/yeHlylazaSx191ez_17NF8N68qO7iHCRdz5SLAyIe6w 1 379 0 1
+END_SIDER

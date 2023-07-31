@@ -1,0 +1,281 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/eventsolutions.nu/awstats/relaties/.data/awstats.relaties.eventsolutions.nu.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2134                
+POS_TIME 2808                
+POS_VISITOR 6245                
+POS_DAY 6595                
+POS_DOMAIN 3408                
+POS_LOGIN 3637                
+POS_ROBOT 3792                
+POS_WORMS 3958                
+POS_EMAILSENDER 4089                
+POS_EMAILRECEIVER 4232                
+POS_SESSION 6823                
+POS_SIDER 7018                
+POS_FILETYPES 4367                
+POS_DOWNLOADS 4472                
+POS_OS 4520                
+POS_BROWSER 4621                
+POS_SCREENSIZE 4779                
+POS_UNKNOWNREFERER 4853                
+POS_UNKNOWNREFERERBROWSER 4940                
+POS_ORIGIN 5022                
+POS_SEREFERRALS 5158                
+POS_PAGEREFS 5302                
+POS_SEARCHWORDS 5450                
+POS_KEYWORDS 5602                
+POS_MISC 2470                
+POS_ERRORS 5661                
+POS_CLUSTER 3493                
+POS_SIDER_403 5772                
+POS_SIDER_400 5854                
+POS_SIDER_404 5936                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001092714 1 0 13208662718873
+FirstTime 20190911120111
+LastTime 20190930213540
+LastUpdate 20191002035832 1 0 0 0 0
+TotalVisits 14                  
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 7                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 298 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 4 4 5910 0 3 920
+9 1 1 1148 1 3 10008
+10 14 14 17049 0 14 4295
+11 4 4 5248 0 4 1260
+12 27 27 31308 1 29 13249
+13 78 78 102688 11 90 33438
+14 30 30 43976 9 46 24716
+15 32 32 52976 3 38 22937
+16 61 61 86342 6 68 21661
+17 0 0 0 1 2 9657
+18 16 16 17407 6 28 17694
+19 0 0 0 1 2 9656
+20 0 0 0 1 3 10916
+21 1 1 1867 0 2 4643
+22 0 0 0 2 4 19313
+23 5 5 8803 1 7 11279
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 273 273 374722
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+favicon 10 54741 20190930173234 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 175 236200 0 0
+Unknown 98 138522 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+macosx 4 4
+win8.1 6 6
+win10 263 263
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+safari11.0.3 2 2
+chrome77.0.3865.90 5 5
+safari12.0.3 2 2
+chrome77.0.3865.75 2 2
+chrome76.0.3809.132 262 262
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 175 175
+From1 0 0
+From2 0 0
+From3 0 0
+From4 98 98
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 9 3002
+500 24 22926
+301 2 1094
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 7
+143.179.125.231 186 186 277523 20190915235950
+143.179.115.9 73 73 74389 20190911185256
+81.173.55.34 6 6 9302 20190924162624
+143.179.105.208 3 3 5774 20190918232747
+178.132.212.90 2 2 2979 20190916120049
+2.59.136.50 2 2 2888 20190924085528
+143.179.92.144 1 1 1867 20190930213540
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20190911 73 73 74389 4
+20190913 64 64 93328 2
+20190914 120 120 181166 1
+20190915 2 2 3029 1
+20190916 4 4 6001 2
+20190918 3 3 5774 1
+20190924 6 6 9168 2
+20190930 1 1 1867 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 4
+5mn-15mn 2
+0s-30s 2
+15mn-30mn 1
+30s-2mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/uren-valideren/250/18647405961311258852/ 134 186272 5 6
+/uren-valideren/gevalideerd 95 135125 0 6
+/ 22 22045 1 0
+/uren-valideren/2500/18647405961311258852/ 3 3318 0 0
+/uren-valideren/a/a/ 3 2817 0 0
+/uren-valideren/wijziging 3 3397 0 0
+/uren-valideren/252/4826D541F38F2C7A9530/ 2 3848 1 0
+/uren-valideren/210/18647405961311258852/ 1 1096 1 0
+/uren-valideren/250/E8829B5715146703FFD9/ 1 1816 1 0
+/uren-valideren/240/18647405961311258852/ 1 1096 0 0
+/uren-valideren/250/186474059613112588525/ 1 949 0 0
+/uren-valideren/253/D4D2A42CB8633FF791B1/ 1 1764 1 0
+/uren-valideren/247/7092BA5BEC28E598AF34/ 1 1800 1 0
+/uren-valideren/257/B050C3EDF1AD1AC64E78/ 1 1885 0 0
+/uren-valideren/246/48F369DC2E748FCEB907/ 1 1935 1 0
+/uren-valideren/256/2335D987FCAA25E0FE80/ 1 1766 1 0
+/uren-valideren/252/CE7A5763F91F2E3ACD81/ 1 1926 0 1
+/uren-valideren/258/06ECDC23156BF7AD4931/ 1 1867 1 1
+END_SIDER

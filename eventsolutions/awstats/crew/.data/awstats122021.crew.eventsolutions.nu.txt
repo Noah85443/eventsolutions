@@ -1,0 +1,289 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/eventsolutions.nu/awstats/crew/.data/awstats.crew.eventsolutions.nu.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2126                
+POS_TIME 2789                
+POS_VISITOR 6127                
+POS_DAY 6455                
+POS_DOMAIN 3354                
+POS_LOGIN 3583                
+POS_ROBOT 3738                
+POS_WORMS 3870                
+POS_EMAILSENDER 4001                
+POS_EMAILRECEIVER 4144                
+POS_SESSION 6603                
+POS_SIDER 6770                
+POS_FILETYPES 4279                
+POS_DOWNLOADS 4382                
+POS_OS 4430                
+POS_BROWSER 4521                
+POS_SCREENSIZE 4623                
+POS_UNKNOWNREFERER 4697                
+POS_UNKNOWNREFERERBROWSER 4784                
+POS_ORIGIN 4866                
+POS_SEREFERRALS 5000                
+POS_PAGEREFS 5144                
+POS_SEARCHWORDS 5331                
+POS_KEYWORDS 5483                
+POS_MISC 2451                
+POS_ERRORS 5542                
+POS_CLUSTER 3439                
+POS_SIDER_403 5654                
+POS_SIDER_400 5736                
+POS_SIDER_404 5818                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101032141 2 205 11427211670787
+FirstTime 0
+LastTime 20211230145639
+LastUpdate 20220101051650 2 0 1 0 0
+TotalVisits 4                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 141 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 3 1456
+1 0 0 0 0 0 0
+2 0 0 0 4 6 3045
+3 0 0 0 0 0 0
+4 0 0 0 2 2 992
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 1 3 1551
+8 33 33 37867 4 40 21260
+9 41 41 53263 2 44 20476
+10 0 0 0 2 2 992
+11 0 0 0 0 1 464
+12 0 0 0 3 3 1748
+13 0 0 0 0 0 0
+14 13 13 32074 1 15 7368
+15 0 0 0 0 0 0
+16 25 25 32129 3 28 13348
+17 0 0 0 3 6 2994
+18 0 0 0 0 0 0
+19 24 24 60457 0 24 11136
+20 2 2 10350 4 6 2912
+21 0 0 0 2 3 1691
+22 0 0 0 6 6 2992
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 138 138 226140
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 8 10152 0 0
+Unknown 130 215988 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+android 87 87
+win10 51 51
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 2
+chrome96.0.4664.110 51 51
+chrome96.0.4664.104 87 87
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 6 6
+From1 0 0
+From2 0 0
+From3 2 2
+From4 130 130
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://accounts.eventsolutions.nu 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 33 17304
+500 3 3933
+301 15 7764
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+2a02:a44b:f3e4:1:598b:711e:ef63:3c8c 74 74 91130 20211219092817
+2a02:a44b:f3e4:1:60d0:c08a:f735:57c 26 26 70807 20211229200227
+2a02:a44b:f3e4:1:950b:3ff8:f8a4:d64f 25 25 32129 20211224163058
+2a02:a420:6a:56cc:ce07:93cc:d870:8e66 13 13 32074 20211230145639
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20211219 74 74 91130 1
+20211224 25 25 32129 1
+20211229 26 26 70807 1
+20211230 13 13 32074 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+2mn-5mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/uren-toevoegen 18 22253 0 0
+/gewerkte-uren 11 101938 0 1
+/ 8 10152 4 1
+/declaratie-toevoegen 6 9042 0 2
+/declaraties 5 13848 0 0
+/uren-nieuw/650 4 3057 0 0
+/uren-nieuw/652 3 2226 0 0
+/uren-nieuw/655 3 2228 0 0
+/declaratie-nieuw/1487 3 2265 0 0
+/declaratie-nieuw/1490 3 2266 0 0
+/declaratie-nieuw/1496 2 1415 0 0
+/declaratie-nieuw/1502 2 1426 0 0
+/uren-nieuw/659 2 1396 0 0
+/uren-nieuw/660 2 1396 0 0
+/declaratie-nieuw/1488 3 2268 0 0
+/declaratie-nieuw/1495 3 2266 0 0
+/uren-nieuw/651 3 2227 0 0
+/declaratie-nieuw/1501 2 1426 0 0
+/declaratie-nieuw/1503 2 1427 0 0
+/uren-nieuw/665 2 1400 0 0
+/declaratie-nieuw/1499 2 1414 0 0
+/declaratie-nieuw/1497 2 1415 0 0
+/uren-nieuw/664 2 1400 0 0
+/declaratie-nieuw/1498 2 1414 0 0
+/declaratie-nieuw/1489 3 2266 0 0
+/declaratie-nieuw/1493 3 2266 0 0
+/uren-nieuw/662 2 1393 0 0
+/uren-nieuw/653 3 2229 0 0
+/uren-nieuw/663 2 1399 0 0
+/declaratie-nieuw/1500 2 1427 0 0
+/uren-nieuw/654 3 2228 0 0
+/declaratie-nieuw/1494 3 2266 0 0
+/uren-nieuw/661 2 1396 0 0
+/uren-nieuw/656 3 2228 0 0
+/uren-nieuw/658 3 2229 0 0
+/planning 3 5097 0 0
+/uren-nieuw/666 2 1399 0 0
+/declaratie-nieuw/1492 3 2261 0 0
+/uren-nieuw/657 3 2228 0 0
+/declaratie-nieuw/1491 3 2263 0 0
+END_SIDER

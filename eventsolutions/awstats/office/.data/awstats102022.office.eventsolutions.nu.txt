@@ -1,0 +1,424 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202210 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/eventsolutions.nu/awstats/office/.data/awstats.office.eventsolutions.nu.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2130                
+POS_TIME 2792                
+POS_VISITOR 6273                
+POS_DAY 7329                
+POS_DOMAIN 3487                
+POS_LOGIN 3719                
+POS_ROBOT 3874                
+POS_WORMS 4006                
+POS_EMAILSENDER 4137                
+POS_EMAILRECEIVER 4280                
+POS_SESSION 7720                
+POS_SIDER 7925                
+POS_FILETYPES 4415                
+POS_DOWNLOADS 4523                
+POS_OS 4571                
+POS_BROWSER 4666                
+POS_SCREENSIZE 4764                
+POS_UNKNOWNREFERER 4838                
+POS_UNKNOWNREFERERBROWSER 4925                
+POS_ORIGIN 5007                
+POS_SEREFERRALS 5145                
+POS_PAGEREFS 5289                
+POS_SEARCHWORDS 5476                
+POS_KEYWORDS 5628                
+POS_MISC 2453                
+POS_ERRORS 5687                
+POS_CLUSTER 3575                
+POS_SIDER_403 5800                
+POS_SIDER_400 5882                
+POS_SIDER_404 5964                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221102190122 1 0 11900380102283
+FirstTime 0
+LastTime 20221031215609
+LastUpdate 20221103051259 1 0 0 0 0
+TotalVisits 25                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1170 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 42 42 182397 2 40 23173
+1 20 20 133835 1 21 10045
+2 113 113 418402 1 109 50877
+3 2 2 5548 8 10 7048
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 5 5 24345 0 5 2320
+8 0 0 0 2 2 1530
+9 0 0 0 1 1 762
+10 45 45 181313 0 33 15312
+11 50 50 187387 0 39 18096
+12 21 21 86008 0 20 9280
+13 187 187 743162 0 177 82128
+14 161 161 738142 0 155 71920
+15 109 109 457958 1 100 46701
+16 66 66 285499 0 61 28304
+17 0 0 0 1 1 765
+18 224 224 842271 45 277 147940
+19 110 110 432630 3 104 48900
+20 60 60 203293 6 65 30503
+21 7 7 28660 1 8 4013
+22 1 1 2063 0 1 464
+23 14 14 47524 4 17 12801
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1237 1237 5000437
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 152 159135 0 0
+Unknown 1085 4841302 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+android 89 89
+win10 1148 1148
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 2
+chrome106.0.0.0 340 340
+chrome105.0.0.0 897 897
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 31 31
+From1 0 0
+From2 0 0
+From3 6 6
+From4 1200 1200
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://accounts.eventsolutions.nu 6 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 35 43677
+500 39 25313
+301 2 1012
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 15
+2a02:a44b:f3e4:100:940e:744c:d9f5:f615 257 257 1032074 20221003182702
+2a02:a44b:f3e4:100:3d70:8bff:1552:66e2 244 244 1067396 20221004194520
+2a02:a44b:f3e4:100:17be:8769:92ac:6ac1 220 220 887061 20221030162109
+2a02:a44b:f3e4:100:71ab:bf4d:370e:12da 190 190 759293 20221011214743
+2a02:a420:26:f103:e4fd:c3a4:67b4:a2a3 135 135 557785 20221029033051
+2a02:a44b:f3e4:100:31ee:c0bd:1381:9670 56 56 229921 20221021001034
+2a02:a420:a:107d:e4c8:ed67:3fbf:ee3a 50 50 187387 20221028114025
+2a02:a44b:f3e4:100:b000:25a0:f693:ba7b 45 45 119303 20221022195010
+2a02:a44b:f3e4:100:244f:f73f:aad9:2d01 15 15 73705 20221003204713
+2a02:a44b:f3e4:100:5c32:b731:d497:b83 15 15 38268 20221016184325
+2a02:a420:5:d05d:b9d0:d2:6893:d75 1 1 2063 20221029223553
+2a02:a420:19:2ab0:1448:7519:8706:c030 1 1 3087 20221005074113
+2a02:a44b:f3e4:100:9c7e:3d0e:b60f:8bf9 2 2 15732 20221031215609
+2a02:a420:45:15e1:2ea6:c4b1:520c:5c52 4 4 21258 20221004073940
+2a02:a420:70:3af4:aa:e06f:5786:4875 2 2 6104 20221018180723
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20221003 272 272 1105779 5
+20221004 248 248 1088654 3
+20221005 1 1 3087 1
+20221011 190 190 759293 2
+20221016 15 15 38268 1
+20221018 2 2 6104 1
+20221020 14 14 47524 1
+20221021 60 60 229185 2
+20221022 57 57 154194 2
+20221025 15 15 61925 2
+20221028 50 50 187387 1
+20221029 136 136 559848 2
+20221030 175 175 743457 1
+20221031 2 2 15732 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 2
+2mn-5mn 1
+0s-30s 8
+30s-2mn 4
+15mn-30mn 2
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 150
+/projecten/dashboard 167 2230055 3 7
+/handlers/handler.projecten.php 99 60315 0 0
+/verhuur/projecten 69 187926 2 4
+/ 46 94557 18 7
+/projecten/nieuw 39 167047 0 0
+/facturatie/nieuw/100138 31 82222 0 0
+/projecten/overzicht/452 29 83206 0 0
+/projecten/overzicht/465 24 68367 0 0
+/projecten/overzicht/459 18 51542 0 0
+/projecten/overzicht/461 16 45463 0 1
+/projecten/declaraties/453 9 24536 0 1
+/projecten/overzicht/472 4 11291 0 0
+/projecten/declaraties/450 2 5357 0 0
+/projecten/uren/455 3 9733 0 0
+/projecten/planning/456 9 24980 0 0
+/projecten/uren/452 15 49005 0 0
+/facturatie/overzicht/100138 2 5857 0 0
+/diensten/nieuw/472 3 8967 0 0
+/projecten/plan-medewerker/456 5 6056 0 0
+/facturatie/dashboard 7 24005 0 1
+/projecten/overzicht/468 6 17034 0 0
+/projecten/bewerken/450 2 8663 0 0
+/projecten/planning/473 3 8266 0 0
+/projecten/planning/464 4 11073 0 0
+/projecten/overzicht/449 4 11389 0 0
+/diensten/nieuw/468 4 11969 0 0
+/projecten/overzicht/456 13 36557 0 0
+/projecten/plan-medewerker/457 5 6166 0 0
+/projecten/planning/453 1 3127 0 0
+/projecten/overzicht/454 14 39822 0 0
+/projecten/overzicht/463 9 25530 0 0
+/projecten/plan-medewerker/459 13 16376 0 0
+/projecten/plan-medewerker/464 4 4989 0 0
+/projecten/bewerken/466 3 13040 0 0
+/diensten/nieuw/462 7 20856 0 0
+/projecten/uren/453/nieuw 2 1998 0 0
+/projecten/overzicht/470 4 11378 0 0
+/projecten/bewerken/463 8 34648 0 0
+/diensten/nieuw/464 4 11923 0 0
+/projecten/bewerken/449 3 12979 0 0
+/projecten/uren/465 15 49938 0 0
+/projecten/bewerken/457 1 4322 0 0
+/projecten/plan-medewerker/454 2 2472 0 0
+/projecten/planning/458 9 26536 0 0
+/projecten/planning/461 7 19596 0 0
+/diensten/nieuw/466 7 20936 0 0
+/projecten/bewerken/469 3 13040 0 0
+/projecten/bewerken/410 2 8683 0 0
+/projecten/planning/457 6 16741 0 0
+/diensten/nieuw/461 6 17888 0 0
+/projecten/plan-medewerker/470 2 2438 0 0
+/projecten/planning/467 3 8396 0 0
+/projecten/bewerken/459 1 4330 0 0
+/projecten/plan-medewerker/463 3 3701 0 0
+/projecten/plan-medewerker/471 2 2429 0 0
+/projecten/plan-medewerker/461 4 4959 0 0
+/projecten/declaraties/456 1 2651 0 0
+/projecten/declaraties/455 3 7735 0 0
+/projecten/planning/469 4 10976 0 0
+/facturatie/overzicht/100140 2 5695 0 0
+/diensten/nieuw/454 4 11888 0 0
+/verhuur/artikel/39 5 12240 0 0
+/projecten/overzicht/467 5 14211 0 0
+/relaties/dashboard 2 5737 0 0
+/diensten/nieuw/456 6 17803 0 0
+/handlers/handler.projectPlanning.php 7 4263 0 0
+/verhuur/emballage 1 2711 0 0
+/projecten/plan-medewerker/466 9 11471 0 0
+/projecten/overzicht/451 1 2815 0 0
+/projecten/plan-medewerker/462 7 8800 0 0
+/projecten/declaraties/454/nieuw 3 4928 0 0
+/facturatie/nieuw 7 19545 0 0
+/diensten/nieuw/467 6 17968 0 0
+/projecten/planning/452 10 30902 1 2
+/projecten/plan-medewerker/458 8 10142 0 0
+/diensten/nieuw/470 2 5967 0 0
+/projecten/planning/462 7 19699 0 0
+/diensten/nieuw/460 7 20857 0 0
+/projecten/uren/454 4 13253 0 0
+/projecten/bewerken/452 9 39188 0 0
+/diensten/nieuw/458 8 23852 0 0
+/projecten/bewerken/456 3 12992 0 0
+/projecten/uren/456 2 6618 0 0
+/projecten/declaraties/449 4 10781 0 0
+/projecten/bewerken/458 2 8663 0 0
+/projecten/overzicht/457 9 25482 0 0
+/projecten/bewerken/471 3 13077 0 0
+/projecten/overzicht/450 5 14133 0 0
+/projecten/bewerken/465 6 26044 0 0
+/projecten/overzicht/464 7 19796 0 0
+/projecten/planning/463 4 10938 0 0
+/projecten/plan-medewerker/460 7 8884 0 0
+/projecten/planning/455 1 2832 0 0
+/projecten/overzicht/473 5 14201 0 0
+/diensten/nieuw/463 3 8933 0 0
+/projecten/overzicht/410 1 2802 0 0
+/projecten/overzicht/469 5 14174 0 0
+/projecten/bewerken/462 5 21653 0 0
+/projecten/planning/460 9 26177 0 0
+/projecten/plan-medewerker/468 4 5004 0 0
+/projecten/overzicht/455 4 11418 0 0
+/projecten/overzicht/453 13 37054 0 0
+/diensten/nieuw/471 2 5967 0 0
+/projecten/planning/472 3 8125 0 0
+/projecten/planning/470 3 8055 0 0
+/projecten/bewerken/468 3 13055 0 0
+/projecten/bewerken/464 2 8668 0 0
+/diensten/nieuw/452 6 17798 0 0
+/projecten/uren/449 8 27181 0 0
+/projecten/uren/471 1 2881 0 0
+/projecten/planning/454 7 20237 0 0
+/diensten/nieuw/473 5 14971 0 0
+/projecten/planning/465 3 9120 0 0
+/projecten/declaraties/454 3 8049 0 0
+/facturatie/overzicht/100139 2 5622 0 1
+/projecten/bewerken/467 3 13075 0 0
+/projecten/uren/468 1 2963 0 0
+/projecten/declaraties/452 11 29195 0 0
+/projecten/planning/468 6 16832 0 0
+/projecten/uren/450 4 13349 0 0
+/projecten/plan-medewerker/452 4 5089 0 0
+/facturatie/nieuw/100140 1 2659 0 0
+/projecten/uren/454/nieuw 2 1974 0 0
+/projecten/planning/466 3 8471 0 0
+/projecten/plan-medewerker/473 3 3727 0 0
+/diensten/nieuw/459 10 29826 0 0
+/projecten/declaraties/455/nieuw 6 9886 0 0
+/projecten/uren/467 1 2894 0 0
+/projecten/planning/471 3 8040 0 0
+/projecten/overzicht/466 7 19803 0 0
+/projecten/declaraties/465 8 21701 0 0
+/diensten/nieuw/469 5 14937 0 0
+/projecten/bewerken/461 4 17377 0 0
+/projecten/uren/455/nieuw 6 5972 0 0
+/diensten/nieuw/457 7 20794 0 0
+/projecten/plan-medewerker/472 3 3683 0 0
+/projecten/overzicht/471 5 14138 0 0
+/projecten/declaraties/453/nieuw 2 2858 0 0
+/projecten/overzicht/428 1 2807 0 0
+/projecten/uren/453 11 37061 1 1
+/projecten/plan-medewerker/469 4 4998 0 0
+/projecten/planning/459 15 45425 0 0
+/projecten/bewerken/451 2 8661 0 0
+/projecten/overzicht/460 11 31539 0 0
+/locaties/dashboard 1 5118 0 0
+/projecten/plan-medewerker/467 6 7634 0 0
+/projecten/overzicht/462 10 28449 0 0
+/projecten/overzicht/458 7 19944 0 0
+/locaties/nieuw 2 5546 0 0
+/facturatie/nieuw/100139 1 2655 0 0
+END_SIDER
