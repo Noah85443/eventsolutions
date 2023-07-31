@@ -1,0 +1,25 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^verhuur/artikelen$ product/read.php
+RewriteRule ^verhuur/artikelen/$ product/read.php [L]
+RewriteRule ^verhuur/artikel/([0-9a-zA-Z-]+)$ product/read_one.php?id=$1
+RewriteRule ^verhuur/artikel/([0-9a-zA-Z-]+)/$ product/read_one.php?id=$1 [L]
+RewriteRule ^verhuur/artikelen/zoeken/([0-9a-zA-Z-]+)$ product/search.php?s=$1
+RewriteRule ^verhuur/artikelen/zoeken/([0-9a-zA-Z-]+)/$ product/search.php?s=$1 [L]
+
+RewriteRule ^verhuur/artikelgroepen$ category/read.php
+RewriteRule ^verhuur/artikelgroepen/$ category/read.php [L]
+RewriteRule ^verhuur/artikelgroepen/voorpagina$ category/read_frontpage.php
+RewriteRule ^verhuur/artikelgroepen/voorpagina/$ category/read_frontpage.php [L]
+RewriteRule ^verhuur/artikelgroepen/subgroepen/([a-zA-Z0-9-]+)$ category/read_subcategories.php?id=$1
+RewriteRule ^verhuur/artikelgroepen/subgroepen/([a-zA-Z0-9-]+)/$ category/read_subcategories.php?id=$1 [L]
+RewriteRule ^verhuur/artikelgroepen/artikelen/([a-zA-Z0-9-]+)$ product/read_category.php?id=$1
+RewriteRule ^verhuur/artikelgroepen/artikelen/([a-zA-Z0-9-]+)/$ product/read_category.php?id=$1 [L]
+RewriteRule ^verhuur/artikelgroep/([a-zA-Z0-9-]+)$ category/read_one.php?id=$1
+RewriteRule ^verhuur/artikelgroep/([a-zA-Z0-9-]+)/$ category/read_one.php?id=$1 [L]
+
+RewriteRule ^verhuur/project/nieuw/([a-zA-Z0-9-]+)$ project/new.php?dataset=$1
+RewriteRule ^verhuur/project/nieuw/([a-zA-Z0-9-]+)/$ project/new.php?dataset=$1 [L]
+RewriteRule ^verhuur/project/nieuw$ project/new.php
+RewriteRule ^verhuur/project/nieuw/$ project/new.php [L]

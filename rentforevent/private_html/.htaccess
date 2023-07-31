@@ -1,0 +1,48 @@
+AddDefaultCharset UTF-8
+DefaultLanguage nl-NL
+ 
+ErrorDocument 404 https://www.rentforevents.nl/
+
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} =""
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{QUERY_STRING} ^s=(.*)
+RewriteRule ^verhuur/zoeken/$ /verhuur/zoeken/%1? [R=302,L]
+
+RewriteRule ^offerte$ offerte.php
+RewriteRule ^offerte/$ offerte.php
+
+RewriteRule ^offerte-gegevens$ offerte-gegevens.php
+RewriteRule ^offerte-gegevens/$ offerte-gegevens.php
+
+RewriteRule ^offerte-verzonden$ offerte-versturen.php
+RewriteRule ^offerte-verzonden/$ offerte-versturen.php
+
+RewriteRule ^offerte/verwijder/([a-zA-Z0-9_-]+)$ offerte.php?remove=$1
+RewriteRule ^offerte/verwijder/([a-zA-Z0-9_-]+)/$ offerte.php?remove=$1
+
+RewriteRule ^verhuur/artikel/([a-zA-Z0-9_-]+)$ artikel.php?artikel=$1
+RewriteRule ^verhuur/artikel/([a-zA-Z0-9_-]+)/$ artikel.php?artikel=$1
+
+RewriteRule ^verhuur/zoeken/([a-zA-Z0-9_-]+)$ zoekresultaten.php?s=$1
+RewriteRule ^verhuur/zoeken/([a-zA-Z0-9_-]+)/$ zoekresultaten.php?s=$1
+
+RewriteRule ^verhuur/([a-zA-Z0-9_-]+)$ artikelgroep.php?artikelgroep=$1
+RewriteRule ^verhuur/([a-zA-Z0-9_-]+)/$ artikelgroep.php?artikelgroep=$1
+
+RewriteRule ^verhuur/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ artikelgroep.php?artikelgroep=$1&subgroep=$2
+RewriteRule ^verhuur/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ artikelgroep.php?artikelgroep=$1&subgroep=$2
+
+RewriteRule ^verhuur/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ artikelgroep.php?artikelgroep=$1&subgroep=$2&groep=$3
+RewriteRule ^verhuur/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ artikelgroep.php?artikelgroep=$1&subgroep=$2&groep=$3
+
+RewriteRule ^klantenservice/([a-zA-Z0-9_-]+)$ ks_$1.php
+RewriteRule ^klantenservice/([a-zA-Z0-9_-]+)/$ ks_$1.php
+
+RewriteRule ^algemene-info$ info_docs.php
+RewriteRule ^algemene-info/$ info_docs.php

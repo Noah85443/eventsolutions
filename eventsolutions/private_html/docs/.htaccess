@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex handler.download.php
+
+AddType application/octet-stream .pdf

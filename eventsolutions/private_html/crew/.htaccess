@@ -1,0 +1,36 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex crew.dashboard.php
+
+RewriteRule ^bewerken$ /crew.edit.php
+RewriteRule ^bewerken/([0-9]+)$ crew.edit.php?id=$1 [L]
+
+RewriteRule ^gewerkte-uren$ /crew.gewerkteUren.php
+RewriteRule ^gewerkte-uren/([0-9]+)$ crew.gewerkteUren.php?id=$1 [L]
+
+RewriteRule ^beschikbaarheid$ /crew.beschikbaarheid.php
+RewriteRule ^beschikbaarheid/([0-9]+)$ crew.beschikbaarheid.php?id=$1 [L]
+
+RewriteRule ^planning$ /crew.planning.php
+RewriteRule ^planning/$ /crew.planning.php
+
+RewriteRule ^planning/([0-9]+)$ crew.planningDetail.php?dienstNr=$1 [L]
+RewriteRule ^planning/([0-9]+)/$ crew.planningDetail.php?dienstNr=$1 [L]
+
+RewriteRule ^uren-toevoegen$ /crew.urenInvoeren.php
+RewriteRule ^uren-toevoegen/([0-9]+)$ crew.urenInvoeren.php?id=$1 [L]
+
+RewriteRule ^uren-nieuw$ /crew.urenNieuw.php
+RewriteRule ^uren-nieuw/([0-9]+)$ crew.urenNieuw.php?dienstNr=$1 [L]
+
+RewriteRule ^declaraties$ /crew.declaraties.php
+RewriteRule ^declaraties/([0-9]+)$ crew.declaraties.php?id=$1 [L]
+
+RewriteRule ^declaratie-toevoegen$ /crew.declaratiesOpenstaand.php
+RewriteRule ^declaratie-toevoegen/([0-9]+)$ crew.declaratiesOpenstaand.php?id=$1 [L]
+
+RewriteRule ^declaratie-nieuw$ /crew.declaratieNieuw.php
+RewriteRule ^declaratie-nieuw/([0-9]+)$ crew.declaratieNieuw.php?urenId=$1 [L]
+
+RewriteRule ^([0-9]+)/planning.ics$ crew.planningExportIcal.php?id=$1

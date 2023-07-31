@@ -1,0 +1,23 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex account.loginForm.php
+
+RewriteRule ^overzicht$ /account.view.php
+RewriteRule ^overzicht/([0-9]+)$ account.view.php?id=$1 [L]
+
+RewriteRule ^alle-gebruikers$ /account.viewAll.php
+
+RewriteRule ^bewerken$ /account.edit.php
+RewriteRule ^bewerken/([0-9]+)$ account.edit.php?id=$1 [L]
+
+RewriteRule ^uitloggen$ /account.logout.php
+RewriteRule ^nieuw$ /account.new.php
+
+RewriteRule ^wachtwoord-bewerken$ /account.editPassword.php
+RewriteRule ^wachtwoord-vergeten$ /account.forgotPassword.php
+
+RewriteRule ^verwijderen/([0-9]+)$ account.delete.php?id=$1 [L]
+
+RewriteRule ^onboarding/nieuw-account$ /onboarding.newAccount.php
+RewriteRule ^onboarding/koppel-relatie$ /onboarding.linkCompany.php

@@ -1,0 +1,15 @@
+{
+    "name": "eventsolutions/portal-the-next-gen",
+    "description": "Description of project Portal - TheNextGen.",
+    "authors": [
+        {
+            "name": "Axel Neve",
+            "email": "dev@eventsolutions.nu"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "dev-master",
+        "mpdf/qrcode": "dev-master",
+        "phpmailer/phpmailer": "dev-master"
+    }
+}

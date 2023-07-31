@@ -1,0 +1,339 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201807 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/rentforevents.nl/awstats/.data/awstats.rentforevents.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2114                
+POS_TIME 2788                
+POS_VISITOR 6872                
+POS_DAY 8263                
+POS_DOMAIN 3373                
+POS_LOGIN 3599                
+POS_ROBOT 3754                
+POS_WORMS 4066                
+POS_EMAILSENDER 4197                
+POS_EMAILRECEIVER 4340                
+POS_SESSION 8888                
+POS_SIDER 9035                
+POS_FILETYPES 4475                
+POS_DOWNLOADS 4556                
+POS_OS 4604                
+POS_BROWSER 4803                
+POS_SCREENSIZE 5220                
+POS_UNKNOWNREFERER 5294                
+POS_UNKNOWNREFERERBROWSER 5381                
+POS_ORIGIN 5463                
+POS_SEREFERRALS 5597                
+POS_PAGEREFS 5741                
+POS_SEARCHWORDS 6061                
+POS_KEYWORDS 6213                
+POS_MISC 2452                
+POS_ERRORS 6272                
+POS_CLUSTER 3455                
+POS_SIDER_403 6361                
+POS_SIDER_400 6443                
+POS_SIDER_404 6525                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180801001553 7 1102 9222648399128
+FirstTime 20180701121345
+LastTime 20180731185836
+LastUpdate 20180801022251 7 0 6 0 0
+TotalVisits 72                  
+TotalUnique 34                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 34                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 1956 8 10 5152
+1 1 1 489 0 0 0
+2 3 3 1437 2 2 972
+3 2 2 890 1 2 975
+4 0 0 0 0 0 0
+5 1 1 445 1 2 1250
+6 1 1 445 0 0 0
+7 1 1 503 3 3 1746
+8 0 0 0 1 2 978
+9 2 2 890 2 2 1053
+10 2 2 890 0 0 0
+11 3 3 1379 1 1 445
+12 10 10 21861 4 5 2439
+13 4 4 13531 1 2 975
+14 2 2 890 0 1 489
+15 5 5 2269 1 1 489
+16 4 4 1889 3 6 3730
+17 8 8 9106 0 1 693
+18 4 4 1582 4 7 3667
+19 4 4 1801 0 1 693
+20 1 1 489 1 1 734
+21 4 4 1868 0 0 0
+22 5 5 2320 5 7 3509
+23 3 3 1379 1 1 489
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 74 74 68309
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 9 4357 20180731182444 0
+spider 4 1458 20180714225552 0
+dataprovider\.com 2 1006 20180720164945 0
+MSIE[\x20]6 1 513 20180713094741 0
+no_user_agent 1 540 20180713094741 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+php 74 68309 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+linuxandroid 1 1
+winlong 2 2
+winxp 3 3
+macosx12 32 32
+linux 8 8
+win7 12 12
+macosx 1 1
+macosx9 1 1
+macosx10 9 9
+win10 4 4
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+firefox57.0 1 1
+firefox53.0 1 1
+firefox48.0 1 1
+firefox55.0 1 1
+firefox52.0 1 1
+chrome5.0.375.99 1 1
+chrome6.0 2 2
+firefox34.0 3 3
+chrome62.0.3202.94 3 3
+firefox56.0 1 1
+firefox61.0 2 2
+chrome61.0.3163.100 30 30
+chrome45.0.2454.94 1 1
+firefox59.0 8 8
+chrome34.0.1847.116 4 4
+chrome37.0.2062.120 7 7
+firefox51.0 2 2
+safari11.0.1 2 2
+chrome62.0.3202.89 1 1
+safari 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 44 44
+From1 3 3
+From2 0 0
+From3 26 26
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://www.rentforevent.nl 17 17
+http://burger-imperia.com 3 3
+http://pizza-tycoon.com 2 2
+http://hundejo.com 2 2
+http://rentforevent.nl 1 1
+http://www.rentforevent.nl 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 40 22604
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/wp-content/yt.php 1 -
+/cache.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 34
+52.53.201.78 24 24 10680 20180731104602
+94.198.159.208 7 7 8779 20180718011402
+13.57.233.99 5 5 31445 20180729130213
+193.106.30.99 3 3 1467 20180715124955
+216.145.5.42 2 2 904 20180726185432
+2a06:1700:0:b::44cb:e6 2 2 978 20180712214518
+82.146.62.251 2 2 480 20180731185836
+2a00:d78:0:710:94:198:159:208 2 2 978 20180703171114
+64.246.165.190 2 2 904 20180726125853
+51.15.209.146 1 1 464 20180701130039
+176.58.100.98 1 1 445 20180704110215
+92.222.233.4 1 1 489 20180704233312
+176.10.99.200 1 1 445 20180717190516
+18.236.74.224 1 1 489 20180729003109
+2a02:4780:bad:17:fced:1ff:fe17:306 1 1 496 20180705172208
+46.183.218.199 1 1 445 20180707145755
+79.140.41.203 1 1 503 20180725021059
+138.68.180.18 1 1 452 20180726120608
+159.65.24.22 1 1 452 20180721193302
+34.211.109.148 1 1 489 20180730002527
+216.145.14.142 1 1 452 20180708195112
+185.107.47.215 1 1 445 20180701155009
+78.109.23.1 1 1 445 20180713234429
+18.236.184.165 1 1 489 20180730002547
+54.200.131.80 1 1 489 20180726201800
+217.168.155.84 1 1 503 20180725075124
+93.115.95.204 1 1 445 20180723162909
+51.15.196.209 1 1 464 20180701121345
+64.246.161.190 1 1 452 20180726175004
+23.129.64.101 1 1 445 20180718154925
+216.145.17.190 1 1 452 20180708221826
+54.201.251.86 1 1 489 20180731002242
+64.246.165.180 1 1 452 20180726123947
+167.114.172.225 1 1 503 20180720164946
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20180701 3 3 1373 3
+20180702 3 3 1423 3
+20180703 3 3 6823 2
+20180704 3 3 1379 3
+20180705 1 1 496 1
+20180706 1 1 445 1
+20180707 1 1 445 1
+20180708 4 4 1808 4
+20180709 1 1 445 1
+20180711 3 3 1379 3
+20180712 3 3 1467 2
+20180713 3 3 1335 3
+20180714 1 1 489 1
+20180715 4 4 1868 4
+20180717 5 5 8113 5
+20180718 2 2 934 2
+20180719 1 1 445 1
+20180720 3 3 7237 3
+20180721 2 2 897 2
+20180722 1 1 445 1
+20180723 2 2 6734 2
+20180724 2 2 890 2
+20180725 2 2 1006 2
+20180726 8 8 9483 8
+20180727 1 1 445 1
+20180728 1 1 445 1
+20180729 4 4 7463 4
+20180730 3 3 1423 3
+20180731 3 3 1174 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 72
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 74 68309 72 72
+END_SIDER

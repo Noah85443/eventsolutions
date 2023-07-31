@@ -1,0 +1,28 @@
+AddDefaultCharset UTF-8
+DefaultLanguage nl-NL
+ 
+ErrorDocument 404 https://www.eventsolutions.nu/
+
+php_value session.cookie_domain ".eventsolutions.nu"
+
+
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} =""
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} !=mytime.eventsolutions.nu [NC]
+RewriteCond %{HTTP_HOST} !=crew.eventsolutions.nu [NC]
+RewriteCond %{HTTP_HOST} !=office.eventsolutions.nu [NC]
+RewriteCond %{HTTP_HOST} !=system.eventsolutions.nu [NC]
+RewriteCond %{HTTP_HOST} !=relaties.eventsolutions.nu [NC]
+RewriteCond %{HTTP_HOST} !=accounts.eventsolutions.nu [NC]
+RewriteCond %{HTTP_HOST} ^(www.)?eventsolutions.nu$
+RewriteRule ^/?$ website/index.html [L] 
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ website/$1.html [L] 
+RewriteRule ^([a-zA-Z0-9_-]+)?$ website/$1.html [L] 
+
+

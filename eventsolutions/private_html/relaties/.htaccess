@@ -1,0 +1,19 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex relaties.dashboard.php
+
+RewriteRule ^projecten$ relaties.projecten.php
+RewriteRule ^projecten/$ relaties.projecten.php [L]
+
+RewriteRule ^project/([0-9]+)$ relaties.project.php?id=$1
+RewriteRule ^project/([0-9]+)/$ relaties.project.php?id=$1 [L]
+
+RewriteRule ^facturen$ relaties.facturen.php
+RewriteRule ^facturen/$ relaties.facturen.php [L]
+
+RewriteRule ^klantgegevens$ relaties.gegevens.php
+RewriteRule ^klantgegevens/$ relaties.gegevens.php [L]
+
+RewriteRule ^contactpersonen$ relaties.contacten.php
+RewriteRule ^contactpersonen/$ relaties.contacten.php [L]

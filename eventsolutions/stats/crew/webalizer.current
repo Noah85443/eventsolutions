@@ -1,0 +1,182 @@
+# Webalizer V2.21-02 Incremental Data - 03/15/2017 16:38:47
+2017 3 15 16 38 47
+358 341 3 13 12 3 2754771 23 2 0
+1 6 128 14 15
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+270 255 2245273 3 23 2
+88 86 509498 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+72 70 303716 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+7 7 92845 0
+1 1 5015 0
+2 2 15181 0
+6 6 92741 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+46 37 293192 16
+128 124 1189151 7
+61 59 508689 0
+35 35 254241 0
+0
+0
+0
+341
+0
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 14 0 24198 1 1
+/bootstrap/css/bootstrap.min.css
+0 30 0 621846 0 0
+/home.php
+0 145 0 339228 0 0
+/bootstrap/css/bootstrap-theme.min.css
+0 30 0 125460 0 0
+/bootstrap/js/bootstrap.min.js
+0 23 0 243880 0 0
+/.well-known/acme-challenge/letsencrypt_1489520500
+0 1 0 206 0 0
+/profile.php
+0 2 0 3530 0 0
+/bootstrap/fonts/glyphicons-halflings-regular.woff2
+0 30 0 555848 0 0
+/.well-known/acme-challenge/rcmwicvvPPwsrlYJk22_jD-NgaflkH1vgL5GMZvFnps
+0 1 0 379 0 0
+/style.css
+0 38 0 48489 0 0
+/sign-up.php
+0 4 0 4625 0 0
+/newbie123.php
+0 1 0 1237 0 0
+/jquery-1.11.3-jquery.min.js
+0 22 0 758204 0 0
+# End Of Table - urls
+# -sites- (monthly)
+80.112.65.153
+0 356 339 2754186 2 1489528628
+/
+185.104.29.54
+0 1 1 206 0 0
+-
+66.133.109.36
+0 1 1 379 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+80.112.65.153
+0 88 86 509498 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 135
+http://crew.eventsolutions.nu/index.php
+0 11
+https://crew.eventsolutions.nu/profile.php
+0 27
+http://crew.eventsolutions.nu/sign-up.php
+0 3
+https://crew.eventsolutions.nu/newbie123.php
+0 2
+https://crew.eventsolutions.nu/sign-up.php
+0 4
+http://crew.eventsolutions.nu/bootstrap/css/bootstrap.min.css
+0 4
+http://crew.eventsolutions.nu/
+0 1
+https://crew.eventsolutions.nu/bootstrap/css/bootstrap.min.css
+0 26
+https://crew.eventsolutions.nu/index.php
+0 21
+https://crew.eventsolutions.nu/home.php
+0 123
+https://crew.eventsolutions.nu/
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+0 1
+curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.21 Basic ECC zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+0 356
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

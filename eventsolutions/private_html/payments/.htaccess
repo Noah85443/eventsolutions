@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex payments.landing.php
+
+RewriteRule ^betaling/(.*)$ /payments.landing.php?betaalcode=$1
+RewriteRule ^betaling/(.*)/$ /payments.landing.php?betaalcode=$1
+
+RewriteRule ^webhook/response$ /payments.webhook.php
+RewriteRule ^webhook/response/$ /payments.webhook.php
+
+RewriteRule ^status/(.*)$ /payments.return.php?betaalcode=$1
+RewriteRule ^status/(.*)/$ /payments.return.php?betaalcode=$1

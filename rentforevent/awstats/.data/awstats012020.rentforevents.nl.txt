@@ -1,0 +1,737 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202001 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/rentforevents.nl/awstats/.data/awstats.rentforevents.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2114                
+POS_TIME 2785                
+POS_VISITOR 7729                
+POS_DAY 10566               
+POS_DOMAIN 3613                
+POS_LOGIN 3846                
+POS_ROBOT 4001                
+POS_WORMS 4522                
+POS_EMAILSENDER 4653                
+POS_EMAILRECEIVER 4796                
+POS_SESSION 11276               
+POS_SIDER 11471               
+POS_FILETYPES 4931                
+POS_DOWNLOADS 5122                
+POS_OS 5170                
+POS_BROWSER 5404                
+POS_SCREENSIZE 5946                
+POS_UNKNOWNREFERER 6020                
+POS_UNKNOWNREFERERBROWSER 6176                
+POS_ORIGIN 6327                
+POS_SEREFERRALS 6467                
+POS_PAGEREFS 6648                
+POS_SEARCHWORDS 6796                
+POS_KEYWORDS 6948                
+POS_MISC 2446                
+POS_ERRORS 7007                
+POS_CLUSTER 3702                
+POS_SIDER_403 7155                
+POS_SIDER_400 7338                
+POS_SIDER_404 7420                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200201021204 122 27299 9385522175505
+FirstTime 0
+LastTime 20200131150937
+LastUpdate 20200201041701 122 0 121 0 0
+TotalVisits 91                  
+TotalUnique 71                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 71                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2245 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 34628 25 37 112948
+1 2 3 9868 11 17 67910
+2 4 4 21796 13 16 48053
+3 0 0 0 16 24 77572
+4 0 0 0 15 21 59300
+5 3 3 10568 252 264 1532018
+6 1 1 7882 11 16 42171
+7 16 16 93004 51 60 136407
+8 6 12 28234 22 31 99003
+9 5 5 29036 26 65 132806
+10 1 1 5442 25 35 118868
+11 17 29 296229 135 334 6547532
+12 26 73 1408232 23 58 124951
+13 159 402 10611923 56 217 155635
+14 120 177 2814347 36 160 180779
+15 22 33 691084 63 90 236635
+16 222 760 21046397 157 417 1145770
+17 158 239 3857142 120 298 471059
+18 149 331 3477646 195 385 299373
+19 187 389 7186851 197 403 268013
+20 321 492 5744501 306 685 392292
+21 323 772 16641639 350 702 1684513
+22 277 572 14989656 684 1010 3463290
+23 139 349 9229223 77 218 414244
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2164 4669 98235328
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+MJ12bot/ 724 4421047 20200126052741 0
+motor 253 8019238 20200123235200 0
+Googlebot/ 121 557015 20200131200511 0
+curl 24 173433 20200131232912 0
+Googlebot\-Image/ 18 1243559 20200131081601 0
+bot[\s_+:,\.\;\/\\-] 7 55646 20200129073732 0
+favicon 6 33425 20200129222455 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 8092 20200131200546 0
+python 1 5577 20200128001923 0
+netcraft 1 8022 20200107014447 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 207 564052 0 0
+php 1198 2610429 0 0
+png 182 3388469 0 0
+jpg 2020 87726016 0 0
+woff2 96 2361397 0 0
+Unknown 966 1584965 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+linuxandroid 218 22
+macosx11 1 1
+winxp 3 3
+ios_iphone 83 11
+macosx12 1 1
+linux 3 3
+win7 8 8
+macosx 48 48
+macosx9 1 1
+win8.1 2 2
+win10 4295 2058
+Unknown 2 2
+macosx8 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+firefox71.0 2 2
+chrome41.0.2225.0 1 1
+opera54.0.2952.71 2 2
+opera53.0.2907.99 1 1
+firefox52.0 1 1
+chrome5.0.375.99 3 3
+chrome79.0.3945.117 2764 1187
+chrome78.0.3904.87 47 47
+chrome79.0.3945.88 19 3
+chrome26.0.1410.65 4 4
+mozilla 2 2
+netscape5.0 8 8
+chrome68.0.3440.84 1 1
+chrome79.0.3945.130 1503 859
+chrome78.0.3904.96 26 4
+chrome79.0.3945.93 192 18
+safari13.0.4 14 2
+chrome56.0.2925.37 2 2
+opera54.0.2952.64 1 1
+chrome66.0.3359.181 4 4
+safari13.0.1 69 9
+Unknown 2 2
+chrome67.0.3396.62 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WhatsApp/2.19.360_A 20200114220958
+Go-http-client/1.1 20200112100620
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.19.360_A 20200114220958
+Go-http-client/1.1 20200112100620
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 190 190
+From1 3 3
+From2 2 2
+From3 0 0
+From4 1969 4474
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_de 1 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 28 15064
+421 3 15663
+302 271 965895
+500 1592 1399540
+301 268 128177
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 2
+/productImg/ 13 https://rentforevents.nl/verhuur/artikel/streetfood-suiker-melksetje
+/groupImg/ 15 -
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 71
+85.145.136.188 2068 4479 93651792 20200130133803
+89.205.133.160 9 69 2484684 20200113211046
+2a00:d78:0:710:94:198:159:216 5 5 27245 20200105002026
+2003:6:315d:4230:447a:3688:2d5c:d21f 4 26 1430695 20200103135029
+34.220.47.149 4 4 21352 20200126000236
+94.198.159.216 4 4 21796 20200104143633
+84.17.49.184 2 2 15654 20200112204928
+31.186.8.166 2 2 8058 20200127092706
+2001:bc8:2e88:80ff:45fb:1a51:a486:a317 2 2 2741 20200108054207
+51.89.230.56 2 2 7072 20200126173314
+100.24.105.116 1 1 5577 20200131111029
+3.17.64.245 1 1 5486 20200108151001
+18.191.199.230 1 1 5577 20200127072113
+3.12.76.13 1 1 5577 20200130071845
+35.168.59.162 1 1 5486 20200110151128
+18.221.144.176 1 1 5486 20200109071652
+34.76.88.150 1 1 5577 20200125015649
+13.59.15.87 1 1 5486 20200102111041
+34.200.240.142 1 1 5577 20200131150937
+3.220.164.85 1 1 5577 20200127151028
+18.204.214.6 1 1 5577 20200124072424
+95.216.159.131 1 1 5211 20200102093712
+100.27.8.23 1 1 5486 20200106111540
+18.204.247.210 1 1 5486 20200113071001
+3.17.130.245 1 1 5486 20200107151011
+207.180.243.20 1 1 7940 20200127095236
+18.222.145.186 1 1 5577 20200125081401
+18.219.60.104 1 1 5577 20200130111809
+151.106.10.142 1 1 7882 20200124062545
+3.81.25.144 1 1 5486 20200107111725
+185.93.3.114 1 1 7827 20200111003037
+35.171.159.150 1 1 5486 20200106150640
+52.23.161.212 1 1 5486 20200111081942
+13.58.59.198 1 1 5486 20200108071845
+3.15.150.226 1 1 5577 20200129112006
+18.191.95.66 1 1 5577 20200130151958
+3.15.20.79 1 1 5486 20200113111132
+3.227.19.71 1 1 5577 20200124151204
+34.234.236.213 1 1 5486 20200101070628
+18.218.172.254 1 1 5577 20200129071636
+185.136.159.26 1 1 7827 20200104071105
+52.15.155.154 1 1 5486 20200104081847
+18.188.234.146 1 1 5486 20200109151742
+84.17.60.130 1 1 7827 20200110091112
+3.234.144.210 1 1 5486 20200101110510
+195.181.172.77 1 1 7827 20200101203048
+35.153.143.64 1 1 5486 20200103150804
+3.231.228.177 1 1 5486 20200102150920
+34.200.215.27 1 1 5577 20200123151102
+159.203.32.136 1 1 4288 20200111145432
+13.58.104.137 1 1 5577 20200128112307
+18.218.69.217 1 1 5577 20200131071423
+18.188.89.28 1 1 5486 20200110112006
+34.211.86.170 1 1 5442 20200112100620
+34.205.53.161 1 1 5486 20200109111425
+3.14.250.59 1 1 5486 20200106070705
+3.230.128.114 1 1 5577 20200128070456
+18.220.159.197 1 1 5486 20200103071516
+3.215.182.94 1 1 5486 20200108111912
+84.17.61.12 1 1 7827 20200102210555
+3.16.165.45 1 1 5577 20200124112416
+35.153.144.6 1 1 5486 20200101151922
+3.135.216.184 1 1 5486 20200102071404
+34.204.185.228 1 1 5486 20200103111639
+18.224.184.220 1 1 5486 20200107071816
+84.17.49.201 1 1 7882 20200123180321
+3.80.7.2 1 1 5577 20200129150852
+34.200.219.94 1 1 5577 20200127111929
+89.204.153.117 2 14 213393 20200126114920
+84.17.48.175 1 1 7827 20200101070551
+3.94.149.92 1 1 5577 20200128151559
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20200101 5 5 32112 5
+20200102 9 9 51292 7
+20200103 7 29 1447153 4
+20200104 6 6 35109 4
+20200105 1 1 5449 1
+20200106 3 3 16458 3
+20200107 6 22 1302078 4
+20200108 5 5 19199 4
+20200109 3 3 16458 3
+20200110 3 3 18799 3
+20200111 3 3 17601 3
+20200112 137 233 4211916 4
+20200113 607 1467 34408642 6
+20200114 184 367 6593809 1
+20200117 517 1029 19121013 1
+20200118 115 284 7444072 1
+20200119 383 839 19488937 4
+20200120 60 100 1280244 1
+20200122 27 128 1848965 1
+20200123 37 60 369638 3
+20200124 4 4 24613 4
+20200125 2 2 11154 2
+20200126 11 29 253502 4
+20200127 6 6 32729 5
+20200128 3 3 16731 3
+20200129 3 3 16731 3
+20200130 14 23 134193 4
+20200131 3 3 16731 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 9
+15mn-30mn 1
+2mn-5mn 1
+30s-2mn 2
+0s-30s 75
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 339
+/artikelgroep.php 606 860217 4 5
+/ 130 510664 78 75
+/verhuur/tafelgerei 104 136850 4 0
+/artikel.php 66 136119 0 1
+/apiImport.php 59 573681 0 0
+/verhuur/artikel/tumbler-vintage-25st 52 118288 2 2
+/verhuur/keukenapparatuur 34 50755 1 2
+/verhuur/tafelgerei/buffetmaterialen 23 30451 0 0
+/verhuur/tafelgerei/bestek/bestek-trendy 22 34832 0 0
+/offerte-verzonden 21 29036 0 1
+/verhuur/keukenapparatuur/frituren/ 1 1678 0 0
+/verhuur/artikel/stoel-trendy-stapelbaar-groen 1 2141 0 0
+/verhuur/inrichting/thema-suit-dress/ 4 7779 0 0
+/verhuur/artikel/longdrinkglas-22cl-tubo 1 2143 0 0
+/verhuur/artikel/streetfood-bordje-klein 1 2151 0 0
+/verhuur/artikel/flessenkoelkast-laag-met-2-glazen-draaideuren-zwart 2 4362 0 0
+/verhuur/artikel/gastronorm-deksel-1-3 1 2258 0 0
+/verhuur/artikel/bierflute-blanco 1 2105 0 0
+/verhuur/keukenapparatuur/warme-dranken 1 1985 1 0
+/verhuur/keukenapparatuur/gn-bakken/ 5 10973 0 0
+/verhuur/inrichting/inrichting-basics 3 6341 0 0
+/betalingen/4586 2 3001 0 0
+/217 2 2453 0 0
+/7 4 4502 0 0
+/110 1 1306 0 0
+/koelkasten 3 4193 0 0
+/verhuur/inrichting/thema-steigerhout/ 5 7237 0 0
+/artikel/servies-basic/sideplate-basic-ariane-17cm 1 2021 0 0
+/verhuur/facilitair/betalingen 3 4576 0 0
+/verhuur/artikel/tapeiland 1 2125 0 0
+/verhuur/tafelgerei/tafeldecoratie 14 19648 0 0
+/verhuur/keukenapparatuur/ 4 6166 0 0
+/verhuur/facilitair/water 1 1511 0 0
+/verhuur/tafelgerei/buffetmaterialen/schalen-plateaus 8 16367 0 0
+/tafelgerei 7 9947 0 0
+/verhuur/artikel/bistrotafel-bobo 1 2131 0 0
+/verhuur/tafelgerei/bestek/bestek-trendy/ 4 6515 0 0
+/verhuur/tafelgerei/glaswerk/frisdrankglazen/ 15 22212 0 0
+/verhuur/dranken/koffie-thee 4 6895 0 0
+/verhuur/tafelgerei/servies/ 5 7140 0 0
+/verhuur/artikel/koffielepel-basic 1 2101 0 0
+/verhuur/tafelgerei/bierglazen 2 3123 0 0
+/klantenservice/bestellen 5 9726 0 0
+/verhuur/keukenapparatuur/warmhouden 4 6244 0 0
+/verhuur/horecamaterialen/barmaterialen 1 1323 0 0
+/verhuur/thema-black-white 1 2129 0 0
+/verhuur/tafelgerei/tafeldecoratie/ 5 7310 0 0
+/250 1 1378 0 0
+/verhuur/artikel/buffettafel-steigerhout-hoog 1 2083 0 0
+/bestek-trendy 2 2538 0 0
+/klantenservice/transport 2 3921 0 0
+/verhuur/dranken/niet-alcoholische-dranken/frisdranken/ 1 1770 0 0
+/verhuur/tafelgerei/servies/servies-trendy/ 3 5719 0 0
+/verhuur/artikel/waterglas-34-5cl 1 2102 0 0
+/verhuur/verbruik/koolzuur-gas/koolzuur-10kg 1 855 0 0
+/verhuur/artikel/standaard-tbv-brandblusser 1 2160 0 0
+/verhuur/artikel/koolzuur-10kg 4 8763 0 1
+/verhuur/artikel/klapstoel-bistro-parade 1 2126 0 0
+/verhuur/inrichting 17 25343 0 0
+/verhuur/dranken/alcoholische-dranken 3 3733 0 0
+/verhuur/keukenapparatuur/snackmachines 1 1542 0 0
+/verhuur/artikel/wijnglas-young-35cl-25st 8 17675 0 0
+/verhuur/tafelgerei/servies/servies-natuur/ 2 3112 0 1
+/verhuur/artikel/flessenkoelkast-laag-met-glazen-deur-zwart 1 2008 0 1
+/verhuur/inrichting/thema-marktterras/ 11 18703 0 0
+/verhuur/horecamaterialen/koelkasten/ 1 1341 0 0
+/verhuur/gn-bakken 1 2307 0 0
+/verhuur/artikel/muntentelbak-voor-1000-munten 6 5904 0 0
+/verhuur/servies/servies-streetfood 1 1359 0 0
+/verhuur/warme-dranken 4 7787 0 0
+/ks_openingstijden.php 5 6637 0 0
+/verhuur/artikel/melk-en-suikerfles-75ml 1 2159 0 0
+/verhuur/keukenapparatuur/bbq/ 1 1815 0 0
+/verhuur/tafelgerei/glaswerk 17 22438 0 0
+/verhuur/artikel/soepopscheplepel-buffet 1 1988 0 0
+/verhuur/artikel/bistrostoel-bobo 1 2098 0 0
+/verhuur/bierglazen/bierglazen 3 4402 0 0
+/verhuur/stroom/stroom/betalingen/ 1 1575 0 0
+/verhuur/dranken/alcoholische-dranken/sterke-dranken/ 1 2241 0 0
+/klantenservice/betalen 2 3629 0 0
+/verhuur/artikel/jaume-serra-cava-do-semi-seco 1 2181 0 0
+/verhuur/tafelgerei/bestek/bestek-trendy/mes-trendy-groot 2 4131 0 0
+/verhuur/inrichting/thema-colour 6 8506 0 0
+/verhuur/artikel/koolzuur-6kg 1 2178 0 0
+/verhuur/artikel/verloop-32a-v-naar-16a-m 1 2163 0 0
+/verhuur/artikel/flessenkoelkast-laag-met-2-glazen-schuifdeuren-zwart 2 4209 0 0
+/verhuur/keukenapparatuur/potten-pannen/ 1 2060 0 0
+/verhuur/facilitair/schoonmaken/ 2 3934 0 0
+/verhuur/inrichting/thema-suit-dress 1 1824 0 0
+/183 1 981 0 0
+/verhuur/tafelgerei/servies/servies-basic/ 6 11319 0 0
+/verhuur/artikel/sideplate-basic-ariane-17cm 1 845 0 0
+/verhuur/inrichting/ 3 4518 0 0
+/verhuur/tafelgerei/bestek 13 16736 0 0
+/verhuur/artikel/gebaksvorkje-basic 2 4178 0 0
+/klantenservice/openingstijden/ 6 8332 0 0
+/artikel/servies-natuur/koffieservies-natuur-compleet 1 2013 0 0
+/artikel/schoonmaken/instantfoam-optidose-1l-desinfectie 1 2006 0 0
+/verhuur/facilitair/stroom/ 7 14078 0 0
+/servies 7 9616 0 0
+/klantenservice/retourneren 4 8704 0 0
+/8 2 2582 0 0
+/artikel/disposables/bierglas-plastic-25cl-per-1000-stuks 1 1982 0 0
+/artikel/afvalverwerking/alleszuiger 1 2143 0 0
+/ks_transport.php 2 3730 0 0
+/verhuur/inrichting/thema-marktterras/vergaderen 1 1487 0 0
+/verhuur/dranken/ 3 3747 0 0
+/verhuur/artikel/thermoskan-koffie-2l-rvs 2 4570 0 0
+/verhuur/artikel/statafel-met-rok-wit 3 6800 0 0
+/verhuur/bestek-trendy 6 9192 0 0
+/verhuur/keukenapparatuur/keukenlijn-modulair 1 2072 0 0
+/diverse-glazen 1 1395 0 0
+/verhuur/tafelgerei/servies/servies-streetfood/ 1 1388 0 0
+/verhuur/glaswerk 2 2718 0 0
+/verhuur/tafelgerei/glaswerk/ 5 6967 0 0
+/verhuur/artikel/bankenset-inklapbaar 2 4522 0 0
+/verhuur/afvalverwerking 2 3264 0 0
+/horecamaterialen 2 2416 0 0
+/verhuur/koelen-vriezen/vrieskast-120lk 1 1723 0 0
+/verhuur/tafelgerei/glaswerk/wijnglazen/ 11 18016 0 0
+/verhuur/tafelgerei/servies/servies-basic/sideplate-basic-ariane-17cm 3 5682 0 0
+/verhuur/tafelgerei/servies/servies-natuur 2 3087 0 0
+/verhuur/artikel/tumbler-vintage 1 2151 0 0
+/verhuur/artikel/statafel-met-rok-zwart 1 2129 0 0
+/wijnglazen 2 3275 0 0
+/verhuur/inrichting/inrichting-basics/ 8 18348 0 0
+/verhuur/tafelgerei/glaswerk/cocktailglazen/ 11 16108 0 0
+/verhuur/keukenapparatuur/schalen-plateaus/ 1 2057 0 0
+/verhuur/artikel/gebaksbordje-terra 2 4302 0 0
+/verhuur/verbruik/kaarsen/ 4 5104 0 0
+/verhuur/artikel/heineken-fust-50l 1 2109 0 0
+/verhuur/buffetmaterialen/warmhouden 1 1571 0 0
+/verhuur/artikel/streetfood-suiker-melksetje 4 8840 0 0
+/verhuur/stroom/stroom/water/ 1 1614 0 0
+/facilitair 2 2868 0 0
+/info_docs.php 10 16569 0 0
+/verhuur/disposables 1 1341 0 0
+/klantenservice/afhalen/ 10 18007 0 0
+/verhuur/schoonmaken 1 1975 0 0
+/algemene-info 3 4887 0 0
+/verhuur/keukenapparatuur/koken-bakken/ 1 1614 0 0
+/verhuur/inrichting/thema-sloophout/ 1 1910 0 0
+/verhuur/dranken/alcoholische-dranken/wijnen/ 4 7009 0 0
+/verhuur/dranken/niet-alcoholische-dranken 1 1328 0 0
+/verhuur/tafelgerei/glaswerk/diverse-glazen/ 4 6030 0 0
+/verhuur/tafelgerei/buffetmaterialen/warmhouden/chafing-dish-met-2-sausbakken 1 2004 0 0
+/artikel/thema-steigerhout/buffettafel-steigerhout-hoog 1 2005 0 0
+/verhuur/artikel/thermoskan-thee-2l 1 2279 0 0
+/verbruik 3 4185 0 0
+/ks_afhalen.php 2 3774 0 0
+/verhuur/inrichting/thema-marktterras/thema-black-white-wood 1 1671 0 0
+/verhuur/artikel/koffie-theelepel-basic 1 2175 0 0
+/ks_betalen.php 2 3558 0 0
+/verhuur/tafelgerei/buffetmaterialen/buffetbestek 5 7922 0 0
+/verhuur/warme-dranken/koffiezetapparaat-nespr 4 6685 0 0
+/verhuur/buffetmaterialen/buffetbestek 3 4683 0 0
+/verhuur/inrichting/thema-marktterras/inrichting-basics 1 2192 0 0
+/verhuur/verbruik 15 19060 0 0
+/verhuur/dranken/alcoholische-dranken/bieren/ 1 1528 0 0
+/verhuur/thema-marktterras 1 1809 0 0
+/4 2 2986 0 0
+/verhuur/artikel/onderzetbord-high-polished 1 2154 0 0
+/apiImportCat.php 11 11530 0 0
+/verhuur/schalen-plateaus 1 2042 0 0
+/verhuur/tafelgerei/tafeldecoratie/weckpot-0-5l 4 3972 0 0
+/verhuur/koelen-vriezen/vrieskast-120l 1 2119 0 0
+/verhuur/inrichting/thema-marktterras/thema-black-white 1 2170 0 0
+/verhuur/artikel/longdrinkglas-tubo-49st 8 17666 0 0
+/barmaterialen 2 2648 0 0
+/verhuur/keukenapparatuur/kitchen-basics/ 2 3697 0 0
+/verhuur/artikel/tussenligger-tbv-gn-bakken-530mm 1 2134 0 0
+/verhuur/keukenapparatuur/keuken-warmhouden 2 4251 0 0
+/verhuur/tafeldecoratie 2 2904 0 0
+/verhuur/tafelgerei/glaswerk/bierglazen 7 10729 0 0
+/mobiele-barren 1 1503 0 0
+/verhuur/artikel/afvalcontainer-360l 2 4161 0 0
+/verhuur/artikel/koffieservies-offwhite-luxe-compleet-25st 3 7217 0 0
+/verhuur/facilitair/betalingen/muntentelbak-voor-1000-munten 1 994 0 0
+/verhuur/artikel/korffilter-tbv-perculator-10l 1 2253 0 0
+/verhuur/servies/servies-basic 3 5564 0 0
+/verhuur/tafelgerei/glaswerk/wijnglazen 4 6334 0 0
+/verhuur/artikel/koffiekop-trendy 1 2177 0 0
+/productImg/ 7 7249 0 0
+/verhuur/artikel/aansluitset-bar-10m 1 1999 0 0
+/verhuur/dranken 7 8858 0 0
+/verhuur/artikel/theethermoskan-rvs-1-5l 4 9245 0 0
+/verhuur/verbruik/koolzuur-gas/ 11 14640 0 0
+/offerte 12 18504 0 1
+/verhuur/keukenapparatuur/ovens/ 1 1908 0 0
+/verhuur/facilitair/veiligheid 1 1466 0 0
+/verhuur/keukenapparatuur/snackmachines/ 2 3354 0 0
+/verhuur/horecamaterialen/mobiele-barren 3 4861 0 0
+/verhuur/artikel/statafelrok-stretch-zwart-met-tophoes 1 2250 0 0
+/verhuur/artikel/aggregaat-15kva 1 2158 0 0
+/12/76 2 4049 0 0
+/verhuur/tafelgerei/servies/servies-trendy 1 1970 0 0
+/verhuur/artikel/sideplate-basic-ariane-17cm/ 1 984 0 0
+/ks_bestellen.php 3 5902 0 0
+/verhuur/tafelgerei/bestek-trendy 4 6425 0 0
+/120 1 1217 0 0
+/verhuur/koken-bakken 1 1770 0 0
+/182 2 1823 0 0
+/verhuur/bestek 8 9790 0 0
+/verhuur/dranken/niet-alcoholische-dranken/ 1 1328 0 0
+/verhuur/dranken/alcoholische-dranken/wijnen 3 5239 0 0
+/koolzuur-gas 2 2882 0 0
+/verhuur/bierglazen 1 1419 0 0
+/verhuur/tafelgerei/tafeldecoratie/waxinelichtjes-led-oplaadbaar-per-12 5 4965 0 0
+/verhuur/servies-basic 3 5425 0 0
+/verhuur/tafelgerei/servies 20 27033 0 0
+/verhuur/artikel/theeglas-gigone 1 2168 0 0
+/verhuur/artikel/stoel-trendy-stapelbaar-antraciet 2 4526 0 0
+/verhuur/artikel/lepel-basic-klein 21 44086 0 0
+/verhuur/warmhouden 2 3140 0 0
+/verhuur/artikel/klaptafel-bistro-parade 1 2261 0 0
+/verhuur/tafelgerei/tafeldecoratie/bestek 1 1304 0 0
+/verhuur/artikel/popcornmachine 1 2273 0 0
+/verhuur/artikel/bistroset-bobo 6 14414 0 0
+/verhuur/tafelgerei/servies-classic/ 2 3602 0 0
+/keukenapparatuur 2 3220 0 0
+/verhuur/artikel/aansluitset-koffiemachines-1-5m 1 2129 0 0
+/verhuur/dranken/alcoholische-dranken/bieren 2 2894 0 0
+/verhuur/artikel/bierglas-vaasje-20cl-gehard-glas 1 2266 0 0
+/verhuur/facilitair/afvalverwerking/ 1 1633 0 0
+/verhuur/tafelgerei/ 14 18585 0 0
+/12 1 1921 0 0
+/verhuur/artikel/spatjesglas 1 2116 0 0
+/verhuur/artikel/vork-trendy-klein 1 1967 0 0
+/9 1 1854 0 0
+/verhuur/inrichting/thema-marktterras/thema-colour 1 1460 0 0
+/verhuur/artikel/regaalwagen-enkel-18xgn 1 2303 0 0
+/verhuur/artikel/propaangas-10kg 4 8793 0 0
+/verhuur/tafelgerei/servies/servies-classic 2 3712 0 0
+/verhuur/artikel/koffiethermoskan-rvs-1-5l 2 4537 0 0
+/verhuur/thema-suit-dress 1 1811 0 0
+/verhuur/artikel/statafelrok-stretch-wit-met-tophoes 2 4496 0 0
+/verhuur/artikel/longdrinkglas-basic-28cl 1 2098 0 0
+/verhuur/facilitair/betalingen/ 1 1566 0 0
+/verhuur/horecamaterialen 12 14970 0 0
+/verhuur/verbruik/koolzuur-gas 8 10609 0 0
+/verhuur/tafelgerei/bestek-trendy/ 1 1691 0 0
+/verhuur/inrichting/thema-marktterras/afscheidingen 1 1884 0 0
+/17 1 1556 0 0
+/verhuur/tafelgerei/bestek-basic/ 2 3291 0 0
+/verhuur/thema-black-white-wood/tafel-trendy-white-wood-180x80cm 1 6220 0 1
+/bestek 3 3927 0 0
+/verhuur/verbruik/disposables 5 6470 0 0
+/verhuur/artikel/gastronormbak-1-2-50mm-diep-dubbel 2 4506 0 0
+/verhuur/artikel/melk-en-suikerfles-groot 1 2022 0 0
+/verhuur/inrichting/thema-marktterras/thema-steigerhout 1 1389 0 0
+/verhuur/tafelgerei/bestek/bestek-basic/ 7 11161 0 0
+/verhuur/horecamaterialen/barmaterialen/ 1 1476 0 0
+/verhuur/horecamaterialen/ 2 2587 0 0
+/verhuur/barmaterialen 1 1478 0 0
+/verhuur/dranken/niet-alcoholische-dranken/bieren-wijnen 1 1244 0 0
+/verhuur/keukenapparatuur/warme-dranken/ 6 11379 0 0
+/glaswerk 2 2492 0 0
+/verhuur/bestek-basic 1 1479 0 0
+/tafelgerei/ 2 2391 0 0
+/algemene-info/ 5 8589 0 0
+/verhuur/artikel/aansluitkistje-water 1 2120 0 0
+/verhuur/tafelgerei/servies/servies-basic 17 31123 0 0
+/verhuur/facilitair/water/ 4 6278 0 0
+/verhuur/artikel/koffieservies-offwhite-basic-compleet 9 21089 0 0
+/artikel/bestek-trendy/mes-trendy-groot 1 1968 0 0
+/verhuur/dranken/alcoholische-dranken/ 3 4029 0 0
+/verhuur/keukenapparatuur/buffetbestek/ 3 4782 0 0
+/verhuur/buffetmaterialen 6 7807 0 0
+/verhuur/artikel/verloop-63a-v-naar-32a-m 1 2169 0 0
+/verhuur/artikel/afvalprikker 1 2014 0 0
+/verhuur/koelen-vriezen 1 1667 0 0
+/disposables 3 4308 0 0
+/ks_retourneren.php 2 4366 0 0
+/verhuur/artikel/uitklapbar 4 8479 0 0
+/verhuur/tafelgerei/servies/servies-terra/ 3 3725 0 0
+/verhuur/tafelgerei/glaswerk/cocktailglazen 9 12713 0 0
+/verhuur/artikel/jaume-serra-cava-do-brut 1 1988 0 0
+/verhuur/artikel/streetfood-kommetje-23cl 1 1989 0 0
+/verhuur/keukenapparatuur/koelen-vriezen 1 1806 0 0
+/verhuur/artikel/gin-tonic-glas 2 4178 0 0
+/verhuur/tafelgerei/bestek/bestek-basic 6 8886 0 0
+/verhuur/glaswerk/wijnglazen 1 1523 0 0
+/verhuur/servies 8 10831 0 0
+/verhuur/artikel/champagnezuil-wit 5 10877 0 0
+/verhuur/verbruik/kaarsen 3 3966 0 0
+/verhuur/tafelgerei/servies/servies-classic/ 1 1642 0 0
+/verhuur/artikel/verlengkabel-230v-10m 1 2160 0 0
+/verhuur/tafelgerei/servies/servies-steen/ 1 1945 0 0
+/verhuur/horecamaterialen/koelkasten 5 7145 0 0
+/verhuur/tafelgerei/wijnglazen 1 1664 0 0
+/verhuur/facilitair/afvalverwerking 2 3141 0 0
+/betalingen 1 1617 0 0
+/verhuur/keukenapparatuur/kitchen-basics 1 1835 0 0
+/verhuur/keukenapparatuur/koelen-vriezen/ 1 1811 0 0
+/verhuur/tafelgerei/buffetmaterialen/ 10 13421 0 0
+/verhuur/verbruik/ 5 6322 0 0
+/verhuur/tafelgerei/buffetmaterialen/warmhouden 6 8883 0 0
+/verhuur/servies/servies-trendy 3 5356 0 0
+/verhuur/stroom 1 2035 0 0
+/verhuur/tafelgerei/schalen-plateaus/buffetbestek 3 4689 0 0
+/verhuur/artikel/wijnglas-young-35cl 1 2142 0 0
+/verhuur/thema-steigerhout/thema-steigerhout/thema-steigerhout/ 1 1524 0 0
+/verhuur/inrichting/vergaderen 1 1588 0 0
+/verhuur/tafelgerei/tafeldecoratie/tafeldecoratie/waxinelichtjes-led-oplaadbaar-per-12 1 2169 0 0
+/verhuur/tafelgerei/schalen-plateaus 5 10212 0 0
+/verhuur/thema-steigerhout/thema-steigerhout/thema-colour/ 1 1591 0 0
+/verhuur/afvalverwerking/afvalcontainer-360l 1 2009 0 0
+/verhuur/artikel/chafing-dish-rond 1 2017 0 0
+/verhuur/artikel/picardiglas-22cl 1 2143 0 0
+/verhuur/artikel/mobiele-bar-3-kraans 4 8399 0 0
+/verhuur/artikel/droogkoeler-tafelmodel 1 2130 0 0
+/kaarsen 7 9648 0 0
+/verhuur/facilitair/schoonmaken 1 2063 0 0
+/verhuur/tafelgerei/servies-classic/gebaksbord-classic-16-cm 1 993 0 0
+/verhuur/inrichting/thema-steigerhout 1 1521 0 0
+/verhuur/artikel/verlengkabel-5m 1 2146 0 0
+/offerte-gegevens 4 7035 0 0
+/verhuur/tafelgerei/tafeldecoratie/buffetmaterialen 8 10184 0 0
+/verhuur/koolzuur-gas 2 2629 0 0
+/verhuur/artikel/streetfood-schenkkommetje-20cl 1 1994 0 0
+/offerte/verwijder/416 4 4873 0 0
+/verhuur/facilitair/veiligheid/ 1 1605 0 0
+/verhuur/tafelgerei/bestek/ 14 18943 0 0
+/verhuur/tafelgerei/servies/servies-streetfood 8 10834 0 0
+/verhuur/inrichting/thema-black-white/ 3 6650 0 0
+/verhuur/horecamaterialen/mobiele-barren/ 5 7925 0 0
+/verhuur/inrichting/afscheidingen/ 1 1721 0 0
+/verhuur/tafelgerei/glaswerk/bierglazen/ 4 5929 0 0
+/verhuur/stroom/stroom/stroom/ 1 1907 0 0
+/verhuur/buffetbestek/buffetbestek/buffetbestek/ 1 1462 0 0
+/verhuur/glaswerk/bierglazen 1 1563 0 0
+/verhuur/keukenapparatuur/keukenlijn-modulair/ 1 2076 0 0
+/verhuur/warme-dranken/koffiezetapparaat-nespresso 4 8710 0 0
+/verhuur/inrichting/thema-marktterras 11 17992 0 0
+/verhuur/verbruik/disposables/ 4 5626 0 0
+/verhuur/keukenapparatuur/warmhouden/ 3 4683 0 0
+/verhuur/artikel/gebaksvork-basic 1 2097 0 0
+/verhuur/facilitair 12 15929 1 0
+/verhuur/inrichting/thema-marktterras/thema-sloophout 1 1928 0 0
+END_SIDER

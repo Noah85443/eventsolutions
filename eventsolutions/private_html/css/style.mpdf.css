@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap');
+
+html, body {
+    font-family: Verdana, 'sans-serif';
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+.row {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+th,tr {padding: 5px;}}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.factuurdata {
+	float: right;
+	text-align: end;
+	text-align: right;
+	align: right;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Flex', sans-serif;
+	margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    color: var(--bs-heading-color,inherit);
+}
+
+.h5, h5 {
+    font-size: 1.4rem;
+}
+
+.h6, h6 {
+    font-size: 1.75rem;
+}
+
+.ps-3 {padding-left: 0rem!important;}
+.ps-4 {padding-left: 0rem!important;}
+.pt-3 {padding-top: 1.0rem!important;}
+.pt-4 {padding-top: 1.5rem!important;}
+.py-4 {padding-top: 1.5rem!important; padding-bottom: 1.5rem!important;}
+.pb-2 {
+    padding-bottom: .5rem!important;
+}
+.pb-3 {
+    padding-bottom: 1rem!important;
+}
+.pt-2 {
+    padding-top: .5rem!important;
+}
+
+.fw-bold {
+    font-weight: 700!important;
+}
+
+.fw-semibold {
+    font-weight: 600!important;
+}
+
+.fs-4 {
+    font-size: 1.5rem!important;
+}
+
+.text-success {
+    color: #198754!important;
+}
+
+.text-primary {
+    color: #0d6efd!important;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+
+td {
+    padding: 5px 20px 5px 5px;
+    border-bottom-width: 1px;
+}
+
+.w-50 {
+    width: 45%;
+    float:left;
+}
+
+.w-35 {
+    width: 38%;
+    float:left;
+}
+
+.w-15 {
+    width: 15%;
+    float:left;
+}
+
+.top-padding {
+    padding-top: 60px;
+}
+
+.top-padding-s {
+    padding-top: 30px;
+}

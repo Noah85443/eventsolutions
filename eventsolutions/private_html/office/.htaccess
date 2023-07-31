@@ -1,0 +1,59 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex index.php
+
+RewriteRule ^crew/dashboard$ /crew.dashboard.php
+RewriteRule ^crew/nieuw$ /crew.newMember.php
+RewriteRule ^crew/overzicht/([0-9]+)$ /crew.overzicht.php?id=$1 [L]
+RewriteRule ^crew/bewerken/([0-9]+)$ /crew.bewerken.php?id=$1 [L]
+
+RewriteRule ^projecten/dashboard /projecten.dashboard.php
+RewriteRule ^projecten/nieuw$ /project.nieuw.php
+RewriteRule ^projecten/overzicht/([0-9]+)$ /project.overzicht.php?id=$1 [L]
+RewriteRule ^projecten/bewerken/([0-9]+)$ /project.bewerken.php?id=$1 [L]
+RewriteRule ^projecten/planning/([0-9]+)$ /project.planning.php?id=$1 [L]
+RewriteRule ^projecten/planning/([0-9]+)/nieuwe-dienst$ /project.dienstToevoegen.php?id=$1 [L]
+RewriteRule ^projecten/planning/([0-9]+)/wijzig-dienst$ /project.dienstWijzigen.php?id=$1 [L]
+RewriteRule ^projecten/materialen/([0-9]+)$ /project.materialen.php?id=$1 [L]
+RewriteRule ^projecten/uren/([0-9]+)$ /project.urenlijst.php?id=$1 [L]
+RewriteRule ^projecten/uren/([0-9]+)/nieuw$ /project.urenToevoegen.php?id=$1 [L]
+RewriteRule ^projecten/declaraties/([0-9]+)$ /project.declaraties.php?id=$1 [L]
+RewriteRule ^projecten/declaraties/([0-9]+)/nieuw$ /project.declaratieToevoegen.php?id=$1 [L]
+RewriteRule ^projecten/plan-medewerker/([0-9]+)$ /project.planMedewerker.php?id=$1 [L]
+
+RewriteRule ^locaties/dashboard$ /locaties.dashboard.php
+RewriteRule ^locaties/overzicht/([0-9]+)$ /locaties.overzicht.php?id=$1 [L]
+RewriteRule ^locaties/nieuw$ /locaties.nieuw.php
+RewriteRule ^locaties/bewerken/([0-9]+)$ /locaties.bewerken.php?id=$1 [L]
+
+RewriteRule ^relaties/dashboard$ /relaties.dashboard.php
+RewriteRule ^relaties/overzicht/([0-9]+)$ /relaties.overzicht.php?id=$1 [L]
+RewriteRule ^relaties/nieuw$ /relaties.nieuw.php
+RewriteRule ^relaties/bewerken/([0-9]+)$ /relaties.bewerken.php?id=$1 [L]
+
+RewriteRule ^diensten/nieuw/([0-9]+)$ /diensten.nieuw.php?id=$1 [L]
+
+RewriteRule ^facturatie/dashboard /facturatie.dashboard.php
+RewriteRule ^facturatie/nieuw/([0-9]+)$ /facturatie.nieuw.overzicht.php?id=$1 [L]
+RewriteRule ^facturatie/nieuw /facturatie.nieuw.php
+RewriteRule ^facturatie/verzonden/([0-9]+)$ /facturatie.nieuw.verzonden.php?id=$1 [L]
+
+RewriteRule ^verhuur/dashboard$ /verhuur.dashboard.php
+RewriteRule ^verhuur/projecten$ /verhuur.projecten.php
+RewriteRule ^verhuur/artikelen$ /verhuur.artikelen.php
+RewriteRule ^verhuur/artikel/nieuw$ /verhuur.artikel.nieuw.php
+RewriteRule ^verhuur/artikel/([0-9]+)$ /verhuur.artikel.php?id=$1 [L]
+RewriteRule ^verhuur/artikel/([0-9]+)/bewerken$ /verhuur.artikel.bewerken.php?id=$1 [L]
+RewriteRule ^verhuur/artikelgroepen$ /verhuur.artikelgroepen.php
+RewriteRule ^verhuur/artikelgroep/nieuw$ /verhuur.artikelgroep.nieuw.php
+RewriteRule ^verhuur/artikelgroep/([0-9]+)$ /verhuur.artikelgroep.php?id=$1 [L]
+RewriteRule ^verhuur/artikelgroep/([0-9]+)/bewerken$ /verhuur.artikelgroep.bewerken.php?id=$1 [L]
+RewriteRule ^verhuur/emballage$ /verhuur.emballage.php
+RewriteRule ^verhuur/emballage/nieuw$ /verhuur.emballage.nieuw.php
+RewriteRule ^verhuur/emballage/([0-9]+)$ /verhuur.emballage.nieuw.php?id=$1 [L]
+RewriteRule ^verhuur/emballage/([0-9]+)/bewerken$ /verhuur.emballage.bewerken.php?id=$1 [L]
+RewriteRule ^verhuur/instellingen$ /verhuur.instellingen.php
+RewriteRule ^verhuur/webshops$ /verhuur.webshops.php
+RewriteRule ^verhuur/apitokens$ /verhuur.apitokens.php
+RewriteRule ^verhuur/apitokens/nieuw$ /verhuur.apitokens.nieuw.php

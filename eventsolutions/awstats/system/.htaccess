@@ -1,0 +1,7 @@
+Options -Indexes +ExecCGI
+AddHandler cgi-script .pl
+DirectoryIndex awstats.pl
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.system.eventsolutions.nu$ [NC]
+RewriteRule ^(.*)$ http://system.eventsolutions.nu/awstats/$1 [R=301,L]

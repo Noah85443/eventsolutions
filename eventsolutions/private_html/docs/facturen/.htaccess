@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex handler.download.php
+
+
+RewriteRule ^download/facturen/[a-zA-Z0-9-]$ /facturen/$1
+RewriteRule ^download/facturen/[a-zA-Z0-9-]/$ /facturen/$1
+
+AddType application/octet-stream .pdf

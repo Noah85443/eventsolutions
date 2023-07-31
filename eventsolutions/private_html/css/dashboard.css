@@ -1,0 +1,108 @@
+body {
+  font-size: .875rem;
+}
+
+/*
+* Element styling specific
+*/
+main h4 {
+    line-height: 40px;
+}
+main h4 .icon {
+    font-size: 40px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+main div.card,
+main div {
+    border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  /* rtl:raw:
+  right: 0;
+  */
+  bottom: 0;
+  /* rtl:remove */
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 69px 0 0; /* Height of navbar */
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 1rem;
+  }
+}
+
+.sidebar-sticky {
+  height: calc(100vh - 69px);
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+  line-height: 32px;
+  margin-left: 15px;
+}
+
+.sidebar .nav-link .icon {
+  margin-top: 5px;
+  margin-right: 15px;
+  color: #727272;
+  float: left;
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar .nav-link:hover .icon,
+.sidebar .nav-link.active .icon {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}

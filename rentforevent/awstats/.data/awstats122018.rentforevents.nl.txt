@@ -1,0 +1,473 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201812 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/rentforevents.nl/awstats/.data/awstats.rentforevents.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2114                
+POS_TIME 2773                
+POS_VISITOR 7888                
+POS_DAY 10196               
+POS_DOMAIN 3576                
+POS_LOGIN 3809                
+POS_ROBOT 3964                
+POS_WORMS 4339                
+POS_EMAILSENDER 4470                
+POS_EMAILRECEIVER 4613                
+POS_SESSION 10964               
+POS_SIDER 11161               
+POS_FILETYPES 4748                
+POS_DOWNLOADS 5026                
+POS_OS 5145                
+POS_BROWSER 5359                
+POS_SCREENSIZE 6055                
+POS_UNKNOWNREFERER 6129                
+POS_UNKNOWNREFERERBROWSER 6300                
+POS_ORIGIN 6466                
+POS_SEREFERRALS 6608                
+POS_PAGEREFS 6771                
+POS_SEARCHWORDS 7049                
+POS_KEYWORDS 7201                
+POS_MISC 2436                
+POS_ERRORS 7260                
+POS_CLUSTER 3665                
+POS_SIDER_403 7376                
+POS_SIDER_400 7458                
+POS_SIDER_404 7540                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190101025459 1 0 7920236536924
+FirstTime 0
+LastTime 20181231151656
+LastUpdate 20190101065229 1 0 0 0 0
+TotalVisits 134                 
+TotalUnique 34                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 55                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 88 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 109 187 1326115 48 71 203137
+1 50 200 1267328 19 26 76414
+2 46 78 470049 12 16 57619
+3 16 16 88892 14 24 144652
+4 13 13 49799 10 14 65013
+5 6 6 11208 11 21 120629
+6 11 11 46942 12 39 306979
+7 12 12 36056 8 12 47832
+8 10 10 58579 9 19 128198
+9 9 9 21955 13 22 77153
+10 10 66 615436 3 7 17757
+11 15 62 357471 14 28 137024
+12 12 40 298116 21 29 160028
+13 14 40 302277 16 17 82323
+14 55 226 1391642 20 36 147064
+15 58 190 2188295 13 15 45226
+16 164 343 3592967 56 68 74409
+17 24 29 194190 7 8 39809
+18 13 32 232115 10 18 131090
+19 15 31 272912 9 14 88714
+20 16 36 199114 8 10 34877
+21 121 272 1819591 53 68 87249
+22 117 391 2258952 47 60 72119
+23 375 780 6300161 125 173 308232
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1291 3080 23400162
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Googlebot/ 332 2024902 20181228163622 41
+bot[\s_+:,\.\;\/\\-] 3 44768 20181206212955 0
+Googlebot\-Image/ 2 35989 20181219125301 0
+MSIE[\x20]6 2 33568 20181227192724 0
+unknown 2 2262 20181228100828 2
+facebookexternalhit/ 1 764 20181221095507 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 417 2904330 0 0
+png 348 1001921 0 0
+ttf 8 152376 0 0
+pdf 1 17900 0 0
+woff 40 772910 0 0
+woff2 23 1078782 0 0
+php 962 6195957 0 0
+js 763 6458126 0 0
+jpg 182 3172420 0 0
+Unknown 321 1604625 0 0
+gif 15 40815 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/components/com_vikrentitems/resources/pdfs/9_1544194664.pdf 1 0 17900
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+linuxandroid 278 42
+macosx11 1 1
+winlong 6 6
+macosx12 64 64
+linux 6 6
+win7 137 40
+macosx 20 1
+macosx10 8 8
+win8.1 6 6
+Unknown 31 31
+win10 2523 1086
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+firefox57.0 2 2
+chrome67.0.3396.87 1 1
+edge17 40 2
+opera53.0.2907.99 1 1
+chrome68.0.3440.106 20 1
+firefox52.0 3 3
+chrome71.0.3578.98 173 58
+chrome62.0.3202.94 2 2
+chrome51.0.2704.63 1 1
+firefox56.0 1 1
+chrome71.0.3578.83 108 14
+chrome58.0.3029.110 2 2
+chrome59.0.3071.125 23 4
+chrome63.0.3239.84 3 3
+chrome51.0.2704.103 4 0
+chrome61.0.3163.100 62 62
+msie11.0 2 2
+chrome42.0.2311.90 6 6
+msie7.0 3 0
+firefox59.0 8 8
+chrome34.0.1847.116 6 6
+chrome60.0.3112.101 2 2
+chrome71.0.3578.80 307 168
+chrome70.0.3538.80 37 5
+chrome70.0.3538.110 1531 683
+chrome71.0.3578.99 61 13
+chrome70.0.3538.102 599 207
+msie9.0 40 2
+chrome50.0.2661.75 1 1
+Unknown 31 31
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Installatron_Plugin/9.1.41 20181221030537
+Installatron_Plugin/9.1.42 20181231025734
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Installatron_Plugin/9.1.41 20181221030537
+Installatron_Plugin/9.1.42 20181231025734
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 118 125
+From1 1 1
+From2 6 6
+From3 46 46
+From4 1120 2902
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.rentforevent.nl 15 15
+http://www.rentforevents.eu 14 14
+http://www.rentforevents.be 13 13
+https://www.facebook.com 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+303 317 184771
+404 60 164249
+301 5 2534
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/js/mage/cookies.js 3 rentforevents.nl
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 55
+82.174.97.35 1083 2482 18890606 20181221235737
+52.53.201.78 53 53 251144 20181231151656
+2a06:2ec0:1::104 31 31 247935 20181231025734
+91.141.177.254 27 83 751480 20181221014611
+91.141.170.157 13 61 562437 20181219225500
+66.249.81.146 10 67 404505 20181215013302
+13.57.233.99 9 9 94880 20181230025924
+66.249.81.148 8 70 329025 20181215013314
+66.249.81.150 7 57 249021 20181215013252
+178.127.138.126 6 6 24646 20181202074905
+2a03:2880:11ff:5::face:b00c 1 6 89199 20181209105337
+2a03:2880:11ff:6::face:b00c 0 1 4055 
+2a03:2880:21ff:f::face:b00c 1 8 132541 20181221100621
+89.205.224.235 1 1 3871 20181204163354
+2a03:2880:21ff:14::face:b00c 0 3 5551 
+18.206.215.120 2 2 25924 20181206065327
+185.210.217.9 6 6 99602 20181222025154
+95.191.208.66 2 2 32320 20181224080314
+2a03:2880:31ff:11::face:b00c 0 3 2689 
+138.68.180.18 6 6 32358 20181214040732
+2a03:2880:31ff:e::face:b00c 0 2 6194 
+2a03:2880:21ff:16::face:b00c 0 3 3166 
+2a03:2880:31ff:3::face:b00c 0 1 504 
+64.246.178.34 1 1 4033 20181207082129
+2a03:2880:31ff:10::face:b00c 0 2 16485 
+93.154.36.226 0 3 36016 
+64.246.165.50 1 1 4958 20181228090616
+216.145.5.42 1 1 4033 20181207074346
+2a03:2880:31ff:a::face:b00c 0 2 21317 
+89.205.227.186 3 22 259558 20181204144955
+34.220.85.232 1 20 202293 20181229182614
+64.246.161.30 1 1 4033 20181207061923
+2a03:2880:31ff:d::face:b00c 0 3 52762 
+2a03:2880:11ff:a::face:b00c 0 3 63903 
+52.214.193.59 1 1 3834 20181204133045
+94.198.159.216 4 4 21052 20181205010816
+2a03:2880:31ff:b::face:b00c 0 1 25808 
+34.222.92.218 1 1 3741 20181202143150
+2a03:2880:31ff:15::face:b00c 0 8 95466 
+2a03:2880:11ff:7::face:b00c 0 7 31572 
+2a03:2880:21ff:1::face:b00c 0 1 20141 
+64.246.161.190 1 1 4033 20181207022540
+2a03:2880:31ff:c::face:b00c 1 6 55253 20181209100628
+2a03:2880:31ff:4::face:b00c 0 2 35255 
+2a03:2880:31ff:7::face:b00c 1 5 69650 20181218112513
+2a03:2880:21ff:19::face:b00c 0 3 16428 
+2a03:2880:31ff:2::face:b00c 0 2 12104 
+216.145.17.190 1 1 4957 20181228100828
+64.246.165.10 1 1 4957 20181228083619
+2a03:2880:21ff:11::face:b00c 0 3 24879 
+64.246.165.170 1 1 4960 20181228064523
+2a03:2880:31ff:14::face:b00c 0 3 6846 
+146.185.140.74 1 1 16217 20181230191945
+2a00:d78:0:710:94:198:159:216 4 4 21052 20181205010821
+2a03:2880:11ff:8::face:b00c 0 2 8913 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20181201 36 185 1341338 6
+20181202 18 66 427790 11
+20181203 200 524 2913773 9
+20181204 67 180 1045668 8
+20181205 395 613 4197135 6
+20181206 84 84 549367 5
+20181207 175 316 4326330 9
+20181208 31 112 853805 4
+20181209 54 295 2310065 8
+20181210 2 3 31067 2
+20181211 1 1 7949 1
+20181212 5 5 28391 3
+20181213 2 2 18962 2
+20181214 9 9 50533 3
+20181215 17 111 504298 6
+20181216 1 1 7953 1
+20181217 6 7 57413 4
+20181218 2 22 210643 2
+20181219 18 66 590835 5
+20181220 33 92 563035 3
+20181221 90 322 2790945 5
+20181222 9 9 117599 4
+20181223 2 2 18945 2
+20181224 7 7 60213 4
+20181225 1 1 8097 1
+20181226 6 6 38738 4
+20181227 1 1 8097 1
+20181228 7 7 37828 6
+20181229 4 23 220289 3
+20181230 3 3 35163 3
+20181231 5 5 27898 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 5
+5mn-15mn 6
+0s-30s 97
+30s-2mn 5
+15mn-30mn 4
+30mn-1h 17
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 81
+/administrator/ 724 4899662 6 8
+/ 167 931870 84 69
+/personeel 95 483511 0 2
+/paketten 34 142545 2 4
+/personeel/horecamedewerker 33 149589 1 0
+/contact 23 145275 0 4
+/paketten/bar-bier 22 115613 0 0
+/dranken 14 59790 1 1
+/verhuur/glaswerk 14 68915 0 1
+/component/ajax/ 13 7891 0 1
+/deleteme.chalvkas.php 1 7949 1 1
+/deleteme.chaydmyu.php 1 7953 1 1
+/verhuur/meubilair 4 22812 0 0
+/porselein 3 12265 0 1
+/verhuur/financieel 2 9801 0 0
+/deleteme.chavd1nw.php 1 7953 1 1
+/deleteme.chaqqj1k.php 1 7949 1 1
+/personeel/horecamedewerker-copy1281132 1 4975 0 0
+/personeel/horecamedewerker-copy1281132-copy1281145 1 5862 0 0
+/deleteme.chaqe3g8.php 1 8097 1 1
+/deleteme.chaqyckd.php 1 8097 1 1
+/deleteme.chai7n70.php 1 7953 1 1
+/verhuur/koffiemachines 2 9666 0 0
+/deleteme.chagx2lq.php 1 7949 1 1
+/deleteme.chahvwab.php 1 7949 1 1
+/paketten/bar-bier/barbier75 4 24429 0 0
+/losse-verhuur 1 5299 0 0
+/deleteme.chawqosm.php 1 7949 1 1
+/paketten/ 3 1373 0 0
+/deleteme.chahuvc7.php 1 8097 1 1
+/deleteme.chaik9xx.php 1 7949 1 1
+/deleteme.chaun2nb.php 1 8097 1 1
+/deleteme.cha9pbt7.php 1 7953 1 1
+/deleteme.chazibkn.php 1 7949 1 1
+/verhuur/glaswerk/longdrink-discodeuk 1 5037 0 0
+/deleteme.chaiqfze.php 1 7949 1 1
+/component/vikrentitems/itemdetails/barbier100 1 5356 0 0
+/losse-verhuur/glaswerk 4 18091 0 0
+/deleteme.chat6yoa.php 1 7949 1 1
+/administrator/components/com_vikrentitems/resources/fonts/vriicomoon.ttf 8 152376 0 0
+/financieel 1 3929 0 0
+/deleteme.chas6wqf.php 1 7949 1 1
+/deleteme.cha961wq.php 1 7953 1 1
+/deleteme.chas5e8e.php 1 8097 1 1
+/verhuur/glaswerk/longdrink-basic-0-2l 1 5086 0 0
+/component/config/ 6 34146 0 0
+/components/com_vikrentitems/resources/ 1 332 0 0
+/paketten/fust-pils-20l 1 4386 0 0
+/deleteme.cha54ymw.php 1 7949 1 1
+/verhuur 8 51036 0 0
+/paketten/bar-bier/barbier50 1 4966 0 0
+/verhuur/glaswerk/frisglas-25cl 1 5067 0 0
+/verhuur/frisglas-deluxe-25cl 1 4435 0 0
+/gegevens 2 11148 0 0
+/verhuur/mobiele-barren/tapbuffet-3-kraans 3 14625 0 0
+/component/vikrentitems/ 11 70846 1 5
+/deleteme.chaj2hu4.php 1 7953 1 1
+/meubilair 2 8220 0 0
+/deleteme.cha8jm8w.php 1 8097 1 1
+/deleteme.chav63df.php 1 8097 1 1
+/koffiemachines 5 21711 1 0
+/deleteme.chaiyp8k.php 1 7949 1 1
+/verhuur/meubilair/statafel-steigerhout 2 11848 0 0
+/administrator/components/com_vikrentitems/resources/ 4 996 0 0
+/verhuur/glaswerk/frisglas-20cl 3 15962 0 0
+/deleteme.chazzrru.php 1 8097 1 1
+/verhuur/glaswerk/bierglas-vaasje-0-2l 2 12549 0 0
+/verhuur/koffiemachines/rondfilter-koffiemachine-2-x-10l 2 11833 0 0
+/deleteme.chaziztj.php 1 7953 1 1
+/deleteme.chaa6qkl.php 1 7953 1 1
+/verhuur/glaswerk/frisglas-deluxe-25cl 2 9459 0 0
+/paketten/pakket-bar-bier-copy11301052-copy11301056 3 14221 1 0
+/paketten/barbier100 2 9452 0 0
+/verhuur/ 2 906 0 0
+/deleteme.chahdwed.php 1 8097 1 1
+/profiel 2 9773 0 0
+/glaswerk 7 31029 5 5
+/deleteme.chadevpe.php 1 7953 1 1
+/deleteme.chajgwer.php 1 8097 1 1
+/verhuur/mobiele-barren 7 39291 0 0
+/mobiele-barren 4 15768 1 2
+END_SIDER
