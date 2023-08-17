@@ -1,0 +1,764 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home/u10448d24532/domains/allesvoorjefeest.nl/awstats/.data/awstats.allesvoorjefeest.nl.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2120                
+POS_TIME 2799                
+POS_VISITOR 8990                
+POS_DAY 19648               
+POS_DOMAIN 3601                
+POS_LOGIN 3831                
+POS_ROBOT 3986                
+POS_WORMS 4697                
+POS_EMAILSENDER 4828                
+POS_EMAILRECEIVER 4971                
+POS_SESSION 20424               
+POS_SIDER 20613               
+POS_FILETYPES 5106                
+POS_DOWNLOADS 5267                
+POS_OS 5315                
+POS_BROWSER 5684                
+POS_SCREENSIZE 7059                
+POS_UNKNOWNREFERER 7133                
+POS_UNKNOWNREFERERBROWSER 7570                
+POS_ORIGIN 7712                
+POS_SEREFERRALS 7851                
+POS_PAGEREFS 8051                
+POS_SEARCHWORDS 8199                
+POS_KEYWORDS 8351                
+POS_MISC 2463                
+POS_ERRORS 8410                
+POS_CLUSTER 3687                
+POS_SIDER_403 8501                
+POS_SIDER_400 8583                
+POS_SIDER_404 8665                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101000320 56 13971 12386100387008
+FirstTime 20221201002208
+LastTime 20221231174121
+LastUpdate 20230101050354 56 0 55 0 0
+TotalVisits 295                 
+TotalUnique 264                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 268                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 21013 47 68 303583
+1 4 10 76352 72 90 328137
+2 14 14 37329 92 119 174211
+3 16 22 90089 142 148 171948
+4 0 0 0 48 64 355922
+5 34 34 83871 101 115 205593
+6 7 7 35678 140 174 289910
+7 128 128 284414 53 123 108094
+8 18 49 808682 43 61 208214
+9 11 11 23582 61 83 268149
+10 17 24 167219 70 111 629659
+11 41 48 277138 69 94 278411
+12 109 109 962177 127 149 259521
+13 11 23 160118 44 80 597092
+14 9 23 267880 52 72 415665
+15 8 8 16365 83 87 170267
+16 9 9 39874 95 121 443151
+17 24 38 293704 72 99 314949
+18 15 15 45969 51 70 203752
+19 13 13 27686 75 92 242084
+20 6 20 256104 472 497 1325149
+21 3 3 16774 451 461 1015934
+22 6 14 133201 71 77 135049
+23 16 23 154618 51 62 107847
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 524 650 4279837
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+AhrefsBot/ 1216 5446763 20221230234030 0
+MegaIndex\.ru/ 766 1900153 20221211212431 0
+Googlebot/ 49 376798 20221230204358 0
+python 29 64815 20221231043735 0
+YandexBot/ 24 56550 20221229002929 0
+crawl 10 21174 20221223010758 0
+no_user_agent 9 65079 20221231182349 0
+MJ12bot/ 9 18430 20221228050617 0
+dataprovider\.com 8 123778 20221218115635 0
+Go\-http\-client/ 5 11175 20221204162102 0
+bot[\s_+:,\.\;\/\\-] 1 2235 20221217201653 0
+bingbot/ 1 53954 20221211141334 0
+MSIE[\x20]6 1 2235 20221219123051 0
+netcraft 1 7190 20221215060756 0
+facebookexternalhit/ 3 6846 20221223155252 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 49 545543 0 0
+php 277 743032 0 0
+png 20 1079080 0 0
+js 57 629147 0 0
+Unknown 247 1283035 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+androidpie 1 1
+winlong 7 7
+winxp 6 6
+androidnougat 2 2
+ios_iphone 27 18
+androidlollipop 1 1
+android 24 10
+macosx13 8 2
+ios_ipad 1 1
+macosx15 62 28
+unix 4 1
+macosx12 6 6
+linuxubuntu 12 12
+androidmarshmallow 4 4
+linux 184 177
+win7 114 108
+macosx 20 20
+macosx10 4 4
+win10 129 82
+win8.1 11 11
+Unknown 23 23
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 64
+chrome107.0.5304 6 6
+chrome98.0.4758.102 5 2
+chrome5.0.375.99 1 1
+chrome72.0.3626.121 1 1
+firefox102.0 6 6
+chrome40.0.2214.111 1 1
+chrome39.0.2171.95 2 2
+opera89.0.4447.51 2 2
+firefox106.0 8 8
+chrome104.0.5112.79 14 2
+firefox104.0 4 4
+chrome107.0.0.0 8 8
+firefox105.0 9 9
+chrome100.0.4896.127 20 5
+chrome83.0.4103.97 124 124
+firefox107.0 1 1
+chrome63.0.3239.84 2 2
+chrome96.0.4664.104 16 9
+chrome103.0.0.0 111 111
+chrome101.0.4951.67 11 4
+chrome27.0.1453.93 1 1
+firefox59.0 2 2
+chrome34.0.1847.116 7 7
+safari14.0.3 26 17
+chrome100.0.4896.88 4 1
+chrome100.0.4896.82 4 1
+chrome91.0.4472.114 21 9
+chrome74.0.3729.169 7 7
+chrome66.0.3359.158 1 1
+chrome106.0.0.0 1 1
+chrome101.0.4951.41 8 1
+Unknown 10 10
+chrome108.0.0.0 55 27
+firefox50.0 6 6
+edge17 1 1
+safari15.6.1 8 1
+chrome106.0.5249 3 3
+chrome76.0.3809.132 1 1
+firefox13.0 2 2
+firefox77.0 4 4
+chrome76.0.3809.100 12 12
+chrome63.0.3239.132 1 1
+chrome60.0.3112.107 1 1
+safari6.0 1 1
+chrome78.0.3904.108 4 4
+firefox58.0 6 6
+firefox100.0 9 9
+firefox45.0 1 1
+firefox103.0 8 8
+chrome61.0.3163.79 26 26
+chrome45.0.2454.94 1 1
+mozilla 14 14
+netscape5.0 1 1
+chrome104.0.0.0 8 1
+firefox60.0 2 2
+chrome52.0.2743.98 4 4
+chrome105.0.0.0 2 2
+chrome100.0.4896.75 4 1
+chrome99.0.4844.84 4 1
+chrome84.0.4147.105 1 1
+chrome60.0.3112.90 11 11
+chrome69.0.3497.100 1 1
+chrome79.0 3 3
+safari 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221230102052
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20221204053022
+test 20221231174121
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221205001308
+Vimexx-Letsencrypt/1.0.0 20221204053003
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+test 20221231174121
+Vimexx-Letsencrypt/1.0.0 20221204053003
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 453 453
+From1 0 0
+From2 13 13
+From3 0 0
+From4 58 184
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_nl 2 2
+www_google_com 10 10
+www_bing_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 892 395116
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/robots.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 268
+89.117.250.103 99 99 941097 20221201123433
+2a02:a453:2b68:1:f4dd:58dd:3ca9:e65d 19 26 160796 20221220112319
+198.244.193.213 12 12 24192 20221231115943
+149.56.160.232 12 12 95560 20221218115623
+84.241.194.90 12 19 147136 20221203173614
+20.241.233.77 9 9 18535 20221230171239
+84.24.184.125 9 16 140102 20221227231934
+52.31.236.123 8 8 3456 20221229034843
+178.62.82.141 7 7 14491 20221220122054
+74.84.150.150 6 6 13410 20221231174121
+2406:da18:ccb:2300:addc:b0be:9c2c:d816 2 2 4470 20221223062906
+64.124.8.30 1 1 2513 20221209132947
+52.12.142.49 1 1 2235 20221226071822
+2a02:a44b:f3e4:100:905f:f756:5aa4:7dcc 1 8 123778 20221220205054
+51.254.49.97 1 1 7231 20221205185241
+35.91.193.21 1 1 2235 20221205071834
+2a03:b0c0:1:d0::d0a:a001 1 1 7231 20221204053112
+2a02:a451:eb24:1:5836:799c:b45e:cc92 1 1 0 20221212054603
+209.99.152.215 1 4 78886 20221229081246
+5.18.234.254 1 1 2235 20221218200744
+168.91.87.12 5 5 9903 20221229174705
+87.236.176.100 1 1 2235 20221212093537
+64.124.8.47 2 2 4444 20221208093807
+2a03:94e0:ffff:185:181:60:0:189 1 1 2235 20221203131012
+35.160.205.90 1 1 2235 20221220073739
+34.212.3.242 1 1 2235 20221220073455
+34.209.51.130 1 1 2235 20221202073933
+64.124.8.43 1 1 1981 20221208110415
+2a03:b0c0:2:d0::12f:f001 1 1 7231 20221204053112
+54.218.177.118 1 1 2235 20221222072837
+35.89.108.154 1 1 2235 20221228072440
+54.191.146.243 1 1 2235 20221222072839
+52.33.149.105 1 1 2235 20221205071806
+35.165.90.55 1 1 2235 20221224075900
+34.211.28.106 1 1 2235 20221231071917
+34.217.118.81 1 1 2235 20221228072537
+35.89.59.10 1 1 2235 20221208075556
+206.189.121.156 1 1 2235 20221230114929
+18.237.182.157 1 1 2235 20221213072339
+2a02:a451:eb24:1:a8fd:1f73:3d64:8a1c 1 2 2931 20221208080015
+87.236.176.155 1 1 2235 20221223154429
+35.87.134.180 1 1 2235 20221218075058
+2a00:1158:3::19e 2 2 4470 20221223053742
+35.85.146.217 1 1 2235 20221221072624
+18.246.65.249 1 1 2235 20221231071919
+170.178.154.198 1 4 78963 20221229081331
+2a01:7e01::f03c:93ff:fe76:11ea 1 1 7231 20221204053115
+20.62.145.15 3 3 6301 20221228170715
+34.219.96.56 1 1 2235 20221220073717
+35.91.69.248 1 1 2235 20221202073404
+34.217.31.221 1 1 2235 20221209073440
+2a02:a451:eb24:1:5c45:d6dd:db16:6f4f 1 2 2775 20221209222209
+35.93.77.47 1 1 2235 20221219071901
+35.212.234.187 1 1 2235 20221220133010
+35.90.59.40 1 1 2235 20221230071638
+18.237.187.149 1 1 2235 20221216073346
+35.88.224.82 1 1 2235 20221224071713
+64.124.8.54 1 1 1984 20221204192434
+34.221.51.104 1 1 2235 20221218075123
+35.91.35.180 1 1 2235 20221223072725
+2600:3000:1511:200::1d 1 1 406 20221204053022
+35.91.255.11 1 1 2235 20221226071804
+18.236.241.216 1 1 2235 20221227072705
+64.124.8.55 1 1 2177 20221203142118
+40.94.105.39 0 5 98846 
+207.90.21.103 1 4 78886 20221230083622
+45.134.140.164 1 1 2235 20221229194701
+94.198.159.216 3 3 6782 20221205102806
+35.91.84.229 1 1 2235 20221227072635
+34.218.206.24 1 1 2235 20221210071412
+147.182.166.55 1 1 2235 20221221033147
+54.218.54.123 1 1 2235 20221225071535
+205.169.39.63 1 1 2235 20221229081254
+35.92.200.42 1 1 2235 20221219071932
+54.68.136.198 1 1 2235 20221204071649
+34.222.30.146 1 1 2235 20221209073514
+20.77.16.155 1 1 7231 20221230185537
+35.89.94.120 1 1 2235 20221231072037
+64.124.8.48 2 2 3796 20221201193332
+165.227.132.146 1 1 2235 20221224050219
+147.182.212.63 1 1 432 20221203030117
+34.217.135.49 1 1 2235 20221230071435
+93.158.91.207 1 1 2235 20221209204319
+54.187.45.162 1 1 2235 20221221072621
+34.215.182.69 1 1 2235 20221215074845
+54.189.127.29 2 2 4470 20221211072737
+199.244.88.225 1 1 2235 20221204140412
+54.187.186.107 1 1 2235 20221221072657
+35.87.234.68 1 1 2235 20221229074655
+54.190.107.55 1 1 2235 20221206075353
+35.161.106.112 1 1 2235 20221208075110
+35.92.208.7 1 1 2235 20221230071559
+40.94.96.86 0 3 55204 
+2a02:a451:eb24:1:3dfb:8326:86d5:e63d 1 1 2116 20221204175310
+52.26.148.94 1 1 2235 20221223072754
+18.236.107.243 1 1 2235 20221215074827
+87.236.176.38 1 1 2235 20221207073346
+68.69.184.202 1 1 2235 20221227234143
+51.255.62.4 1 1 7231 20221205162419
+40.94.105.52 0 1 815 
+54.190.69.16 1 1 2235 20221225071622
+94.198.154.28 3 3 6782 20221203050647
+35.92.114.186 1 1 2235 20221230071437
+18.237.29.201 1 1 2235 20221216073416
+34.101.205.31 1 1 432 20221226022706
+35.87.126.57 1 1 2235 20221201071328
+122.15.156.143 1 1 2235 20221209134613
+54.185.152.172 1 1 2235 20221206080547
+64.124.8.27 2 2 5067 20221204231539
+5.189.172.220 1 1 432 20221210102208
+64.124.8.35 2 2 4068 20221209013142
+207.32.139.160 1 4 78894 20221229081333
+34.220.54.163 1 1 2235 20221228072506
+54.213.253.133 1 1 2235 20221227072637
+2a00:d78:0:14e::4 3 3 6782 20221203050656
+212.90.121.108 1 1 2235 20221228112341
+89.187.163.206 4 4 21762 20221226022104
+2a03:b0c0:3:d0::ac3:1 1 1 7231 20221204053112
+146.190.248.230 1 1 2312 20221231011752
+64.140.136.163 1 4 78397 20221229081328
+54.149.197.18 1 1 2235 20221219071933
+34.147.123.1 1 8 123778 20221226144952
+34.218.226.113 1 1 2235 20221213072321
+51.255.62.3 1 1 7231 20221205162419
+51.255.62.10 1 1 7231 20221205162419
+35.88.197.134 1 1 2235 20221203071253
+167.172.150.71 1 1 2235 20221224051627
+54.187.190.161 1 1 2235 20221202073250
+5.189.184.9 1 1 432 20221211231630
+35.90.117.146 1 1 2235 20221201071314
+2001:4c4c:11df:6c00:35c2:edff:b2af:ae70 2 2 2667 20221226221339
+51.254.49.104 1 1 7231 20221205185241
+34.221.229.57 1 1 2235 20221206080606
+35.91.86.230 1 1 2235 20221207073152
+54.191.128.105 1 1 2235 20221206075430
+121.244.91.14 1 1 2235 20221210130614
+167.172.82.81 1 1 2235 20221221031848
+18.236.86.78 1 1 2235 20221229075704
+18.236.163.162 1 1 2235 20221227072707
+64.124.8.52 1 1 2312 20221210215753
+45.41.12.102 5 5 9903 20221209020201
+54.213.192.67 1 1 2235 20221206075400
+167.99.188.216 1 1 2235 20221229223224
+156.146.36.83 6 6 12096 20221215150505
+54.190.27.105 1 1 2235 20221215074821
+5.189.171.179 1 1 432 20221226050520
+94.130.131.80 1 1 7231 20221226004613
+34.135.169.149 2 2 3862 20221202090251
+5.161.152.152 1 1 7231 20221228082935
+18.237.154.179 1 1 2235 20221212072526
+194.35.116.174 1 7 69824 20221207012057
+64.124.8.50 1 1 2119 20221203121156
+34.212.138.22 1 1 2235 20221205071806
+64.124.8.42 1 1 2525 20221208021212
+167.94.138.117 2 2 4470 20221205001308
+54.203.143.236 1 1 2235 20221202073307
+209.99.148.126 1 4 78494 20221230083628
+23.226.28.20 5 5 9903 20221222184920
+2001:bc8:1201:718:46a8:42ff:fe1b:cf90 1 1 7231 20221225211721
+35.93.157.130 1 1 2235 20221229074609
+35.89.208.53 1 1 2235 20221210071212
+54.218.62.15 1 1 2235 20221210073139
+64.246.165.210 1 1 2235 20221227233849
+35.163.245.119 1 1 2235 20221231072102
+64.124.8.49 2 2 4215 20221208035127
+2600:1f14:804:fd02:e842:7724:115d:c6d9 2 2 808 20221204053022
+2a06:2ec0:1::104 3 3 786 20221204053003
+141.193.96.92 5 5 9903 20221215182621
+138.91.109.132 1 1 7231 20221226055312
+159.69.58.136 6 6 12614 20221221193043
+173.245.202.55 2 2 4547 20221202170149
+34.220.193.251 1 1 2235 20221225072010
+34.219.65.99 1 1 2235 20221204071311
+52.27.8.144 1 1 2235 20221220073516
+207.90.21.145 1 4 78963 20221230083628
+35.160.28.142 1 1 2235 20221217072235
+199.244.88.218 1 1 2235 20221227085232
+2600:1f16:269:da02:32f4:2713:3694:2337 1 1 406 20221204053008
+64.124.8.40 1 1 2520 20221203072122
+34.216.203.235 1 1 2235 20221223072749
+34.68.120.83 1 1 2124 20221202090251
+54.202.191.86 1 1 2235 20221207073139
+89.205.134.238 1 1 2116 20221210162833
+149.34.246.122 1 1 7231 20221220140153
+209.99.139.143 1 4 78397 20221230083626
+207.32.152.41 1 4 78894 20221230083629
+64.124.8.34 3 3 6622 20221209080708
+54.188.137.7 1 1 2235 20221203071220
+54.201.37.16 1 1 2235 20221213072311
+52.41.41.10 1 1 2235 20221229075522
+35.92.91.42 1 1 2235 20221218075056
+34.221.234.244 1 1 2235 20221205071851
+54.201.220.140 1 1 2235 20221208075632
+3.143.142.106 6 18 148665 20221216135357
+37.19.218.6 1 1 7231 20221224061142
+87.236.176.217 2 2 4470 20221230102052
+34.209.250.247 1 1 2235 20221227072701
+52.11.16.54 1 1 2235 20221207073209
+93.158.90.142 1 1 2235 20221220190235
+35.93.57.207 1 1 2235 20221222072857
+40.94.96.74 1 2 24117 20221222220835
+35.91.236.99 1 1 2235 20221217071520
+35.93.117.216 1 1 2235 20221227072641
+64.124.8.41 1 1 2034 20221201155931
+54.202.108.18 1 1 2235 20221215074849
+194.35.117.233 1 7 69824 20221222030838
+54.244.42.110 1 1 2235 20221214071228
+51.158.37.197 1 1 7231 20221225211719
+64.124.8.51 1 1 2510 20221204194833
+34.220.36.169 1 1 2235 20221230071447
+54.244.67.23 1 1 2235 20221228072407
+2001:8d8:5ff:5f:82:165:88:247 1 1 7231 20221217005551
+35.92.30.11 1 1 2235 20221222072917
+35.88.32.55 1 1 2235 20221223072712
+64.124.8.28 3 3 7280 20221208164545
+34.209.235.7 1 1 2235 20221209073436
+195.211.77.140 1 1 7231 20221204053052
+34.210.89.141 1 1 2235 20221219071904
+54.69.40.241 1 1 2235 20221217071247
+51.159.99.249 1 1 7231 20221208100246
+52.12.225.175 1 1 2235 20221216073240
+35.89.251.96 2 2 4470 20221229075708
+54.190.62.46 1 1 2235 20221201071238
+54.202.243.248 1 1 2235 20221203071415
+85.148.150.59 1 8 123778 20221216170348
+40.94.96.4 0 3 44457 
+34.219.168.2 1 1 2235 20221216073328
+34.215.44.24 1 1 2235 20221208075133
+40.94.105.54 1 2 24117 20221225201527
+18.236.245.87 1 1 2235 20221203071323
+34.217.31.50 1 1 2235 20221218075121
+2a01:4f8:c010:67f6::1 1 1 2235 20221226141126
+64.227.164.150 1 1 2235 20221224092015
+176.74.192.85 1 1 2235 20221231163725
+209.126.86.35 1 1 432 20221228024130
+34.209.144.26 1 1 2235 20221229074543
+2600:1f16:269:da01:6623:9e5f:3ad6:1c0d 1 1 406 20221204053022
+35.232.165.148 2 2 3917 20221202090251
+2600:3000:1511:200::1e 1 1 406 20221204053008
+35.89.48.171 1 1 2235 20221202073235
+51.255.62.5 1 1 7231 20221205162419
+35.87.46.161 1 1 2235 20221221072639
+163.123.142.195 2 2 614 20221228085133
+35.85.222.39 1 1 2235 20221201071357
+34.217.29.6 1 1 2235 20221224071635
+2a02:a44b:f3e4:100:f113:e787:a096:503a 1 8 123778 20221227143644
+64.137.8.221 2 2 4359 20221216145332
+5.189.170.101 2 2 864 20221216073310
+35.87.40.171 1 1 2235 20221202073339
+216.145.5.42 1 1 2235 20221210034228
+54.218.95.141 1 1 2235 20221224075931
+35.87.199.136 1 1 2235 20221209073515
+35.167.237.102 1 1 2235 20221212072458
+54.149.242.193 1 1 2235 20221204071316
+34.218.227.202 1 1 2235 20221211072207
+2001:bc8:1201:19:46a8:42ff:fe1b:c14e 1 1 7231 20221208100248
+52.11.46.16 1 1 2235 20221213072307
+54.219.20.168 2 2 4470 20221226120533
+146.190.240.117 1 1 2235 20221224093315
+35.91.8.202 1 1 2235 20221225072206
+20.26.224.13 3 3 21455 20221223064947
+46.243.194.159 6 13 134281 20221215102552
+35.87.236.179 1 1 2235 20221231072006
+18.237.248.198 1 1 2235 20221216073353
+168.151.91.57 1 4 78494 20221229081334
+35.165.45.139 1 1 2235 20221216073309
+2a00:d78:0:710:94:198:159:216 3 3 6782 20221205102811
+5.75.225.87 1 1 7231 20221204032919
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20221201 109 109 962790 10
+20221202 17 17 36408 14
+20221203 28 35 181368 13
+20221204 25 25 67653 21
+20221205 18 18 70360 13
+20221206 5 5 11175 5
+20221207 5 11 78764 5
+20221208 16 17 44971 15
+20221209 18 19 37341 13
+20221210 8 8 16035 8
+20221211 5 5 7569 4
+20221212 4 4 6705 4
+20221213 5 5 11175 5
+20221214 1 1 2235 1
+20221215 23 30 167887 9
+20221216 16 35 290644 10
+20221217 12 12 30118 6
+20221218 21 21 113460 9
+20221219 4 4 8940 4
+20221220 35 49 321941 11
+20221221 12 12 26024 7
+20221222 12 25 212877 8
+20221223 11 11 39335 8
+20221224 10 10 27346 10
+20221225 9 16 147919 9
+20221226 17 24 176943 13
+20221227 20 34 285838 12
+20221228 9 9 21388 9
+20221229 21 36 426319 16
+20221230 14 29 418256 14
+20221231 14 14 30053 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 4
+0s-30s 285
+30s-2mn 3
+2mn-5mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 115
+/ 274 742111 244 232
+/verhuur 29 72985 5 8
+/contact 27 70233 8 12
+/partyplanners 17 36552 5 6
+/winkelwagen 17 34419 5 5
+/verhuur/categorie/horecamaterialen 8 24702 0 2
+/verhuur/categorie/glaswerk 6 22940 0 1
+/verhuur/alle-categorieen 5 25108 1 1
+/verhuur/categorie/koelkasten 5 15887 2 1
+/verhuur/categorie/wijnglazen 4 17315 0 0
+/verhuur/artikel/waterslang-gardena-50m 1 8710 0 0
+/verhuur/categorie/warme-dranken 1 13133 0 0
+/verhuur/artikel/barbecue-inklapbaar-gas 1 8711 0 0
+/verhuur/categorie/alcoholische-dranken 1 6746 0 0
+/verhuur/categorie/koffie-thee 1 10338 0 0
+/verhuur/categorie/koolzuur-gas 1 7898 0 0
+/verhuur/categorie/thema-black-white 3 45214 0 0
+/verhuur/artikel/verloop-32a-m-naar-16a-v 1 8722 0 0
+/verhuur/categorie/bestek-basic 1 10908 0 0
+/verhuur/categorie/kaarsen 1 5950 0 0
+/verhuur/categorie/thema-steigerhout 1 6416 0 0
+/verhuur/artikel/verlengkabel-15m 1 8682 0 0
+/verhuur/categorie/inrichting 2 12184 1 1
+/verhuur/artikel/verdeelkast-32a 1 8679 0 0
+/verhuur/categorie/tafelgerei 1 7667 0 0
+/verhuur/artikel/barbecue-tangenset 1 8690 0 0
+/verhuur/artikel/verloop-63a-v-naar-32a-m 1 8723 0 0
+/verhuur/categorie/veiligheid 1 8491 0 0
+/verhuur/artikel/loungestoel-met-armleuning 2 5026 2 2
+/verhuur/categorie/mobiele-barren 4 16685 1 1
+/verhuur/categorie/bbq 1 10151 0 0
+/verhuur/categorie/water 1 7998 0 0
+/verhuur/categorie/frituren 1 7982 0 0
+/xmlrpc.php 3 921 2 2
+/verhuur/categorie/frisdrankglazen 2 9439 0 1
+/verhuur/artikel/koppelstuk-tbv-stoel-trendy 1 2510 1 1
+/verhuur/artikel/salamander-400v 1 8679 0 0
+/verhuur/categorie/thema-black-white-wood 1 13108 0 0
+/verhuur/artikel/barombouw-met-opstaande-rand-zwart-2-2m 1 2525 1 1
+/verhuur/artikel/buffet-wit-170cm 1 8691 0 0
+/verhuur/categorie/catering 4 15310 0 1
+/verhuur/categorie/koken-bakken 1 9197 0 0
+/verhuur/categorie/bestek-trendy 1 11461 0 0
+/verhuur/categorie/lichtletters-combi 1 5392 0 0
+/verhuur/artikel/evenementenbar-met-enkele-kraan 1 2403 0 0
+/verhuur/artikel/tafel-wit-milano-80x80cm 1 8715 0 0
+/verhuur/artikel/verdeelkast-63a 1 8687 0 0
+/verhuur/artikel/verlengkabel-230v-10m 1 8696 0 0
+/verhuur/artikel/loungebank-hoekstuk 1 8695 0 0
+/verhuur/categorie/gn-bakken 1 25205 0 0
+/verhuur/artikel/buffet-wit-220cm 1 8699 0 0
+/.well-known/acme-challenge/6265J7wn79W52YBwXXV4rN0vuI2NaOap9Wvr3FEsSrg 3 1216 2 3
+/.well-known/acme-challenge/r6yvUKj7KmnHdNn32u3dfhcU9LLzqGlbBNIkxlWGzLs 3 1216 3 2
+/verhuur/categorie/thema-marktterras 1 10714 0 0
+/verhuur/categorie/buffetmaterialen 1 6780 0 0
+/verhuur/categorie/diverse-glazen 2 9987 1 1
+/verhuur/artikel/houtskool-per-zak-a-10kg 1 8715 0 0
+/verhuur/categorie/lichtletters 1 7236 0 0
+/verhuur/artikel/aanvoerslang-gardena-10m 1 8704 0 0
+/verhuur/categorie/schoonmaken 1 13619 0 0
+/verhuur/artikel/barombouw-wit-luxe 1 8674 0 0
+/verhuur/categorie/cocktailglazen 1 6413 0 0
+/verhuur/artikel/statafel-wit-milano-180x80cm 1 2522 1 1
+/verhuur/categorie/facilitair 2 10153 1 1
+/verhuur/artikel/barombouw-met-opstaande-rand-zwart-1-7m 1 2534 0 1
+/verhuur/categorie/thema-suit-dress 1 12833 0 0
+/verhuur/artikel/salamander 1 8659 0 0
+/verhuur/artikel/heteluchtoven-4xgn 1 8692 0 1
+/verhuur/categorie/lichtletters-cijfers 1 10202 0 0
+/verhuur/categorie/lichtletters-tekens 1 5392 0 0
+/verhuur/artikel/barombouw-zwart-met-opstaande-rand-wit-1-7m 1 2533 1 0
+/verhuur/categorie/vergaderen 1 7496 0 0
+/verhuur/categorie/potten-pannen 1 16784 0 0
+/verhuur/categorie/lichtletters-letters 1 17905 0 0
+/verhuur/categorie/snackmachines 1 7990 0 0
+/verhuur/artikel/brandpasta 1 8668 0 0
+/verhuur/artikel/afvoerslang-geka-10m 1 8688 0 0
+/verhuur/categorie/keuken-warmhouden 1 16248 0 0
+/verhuur/artikel/wijnglas-kristal-45cl 1 2429 0 0
+/verhuur/categorie/keukenlijn-modulair 1 16450 0 0
+/verhuur/categorie/bestek 1 6310 0 0
+/verhuur/categorie/afvalverwerking 1 8949 0 0
+/verhuur/categorie/thema-colour 1 7576 0 0
+/verhuur/categorie/tussendoortjes 4 11761 2 2
+/verhuur/artikel/statafel-zwart-milano-180x80cm 1 2524 1 0
+/verhuur/artikel/verlengkabel-5m 1 8678 0 0
+/verhuur/categorie/disposables 1 7086 0 0
+/verhuur/artikel/verloop-63a-m-naar-32a-v 1 8715 0 0
+/verhuur/artikel/vloeibaar-frituurvet-10l 1 8692 0 0
+/verhuur/categorie/servies 1 8693 0 0
+/verhuur/categorie/afscheidingen 1 12523 0 0
+/.well-known/acme-challenge/testleplugin 3 786 1 1
+/verhuur/categorie/betalingen 1 7965 0 0
+/verhuur/categorie/ovens 1 12640 0 0
+/verhuur/artikel/loungebank-wit-met-armleuning-3-delig 1 2530 1 1
+/verhuur/categorie/keukenapparatuur 2 13085 1 1
+/verhuur/artikel/barbecue-oklahoma-joe 1 8704 0 0
+/verhuur/artikel/waterslang-gardena-25m 1 8718 0 0
+/verhuur/categorie/thema-sloophout 1 17753 0 0
+/verhuur/categorie/koelen-vriezen 1 10096 0 0
+/verhuur/categorie/kitchen-basics 1 10273 0 0
+/verhuur/artikel/tafel-zwart-milano-180x80cm 1 2520 1 1
+/verhuur/categorie/stroom 1 18645 0 0
+/verhuur/categorie/dranken 2 8799 1 1
+/verhuur/categorie/tafeldecoratie 1 6439 0 0
+/verhuur/categorie/verbruik 1 8803 0 0
+/verhuur/artikel/buffet-wit-luxe-hoog 1 8680 0 0
+/verhuur/artikel/wijnglas-kristal-35cl 1 2438 0 0
+/verhuur/artikel/barbecue-klein-gas 1 8699 0 0
+/verhuur/artikel/barbecue-middel-gas 1 8695 0 0
+/verhuur/categorie/bierglazen 1 7913 0 0
+/verhuur/categorie/inrichting-basics 1 19832 0 0
+/verhuur/categorie/barmaterialen 2 9416 0 0
+/verhuur/artikel/barbecue-houtskool 1 8700 0 0
+/verhuur/artikel/verlengkabel-25m 1 8690 0 0
+END_SIDER

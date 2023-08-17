@@ -1,0 +1,34 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+DirectoryIndex index.php
+
+RewriteRule ^verhuur$ /verhuur.php
+RewriteRule ^verhuur/$ /verhuur.php
+
+RewriteRule ^verhuur/alle-categorieen$ /verhuur_categorieen.php
+RewriteRule ^verhuur/alle-categorieen/$ /verhuur_categorieen.php
+
+RewriteRule ^verhuur/categorie/([a-zA-Z0-9_-]+)$ /verhuur_categorie.php?id=$1
+RewriteRule ^verhuur/categorie/([a-zA-Z0-9_-]+)/$ /verhuur_categorie.php?id=$1
+
+RewriteRule ^verhuur/artikel/([a-zA-Z0-9_-]+)$ /verhuur_product.php?id=$1
+RewriteRule ^verhuur/artikel/([a-zA-Z0-9_-]+)/$ /verhuur_product.php?id=$1
+
+RewriteRule ^contact$ /contact.php
+RewriteRule ^contact/$ /contact.php
+
+RewriteRule ^winkelwagen$ /winkelwagen.php
+RewriteRule ^winkelwagen/$ /winkelwagen.php
+
+RewriteRule ^winkelwagen/verwijder/([a-zA-Z0-9_-]+)$ winkelwagen.php?remove=$1
+RewriteRule ^winkelwagen/verwijder/([a-zA-Z0-9_-]+)/$ winkelwagen.php?remove=$1
+
+RewriteRule ^offerte-gegevens /offerte_gegevens.php
+RewriteRule ^offerte-gegevens/$ /offerte_gegevens.php
+
+RewriteRule ^offerte-verzonden /offerte_verzonden.php
+RewriteRule ^offerte-verzonden/$ /offerte_verzonden.php
+
+RewriteRule ^partyplanners$ /partyplanners.php
+RewriteRule ^partyplanners/$ /partyplanners.php

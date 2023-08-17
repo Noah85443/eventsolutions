@@ -51,7 +51,7 @@
     </div>
     <div class="flex-sm-row py-4 my-4 border-top ">
         <div class="float-end">
-            <img src="https://eventsolutions.nu/styles/images/logo.png" style="height:35px;" alt="EventSolutions" />
+            <img src="img/eventsolutions.png" style="height:35px;" alt="EventSolutions" />
         </div>
     </div>
   </footer>
