@@ -2,7 +2,7 @@
 require_once './core/system.init.php';
 
 $data = filter_input(INPUT_GET, 'artikel');
-$artikel = API::Call("artikel", $data);
+$artikel = api::Call("artikel", $data);
 ?>
 
 <!doctype html>

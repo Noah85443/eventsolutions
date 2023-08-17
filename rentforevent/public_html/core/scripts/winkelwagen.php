@@ -19,7 +19,7 @@ if (!empty($errors)) {
 } else {
     $data['success'] = true;
     $data['message'] = 'Toegevoegd aan winkelwagen';
-    
+
     $_SESSION['cart'][$_POST['artikelId']] = $_POST['aantal'];
 }
 

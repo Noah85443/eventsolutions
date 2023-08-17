@@ -9,7 +9,7 @@ if (isset($_SESSION['cart'])) {
     $cart = 1;
 }
 
-$artikelgroepen = API::Call("artikelgroepen");
+$artikelgroepen = api::Call("artikelgroepen");
 ?>
 
 

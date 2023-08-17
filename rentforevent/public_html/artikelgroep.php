@@ -15,9 +15,9 @@ if (!empty($_GET['groep'])) {
     $path = '/verhuur/' . $_GET['artikelgroep'] . '/';
 }
 
-$artikelGroep = API::Call("artikelgroep", $alias);
-$subgroepen = API::Call("artikelgroepen/subgroepen", $alias);
-$artikelen = API::Call("artikelgroepen/artikelen", $artikelGroep->id);
+$artikelGroep = api::Call("artikelgroep", $alias);
+$subgroepen = api::Call("artikelgroepen/subgroepen", $alias);
+$artikelen = api::Call("artikelgroepen/artikelen", $artikelGroep->id);
 ?>
 
 <!doctype html>
