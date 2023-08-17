@@ -1,7 +1,7 @@
 <?php
 require_once './core/system.init.php';
 
-$items = API::Call("artikelgroepen/voorpagina");
+$items = api::Call("artikelgroepen/voorpagina");
 ?>
 
 <!doctype html>

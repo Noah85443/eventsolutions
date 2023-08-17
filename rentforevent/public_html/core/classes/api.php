@@ -1,5 +1,5 @@
 <?php
-class API
+class api
 {
     public static function Call($scope, $value = null, $data = null)
     {
