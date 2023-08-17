@@ -1,12 +1,12 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 
-define('header', './core/includes/header.php');
-define('navigation', './core/includes/navigation.php');
-define('footer', './core/includes/footer.php');
-define('scripts', './core/scripts/external.php');
+define('header', 'core/includes/header.php');
+define('navigation', 'core/includes/navigation.php');
+define('footer', 'core/includes/footer.php');
+define('scripts', 'core/scripts/external.php');
 
-define('logo', './images/logo.png');
+define('logo', 'images/logo.png');
 
 define('IMG_Category', 'https://eventsolutions.nu/images/rentalProducten/groupImg/');
 define('IMG_Article', 'https://eventsolutions.nu/images/rentalProducten/');

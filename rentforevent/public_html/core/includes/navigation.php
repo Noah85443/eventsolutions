@@ -21,7 +21,7 @@ $artikelgroepen = api::Call("artikelgroepen");
         </button>
 
         <a class="navbar-brand" href="index.php">
-            <img src="<?php print logo; ?>" alt="..." height="36">
+            <img src="https://www.rentforevents.nl/images/logo.png" alt="..." height="36">
         </a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,7 +48,7 @@ $artikelgroepen = api::Call("artikelgroepen");
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Klantenservice</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>

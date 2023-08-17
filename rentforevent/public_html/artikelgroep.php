@@ -1,5 +1,5 @@
 <?php
-require_once './core/system.init.php';
+require_once 'core/system.init.php';
 
 if (!empty($_GET['groep'])) {
     $alias = $_GET['groep'];
@@ -31,7 +31,7 @@ $artikelen = api::Call("artikelgroepen/artikelen", $artikelGroep->id);
             <h3>
                 <?php print $artikelGroep->naam; ?>
             </h3>
-            <p><img src="<?php print logo; ?>" ?>
+            <p><img src="" ?>
         </div>
         <div class="row">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
