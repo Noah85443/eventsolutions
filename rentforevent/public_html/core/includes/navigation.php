@@ -15,42 +15,54 @@ $artikelgroepen = api::Call("artikelgroepen");
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <a class="navbar-brand" href="index.php">
             <img src="https://www.rentforevents.nl/images/logo.png" alt="..." height="36">
         </a>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Ons assortiment
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <?php
-                        for ($x = 0; $x < count($artikelgroepen); $x++) {
-                            if ($artikelgroepen[$x]->toplevel == 0) {
-                                echo '<a href="/verhuur/' . $artikelgroepen[$x]->alias . '" class="nav-link text-bg px-3">' . $artikelgroepen[$x]->naam . '</a>';
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Sluiten"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown d-none d-lg-block">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ons assortiment
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <?php
+                            for ($x = 0; $x < count($artikelgroepen); $x++) {
+                                if ($artikelgroepen[$x]->toplevel == 0) {
+                                    echo '<a href="/verhuur/' . $artikelgroepen[$x]->alias . '" class="nav-link text-bg px-3">' . $artikelgroepen[$x]->naam . '</a>';
+                                }
                             }
-                        }
-                        ?>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Inspiratie </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Overons</a>
-                </li>
+                            ?>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="nav-link" href="assortiment.php">Assortiment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="inspiratie.php">Inspiratie </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="over-ons.php">Over ons</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <form class="form-inline my-2 my-lg-0" role="search" method="get" action="/verhuur/zoeken/">
@@ -63,6 +75,7 @@ $artikelgroepen = api::Call("artikelgroepen");
                 print $cart;
             } ?>
         </a>
+
     </div>
 </nav>
 
