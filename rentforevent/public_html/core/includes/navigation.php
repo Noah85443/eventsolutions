@@ -12,16 +12,6 @@ if (isset($_SESSION['cart'])) {
 $artikelgroepen = api::Call("artikelgroepen");
 ?>
 
-<!-- <style>
-    .navbar-nav .nav-link {
-        color: white;
-    }
-
-    /* Lichtgrijze tekst voor de navbar-items bij hover */
-    .navbar-nav .nav-link:hover {
-        color: lightgray;
-    } -->
-</style>
 
 <nav class="navbar navbar-expand-lg">
     <div class="container">

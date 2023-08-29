@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg-image-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Pas aan naar je gewenste grootte */
+  height: 60px; /* Pas aan naar je gewenste grootte */
+  border-radius: 10px; /* Hiermee worden de hoeken afgerond */
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 24px; /* Pas aan naar je gewenste grootte */
+}
+
+.navigation-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navigation-content {
+  padding: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: lightgray;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
