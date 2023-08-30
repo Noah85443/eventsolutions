@@ -18,17 +18,18 @@ body {
   opacity: 0.8;
 }
 
-.social-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px; /* Pas aan naar je gewenste grootte */
-  height: 60px; /* Pas aan naar je gewenste grootte */
-  border-radius: 10px; /* Hiermee worden de hoeken afgerond */
-  border: 2px solid black;
-  margin-left: 5px;
-  margin-right: 5px;
-  font-size: 24px; /* Pas aan naar je gewenste grootte */
+.social-icons {
+  display: flex;
+  align-items: left;
+}
+
+.social-icons .btn {
+  font-size: 22px; /* Pas deze waarde aan om de grootte van de pictogrammen aan te passen */
+  margin: 0 10px; /* Pas de marges aan om de afstand tussen de pictogrammen aan te passen */
+}
+.social-icons .logo {
+  margin-left: auto;
+  margin-top: 10px;
 }
 
 .navigation-overlay {

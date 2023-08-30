@@ -2,10 +2,11 @@
   <div class="container">
     <footer class="py-5 mt-5">
       <div class="row">
-        <div class="col-5 col-md-3 mb-3">
+        <div class="col-md-4">
           <h5>Service</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="/klantenservice/openingstijden/" class="nav-link p-0 text-muted">Openingstijden</a></li>
+            <li class="nav-item mb-2"><a href="/klantenservice/openingstijden/"
+                class="nav-link p-0 text-muted">Openingstijden</a></li>
             <li class="nav-item mb-2"><a href="/klantenservice/afhalen/" class="nav-link p-0 text-muted">Afhalen</a>
             </li>
             <li class="nav-item mb-2"><a href="/klantenservice/transport" class="nav-link p-0 text-muted">Transport</a>
@@ -13,13 +14,14 @@
             <li class="nav-item mb-2"><a href="/klantenservice/bestellen" class="nav-link p-0 text-muted">Bestellen</a>
             </li>
             <li class="nav-item mb-2"><a href="/klantenservice/betalen" class="nav-link p-0 text-muted">Betalen</a></li>
-            <li class="nav-item mb-2"><a href="/klantenservice/retourneren" class="nav-link p-0 text-muted">Retourneren</a></li>
+            <li class="nav-item mb-2"><a href="/klantenservice/retourneren"
+                class="nav-link p-0 text-muted">Retourneren</a></li>
             <li class="nav-item mb-2"><a href="/klantenservice/bestellen" class="nav-link p-0 text-muted">Spoed- en
                 Bijbestellingen</a></li>
           </ul>
         </div>
 
-        <div class="col-5 col-md-3 mb-3">
+        <div class="col-md-4">
           <h5>Informatie</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="/algemene-info/" class="nav-link p-0 text-muted">Algemene Voorwaarden</a>
@@ -30,7 +32,7 @@
         </div>
 
 
-        <div class="col-5 col-md-3 mb-3">
+        <div class="col-md-4">
           <h5>Contact</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
@@ -49,21 +51,19 @@
           </ul>
         </div>
       </div>
-      <div class="flex-sm-row py-4 my-4 border-top ">
+      <div class="flex-sm-row py-3 my-3 border-top">
         <div class="social-icons">
-          <a href="https://wa.me/31262022943" class="social-icon">
-            <i class="fab fa-whatsapp text-black"></i>
-          </a>
-          <a href="https://facebook.com/eventsolutions.nu" class="social-icon">
-            <i class="fab fa-facebook text-black"></i>
-          </a>
-          <a href="https://instagram.com/eventsolutions_nl" class="social-icon">
-            <i class="fab fa-instagram text-black" style="text-decoration: none"></i>
-          </a>
-          <div class="float-end">
-            <img src="https://www.rentforevents.nl/images/eventsolutions.png" style="height:35px;" alt="EventSolutions" />
+          <a class="btn btn-primary" style="background-color: #25d366;" href="https://wa.me/31262022943"
+            role="button"><i class="fab fa-whatsapp"></i></a>
+          <a class="btn btn-primary" style="background-color: #3b5998;" href="https://facebook.com/eventsolutions.nu"
+            role="button"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://instagram.com/eventsolutions_nl"
+            role="button"><i class="fab fa-instagram"></i></a>
+          <div class="logo">
+            <img src="https://eventsolutions.nu/images/logo.png" style="height:31px;" alt="EventSolutions" />
           </div>
         </div>
+
     </footer>
   </div>
 </div>

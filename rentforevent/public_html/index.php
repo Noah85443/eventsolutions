@@ -13,7 +13,8 @@ $items = api::Call("artikelgroepen/voorpagina");
 
 <body style="margin: 0; overflow-x: hidden;">
     <div class="bg-image-wrapper">
-        <div class="bg-image" style="background-image: url('https://www.rentforevents.nl/images/background.jpeg');"></div>
+        <div class="bg-image" style="background-image: url('https://www.rentforevents.nl/images/background.jpeg');">
+        </div>
         <div class="navigation-overlay">
             <?php require_once navigation; ?>
         </div>
