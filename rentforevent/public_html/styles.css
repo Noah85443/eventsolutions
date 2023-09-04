@@ -3,6 +3,33 @@ body {
   overflow-x: hidden;
 }
 
+/* .bg-image-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://www.rentforevents.nl/images/background.jpeg");
+  background-size: cover;
+  opacity: 0.8;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  overflow: hidden;
+}
+
+.bg-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.bg-content {
+  position: absolute;
+  z-index: 10;
+  padding: 15px;
+  box-sizing: border-box;
+} */
+
 .bg-image-wrapper {
   position: relative;
   height: 100vh;
@@ -16,6 +43,15 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0.8;
+}
+
+.intro-overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
 }
 
 .social-icons {
