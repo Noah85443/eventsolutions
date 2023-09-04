@@ -19,6 +19,21 @@ $items = api::Call("artikelgroepen/voorpagina");
             <?php require_once navigation; ?>
         </div>
     </div>
+
+    <!-- <div class="bg-image-wrapper">
+        <div class="bg-image" style="background-image: url('https://www.rentforevents.nl/images/background.jpeg');">
+        </div>
+        <div class="navigation-overlay">
+            <?php require_once navigation; ?>
+        </div>
+
+        <div class="bg-box">
+            <div class="bg-content">
+                <h4> Voor elk feest, de juiste spullen! </h4>
+            </div>
+        </div>
+
+    </div> -->
     <div class="container mt-5">
         <div class="row text-left">
             <h1>Onze beste producten</h1>
