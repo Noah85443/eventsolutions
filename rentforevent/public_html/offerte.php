@@ -28,16 +28,17 @@ if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION[
 
 <body>
     <?php require_once navigation; ?>
-    <div class="container">
+    <div class="container mt-2">
 
         <?php
         if (empty($_SESSION['cart'])) {
 
-            print "Je hebt nog geen artikelen gekozen voor in je offerte.<br />Ga op toch door onze verhuurshop en vind alles wat je nodig hebt!.";
+            print 'Je winkelwagen is nog leeg.<br /> Bekijk ons <a href="assortiment.php" class="stretched-link">assortiment</a> om je mandje te vullen!.';
         } else {
             $cart = $_SESSION['cart'];
-            ?>
+        ?>
             <form action="/offerte" method="post">
+
                 <h4>Mijn offerte-aanvraag</h4>
                 <table class="table table-hover align-middle">
                     <thead>
@@ -53,7 +54,7 @@ if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION[
                         $btwTotaal = null;
                         foreach ($cart as $artikelId => $count) {
                             $artikel = API::Call("artikel", $artikelId);
-                            ?>
+                        ?>
                             <tr>
                                 <td class="img">
                                     <?php
@@ -70,10 +71,7 @@ if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION[
                                     <?php print $artikel->artikelnaam; ?>
                                 </td>
                                 <td class="aantal">
-                                    <input type="number" name="aantal-<?php print $artikel->id; ?>"
-                                        value="<?php print $count; ?>" min="1" class=form-control"
-                                        style="border:1px;border-color:#CCC;rounded-border:5px;padding:5px;width:75px;"
-                                        required />
+                                    <input type="number" name="aantal-<?php print $artikel->id; ?>" value="<?php print $count; ?>" min="1" class="form-control" style="border:1px;border-color:#CCC;rounded-border:5px;padding:5px;width:75px;" required />
                                 </td>
                                 <td class="aantal">
                                     <?php print $artikel->stuksPerEenheid * $count; ?>
@@ -138,8 +136,7 @@ if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION[
                 <div class="row mt-5">
                     <div class="col-12">
                         <button type="submit" id="placeorder" name="placeorder" class="btn btn-success">
-                            <i class="material-symbols-outlined"
-                                style="float:left;padding-right:10px;">keyboard_double_arrow_right</i>Gegevens invoeren
+                            <i class="material-symbols-outlined" style="float:left;padding-right:10px;">keyboard_double_arrow_right</i>Gegevens invoeren
                         </button>
                         <button type="submit" id="update" name="update" class="btn btn-outline-dark">
                             <i class="material-symbols-outlined" style="float:left;padding-right:10px;">sync</i><span>Update
