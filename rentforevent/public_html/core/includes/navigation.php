@@ -16,16 +16,14 @@ $artikelgroepen = api::Call("artikelgroepen");
 <nav class="navbar navbar-expand-lg">
     <div class="container">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <a class="navbar-brand" href="index.php">
             <img src="https://www.rentforevents.nl/images/logo.png" alt="..." height="36">
         </a>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -35,8 +33,7 @@ $artikelgroepen = api::Call("artikelgroepen");
             <div class="offcanvas-body">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown d-none d-lg-block">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Ons assortiment
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
