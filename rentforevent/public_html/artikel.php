@@ -24,15 +24,14 @@ $artikel = api::Call("artikel", $data);
         </div>
         <div class="row">
             <div class="col-6">
-                <img src="<?php print IMG_Article . $artikel->afbeelding; ?>"
-                    alt="<?php print $artikel->artikelnaam; ?>" class="img-fluid" />
+                <img src="<?php print IMG_Article . $artikel->afbeelding; ?>" alt="<?php print $artikel->artikelnaam; ?>" class="img-fluid" />
             </div>
             <div class="col-2">
             </div>
             <div class="col-4">
                 <?php if ($artikel->samengesteld == 2) {
                     print 'Verpakt per ' . $artikel->stuksPerEenheid . ' stuks<br />';
-                    ?>
+                ?>
                     &euro;
                     <?php print number_format($artikel->prijs / $artikel->stuksPerEenheid, 2, ',', '.'); ?>
                     / stuk (excl. BTW)
@@ -60,11 +59,9 @@ $artikel = api::Call("artikel", $data);
                 <?php print number_format(($artikel->prijs * (1 * $shopData['huurFactor'])) * $btw, 2, ',', '.'); ?>
                 <br /><br />
                 <div style="background:#EDA555; padding: 25px;" id="addToCartBlock">
-                    <form action="/core/scripts/winkelwagen.php" method="post" id="addToCart">
+                    <form method="post" id="addToCart">
                         <div class="row">
-                            <input type="number" name="aantal" id="aantal" value="1" min="1"
-                                style="width:50px;float:left;padding-left:8px;margin-right:25px;background:#F5F5F5;"
-                                required>
+                            <input type="number" name="aantal" id="aantal" value="1" min="1" style="width:50px;float:left;padding-left:8px;margin-right:25px;background:#F5F5F5;" required>
                             <div class="aantal" style="line-height:3rem;">
                                 x &nbsp; <span id="stuksPerEenheid">
                                     <?php print $artikel->stuksPerEenheid; ?>
@@ -145,7 +142,7 @@ $artikel = api::Call("artikel", $data);
 
 </html>
 <script>
-    $(document).on('input', '#aantal', function () {
+    $(document).on('input', '#aantal', function() {
         var aantal = $('#aantal').val();
         var stuksPerEenheid = $('#stuksPerEenheid').text();
         var totaalAantal = aantal * stuksPerEenheid;

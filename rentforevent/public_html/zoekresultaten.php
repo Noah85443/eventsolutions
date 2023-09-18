@@ -15,7 +15,6 @@ if (!empty($zoekterm)) {
 
 <body>
     <?php require_once navigation; ?>
-    <?php print $zoekterm ?>
     <div class="container">
         <div class="row text-center">
             <?php

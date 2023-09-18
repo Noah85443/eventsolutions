@@ -54,6 +54,18 @@ body {
   border-radius: 5px;
 }
 
+.flex {
+  display: flex;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 .social-icons {
   display: flex;
   align-items: left;

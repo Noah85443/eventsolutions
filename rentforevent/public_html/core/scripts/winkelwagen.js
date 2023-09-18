@@ -1,8 +1,10 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $("form#addToCart").submit(function (event) {
+    event.preventDefault();
+
     var formData = {
       aantal: $("#aantal").val(),
-      artikelId: $("#artikelId").val()
+      artikelId: $("#artikelId").val(),
     };
 
     $.ajax({
@@ -13,11 +15,10 @@ $(document).ready(function() {
       encode: true,
     }).done(function (data) {
       console.log(data);
-       $("div#addToCartBlock")
-               .html("Artikel is toegevoegd aan winkelmandje")
-               .addClass("green")
-               .removeClass("orange");
+      $("div#addToCartBlock")
+        .html("Artikel is toegevoegd aan winkelmandje")
+        .addClass("green")
+        .removeClass("orange");
     });
-    event.preventDefault();
   });
 });

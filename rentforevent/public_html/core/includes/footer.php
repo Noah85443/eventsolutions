@@ -1,3 +1,38 @@
+<style>
+  .flex {
+    display: flex;
+  }
+
+  .mt-auto {
+    margin-top: auto;
+  }
+
+  .my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .justify-between {
+    justify-content: space-between;
+  }
+
+  .social-icons {
+    display: flex;
+    align-items: left;
+  }
+
+  .social-icons .btn {
+    font-size: 22px;
+    /* Pas deze waarde aan om de grootte van de pictogrammen aan te passen */
+    margin: 0 10px;
+    /* Pas de marges aan om de afstand tussen de pictogrammen aan te passen */
+  }
+
+  .social-icons .logo {
+    margin-left: auto;
+    margin-top: 10px;
+  }
+</style>
 <div class="container-fluid bg-light">
   <div class="container">
     <footer class="py-5 mt-5">
@@ -50,15 +85,16 @@
         </div>
       </div>
       <div class="flex-sm-row py-3 my-3 border-top">
-        <div class="social-icons">
-          <a class="btn btn-primary" style="background-color: #25d366;" href="https://wa.me/31262022943" role="button"><i class="fab fa-whatsapp"></i></a>
-          <a class="btn btn-primary" style="background-color: #3b5998;" href="https://facebook.com/eventsolutions.nu" role="button"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://instagram.com/eventsolutions_nl" role="button"><i class="fab fa-instagram"></i></a>
-          <a class="logo">
+        <div class="flex justify-between">
+          <div class="social-icons mt-auto">
+            <a class="btn btn-primary" style="background-color: #25d366;" href="https://wa.me/31262022943" role="button"><i class="fab fa-whatsapp"></i></a>
+            <a class="btn btn-primary" style="background-color: #3b5998;" href="https://facebook.com/eventsolutions.nu" role="button"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://instagram.com/eventsolutions_nl" role="button"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="my-auto">
             <img src="https://eventsolutions.nu/images/logo.png" style="height:31px;" alt="EventSolutions" />
-          </a>
+          </div>
         </div>
-
     </footer>
   </div>
 </div>

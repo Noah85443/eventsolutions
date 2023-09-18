@@ -40,33 +40,33 @@ $artikelgroepen = api::Call("artikelgroepen");
                             <?php
                             for ($x = 0; $x < count($artikelgroepen); $x++) {
                                 if ($artikelgroepen[$x]->toplevel == 0) {
-                                    echo '<a href="/verhuur/' . $artikelgroepen[$x]->alias . '" class="nav-link text-bg px-3">' . $artikelgroepen[$x]->naam . '</a>';
+                                    echo '<a href="verhuur/' . $artikelgroepen[$x]->alias . '" class="nav-link text-bg px-3">' . $artikelgroepen[$x]->naam . '</a>';
                                 }
                             }
                             ?>
                     </li>
                     <li class="nav-item d-block d-lg-none">
-                        <a class="nav-link" href="assortiment.php">Assortiment</a>
+                        <a class="nav-link" href="/assortiment.php">Assortiment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="inspiratie.php">Inspiratie </a>
+                        <a class="nav-link" href="/inspiratie.php">Inspiratie </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="over-ons.php">Over ons</a>
+                        <a class="nav-link" href="/over-ons.php">Over ons</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link" href="/contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <form class="form-inline my-2 my-lg-0" role="search" method="get" action="/verhuur/zoeken/">
-            <input type="search" class="form-control" placeholder="Zoeken in artikelen" aria-label="Search" name="">
+        <form class="form-inline my-2 my-lg-0" role="search" method="get" action="/zoekresultaten.php">
+            <input type="search" class="form-control" placeholder="Zoeken in artikelen" aria-label="Search" name="s">
         </form>
 
-        <a class="btn btn-success mx-2" href='offerte.php'>
+        <a class="btn btn-success mx-2" href='/offerte'>
             <i class="bi bi-cart"></i>
             <?php if ($cart > 0) {
                 print $cart;

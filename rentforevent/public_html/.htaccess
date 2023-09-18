@@ -46,3 +46,6 @@ RewriteRule ^klantenservice/([a-zA-Z0-9_-]+)/$ ks_$1.php
 
 RewriteRule ^algemene-info$ info_docs.php
 RewriteRule ^algemene-info/$ info_docs.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
